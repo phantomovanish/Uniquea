@@ -15,7 +15,7 @@ shelf and is not offered as evidence. Corrections are kept beside what they corr
 | `tests/Orb-Adiabatic-Check/` | The Orb's cup: early release ∝ J^(4/5); Option A vs Option B; energy ledger closed to ~10⁻¹⁶ |
 | `workbooks/` | Fork Ledger, Option A vs B, Golf Ball on the Tee, Triton Cold Orb, Twelves, F_tap, Borrowed Solutions, Dimension Order |
 | `figures/` | Nash Six levels, Universal Scale, Hubble closure vs DESI, κ_God/F_tap correction, study guides |
-| `packets/` | General audit packet |
+| `packets/` | Audit packets: General, and UC San Diego Department of Physics |
 | `reference/` | Planck-scale reference card |
 
 ## Reproducing the tests
