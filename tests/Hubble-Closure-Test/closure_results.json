@@ -1,0 +1,21 @@
+{
+ "N_light_curves": 1580,
+ "N_distinct_SNe": 1466,
+ "N_BAO": 13,
+ "DESI_DR2_BAO": {
+  "LCDM_chi2": 10.27,
+  "Om": 0.2975,
+  "sine_chi2": 1251.03,
+  "sine_A": 2493469.93035453,
+  "sine_theta0": 3.1414561604788176,
+  "delta_chi2": 1240.76
+ },
+ "PantheonPlus": {
+  "LCDM_chi2": 1386.41,
+  "Om": 0.3326,
+  "sine_chi2": 1420.2,
+  "sine_A": 1297288.4785424923,
+  "sine_theta0": 3.1406665545534254,
+  "delta_chi2": 33.79
+ }
+}
