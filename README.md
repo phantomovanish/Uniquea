@@ -8,7 +8,7 @@ shelf and is not offered as evidence. Corrections are kept beside what they corr
 
 ## Start here: the EPR Paradox verdict
 **[EPR-Paradox-Verdict/](EPR-Paradox-Verdict/)**: what Einstein, Podolsky and Rosen asked in 1935, how Bell made it testable,
-and what experiments found (Established). Print-friendly PDF included: print it, or upload it to any AI
+and what experiments found (Established). Print-friendly PDF and a one-image PNG included: print it, or upload it to any AI
 assistant and ask your own questions.
 
 ## Contents

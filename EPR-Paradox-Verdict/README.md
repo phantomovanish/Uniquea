@@ -42,14 +42,17 @@ entanglement remains open.
 | 360/127 ≈ 2√2 | Coincidence (0.22% apart). The Tsirelson bound is exact |
 | EPR Double-Fulcrum: one bilateral state, two measurements | Candidate interpretation; standard quantum mechanics relabelled, no new prediction |
 | A field wake carries the entanglement from A to B | **Withdrawn** (it would allow signalling) |
-| Derive the 2√2 cap from the structure of the plenum | Open target |
 
-The retirement is a design requirement for Uniquea: its quantum layer cannot be local hidden variables.
+> [!IMPORTANT]
+> **Open target:** derive the 2√2 cap from the structure of the plenum.
 
-## Two notes for reusing the figure
-- With S = E(a,b) + E(a,b′) + E(a′,b) − E(a′,b′), photon settings a = 45°, a′ = 0°, b = 22.5°, b′ = 67.5° give −2√2.
-  With the minus sign on E(a,b′), use a = 0°, a′ = 45°.
-- For spin-½ the Bloch-sphere angle equals the lab angle; for photons the Poincaré-sphere angle is twice the
-  lab angle. That is the whole factor of 2.
-
-*Source in the archive: Master §2.4 and §3.11 ([master/Uniquea-Master-Public.md](../master/Uniquea-Master-Public.md)).*
+> [!NOTE]
+> The retirement is a design requirement for Uniquea: its quantum layer cannot be local hidden variables.
+>
+> **Two notes for reusing the figure**
+> - With S = E(a,b) + E(a,b′) + E(a′,b) − E(a′,b′), photon settings a = 45°, a′ = 0°, b = 22.5°, b′ = 67.5° give −2√2.
+>   With the minus sign on E(a,b′), use a = 0°, a′ = 45°.
+> - For spin-½ the Bloch-sphere angle equals the lab angle; for photons the Poincaré-sphere angle is twice the
+>   lab angle. That is the whole factor of 2.
+>
+> *Source in the archive: Master §2.4 and §3.11 ([master/Uniquea-Master-Public.md](../master/Uniquea-Master-Public.md)).*
