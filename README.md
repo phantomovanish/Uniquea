@@ -15,6 +15,7 @@ assistant and ask your own questions.
 | Folder | What is in it |
 |---|---|
 | `EPR-Paradox-Verdict/` | The EPR question, Bell's test and the experimental verdict; print-friendly PDF and figure |
+| `Tsirelson-From-Plenum/` | The EPR open target worked: the 2√2 cap from one postulate about the plenum (Derived, conditional) |
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 5, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
