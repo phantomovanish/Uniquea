@@ -6,9 +6,15 @@ Every claim is shelved under HAT (Honest, Accurate, Truth): Established, Derived
 Candidate, Open, Faith, Metaphor, Humor, Rule, Superseded or Withdrawn. Faith is kept on its own
 shelf and is not offered as evidence. Corrections are kept beside what they correct (House Rule 11).
 
+## Start here: the EPR Paradox verdict
+**[EPR-Paradox-Verdict/](EPR-Paradox-Verdict/)**: what Einstein, Podolsky and Rosen asked in 1935, how Bell made it testable,
+and what experiments found (Established). Print-friendly PDF included: print it, or upload it to any AI
+assistant and ask your own questions.
+
 ## Contents
 | Folder | What is in it |
 |---|---|
+| `EPR-Paradox-Verdict/` | The EPR question, Bell's test and the experimental verdict; print-friendly PDF and figure |
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 5, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
