@@ -46,7 +46,7 @@ entanglement remains open.
 > [!IMPORTANT]
 > **Open target:** derive the 2√2 cap from the structure of the plenum.
 >
-> *Progress, November 6, 2026:* derived from one postulate about the plenum (Derived, conditional). See [Tsirelson-From-Plenum](../Tsirelson-From-Plenum/). Still open: derive the postulate itself from the plenum's dynamics.
+> *Status, November 6, 2026:* the quantum 2√2 cap is re-derived and Established; the plenum derivation remains **Open**. What the plenum must supply, and why a local classical plenum cannot: [Tsirelson-From-Plenum](../Tsirelson-From-Plenum/).
 
 > [!NOTE]
 > The retirement is a design requirement for Uniquea: its quantum layer cannot be local hidden variables.
