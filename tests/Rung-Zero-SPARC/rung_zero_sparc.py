@@ -6,10 +6,11 @@ Tests:
  (1) Deep regime only (g_bar < 0.1 * 1.2e-10): rung zero predicts g_obs = sqrt(a0 g_bar); fit one a0.
  (2) All points with the standard RAR function g_obs = g_bar / (1 - exp(-sqrt(g_bar/a0))) (context; MOND's own).
  (3) Universality: best a0 per galaxy (deep points) and its spread vs. the measurement errors.
-Usage: python3 rung_zero_sparc.py <Rotmod_LTG dir> <SPARC_Lelli2016c.mrt> <out.json>"""
+Usage: python3 rung_zero_sparc.py <Rotmod_LTG dir> <SPARC_Lelli2016c.mrt> <out.json> [published]
+  Add "published" to also drop points with velocity uncertainty >= 10% (McGaugh et al. 2016 cut)."""
 import sys, os, re, json, numpy as np
 from scipy.optimize import minimize_scalar
-rot, tab, out = sys.argv[1:4]
+rot, tab, out = sys.argv[1:4]; PUB = len(sys.argv)>4 and sys.argv[4]=="published"
 KPC=3.0857e19; Yd,Yb=0.5,0.7
 meta={}
 for l in open(tab,encoding="utf-8",errors="ignore"):
@@ -26,6 +27,7 @@ for f in sorted(os.listdir(rot)):
     a=np.loadtxt(os.path.join(rot,f),comments="#",usecols=range(6),ndmin=2)
     R,Vo,eV,Vg,Vd,Vb=a.T
     ok=(R>0)&(Vo>0)&(eV>0)
+    if PUB: ok&=(eV/np.where(Vo>0,Vo,1))<0.1
     R,Vo,eV,Vg,Vd,Vb=[x[ok] for x in (R,Vo,eV,Vg,Vd,Vb)]
     gb=(Vg*np.abs(Vg)+Yd*Vd**2+Yb*Vb**2)*1e6/(R*KPC); go=Vo**2*1e6/(R*KPC)
     eg=2*go*eV/Vo

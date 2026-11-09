@@ -1,0 +1,19 @@
+{
+ "galaxies": 153,
+ "points": 2695,
+ "deep_points": 957,
+ "a0_deep": 1.3850779080582227e-10,
+ "a0_deep_logerr": 0.006999999999999673,
+ "chi2_deep": 1712.0203160614046,
+ "dof_deep": 956,
+ "deep_resid_rms_dex": 0.14821212628748137,
+ "deep_resid_mean_dex": -0.000692052625902294,
+ "a0_rar": 1.1728233491098298e-10,
+ "a0_rar_logerr": 0.005499999999999616,
+ "chi2_rar": 3979.30952924732,
+ "dof_rar": 2694,
+ "per_galaxy_n": 77,
+ "per_galaxy_log_a0_mean": -9.856938885065942,
+ "per_galaxy_log_a0_std": 0.2720526820912055,
+ "cH0_over_2pi": 1.0422165280763669e-10
+}

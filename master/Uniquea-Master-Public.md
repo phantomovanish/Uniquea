@@ -404,6 +404,14 @@ is unreachable here; rerun against it recommended). Cuts Q < 3, inclination ≥ 
 - Per galaxy (92 with ≥ 5 deep points): spread 0.35 dex at fixed mass-to-light ratios; whether a₀ is
   universal galaxy by galaxy is disputed (Rodrigues et al., 2018; Li et al., 2018) and not decided here.
 - cH₀/2π = 1.04 × 10⁻¹⁰ (H₀ = 67.4): within 7–20%, not equal; stays a lead.
+- *Revised after Phantom's review (same day):* the tested relation is g_obs = √(a₀ g_bar), g_bar the
+  Newtonian acceleration from baryons, g_obs from the rotation curve. Point count reconciled: the first
+  run omitted the published 10% velocity-error cut (McGaugh, Lelli and Schombert, PRL 117, 201101, 2016:
+  2,693 points in 153 galaxies); with it, 2,695 points (2 unexplained), giving a₀ = 1.39 × 10⁻¹⁰ (deep) and
+  1.17 × 10⁻¹⁰ (RAR). The ± 0.02 is statistical only: varying Υ_disk 0.4–0.6 moves a₀ by about 15–30%
+  (published ± 0.24 sys), and distance and inclination are galaxy-level nuisance parameters not
+  marginalized. Ensemble result ≠ universality. The official SPARC page is online; it was unreachable from
+  this workspace, and a rerun against the official files is the next step.
 - *Reading:* one a₀ describes the ensemble, so test 1 does not fail at this level. Rung zero inherits MOND's
   record: its success on rotation curves and its open problems with clusters, the Bullet Cluster and the CMB.
 - *Origin:* "We wonder, we marvel and we ask what shall we measure next?" Owner: "We are at the intersection
