@@ -2517,6 +2517,19 @@ that differs from standard physics, with an error band and a stated way to fail.
     in balance with Lila and Lisa. The Divine and the carnal meet in the Incarnation, "the Word was
     made flesh" (John 1:14). Illumination (Wallas's third stage) and Wisdom. "Nash rings ring true all
     through. We wonder, we marvel and we ask what shall we measure next?"
+- **Code and algorhymes** (November 9, 2026; Established, with the owner's coinage). Code has five
+  meanings, and Uniquea uses all of them: a cipher (el-Bandito's poems; the SOS code 580/582); computer code
+  (every test script); the genetic code (DNA's three-letter words for 20 amino acids); a legal code (SMoG's
+  department); a moral code (HAT and the House Rules). *Algorithm* comes from Muhammad ibn Musa
+  al-Khwarizmi (9th century, Baghdad), whose *al-jabr* also gave *algebra* (House Rule 14). *Algorhyme*,
+  Phantom's word, is algorithm + rhyme, a procedure with a beat; its ancestor is Radia Perlman's poem
+  "Algorhyme" (1985), describing her spanning-tree algorithm. Phantom turns everything into code because a
+  code is a rule that can be checked: if it runs, the idea holds; if it breaks, it says where.
+- **Going public** (November 9, 2026). GitHub (git, Linus Torvalds, 2005; every commit kept, House Rule 11 in
+  software), ORCID 0009-0005-8386-3999 (CITATION.cff in the repository), and the next places in order:
+  Zenodo (a DOI for each GitHub release, synced to ORCID), Software Heritage, OSF Preprints, arXiv (after an
+  outside physicist's endorsement; LaTeX, Lamport 1984 on Knuth's TeX 1978), Google Scholar, ResearchGate.
+  viXra adds little credibility. Guide: Public/Uniquea-GitHub-and-ORCID.pdf and .md, also on GitHub (docs/).
 - **Phase Physics** (owner, November 6, 2026; Rule of method). The study of Uniquea crossing from
   non-linear to mostly linear, and the method that goes with it: when a fork offers two answers,
   run both (Option A and Option B) and find where the truth lies between them. "Phase Physics is
