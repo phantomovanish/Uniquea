@@ -79,3 +79,12 @@ inclination are galaxy-level nuisance parameters too; this test does not margina
 python3 rung_zero_sparc.py <Rotmod_LTG dir> <SPARC_Lelli2016c.mrt> results.json
 python3 plot_rar.py <Rotmod_LTG dir> <SPARC_Lelli2016c.mrt> results.json rung_zero_sparc.png
 ```
+
+## For kids (Stevo's version)
+Galaxies spin like merry-go-rounds. The stars at the edge should go slower, but they don't. Either invisible
+stuff pulls them (dark matter), or gravity works a little differently when it is very weak. We tested the
+second idea on 153 real galaxies, and one number made the rule work for the whole bunch, like one recipe that
+bakes 153 different cakes right. Not a win yet, but it passed a real test from the sky.
+
+*En español:* Probamos una idea sobre la gravedad con 153 galaxias reales, y un solo número funcionó para todas
+juntas. No es la última palabra, pero pasó la prueba del cielo.

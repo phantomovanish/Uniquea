@@ -412,6 +412,19 @@ is unreachable here; rerun against it recommended). Cuts Q < 3, inclination ≥ 
   (published ± 0.24 sys), and distance and inclination are galaxy-level nuisance parameters not
   marginalized. Ensemble result ≠ universality. The official SPARC page is online; it was unreachable from
   this workspace, and a rerun against the official files is the next step.
+- *What the moment means (owner asked for context):* the first time a piece of Uniquea's mathematics
+  made a prediction that could fail against real sky data, and it did not fail. It reproduces known
+  science (Milgrom; McGaugh, Lelli and Schombert), credited to them; it does not prove Uniquea, rule out
+  dark matter, or show a₀ is the same galaxy by galaxy. Owner: "ubersuperduper cool, nirvananish."
+- *For kids (Stevo's version, also in the kids' book, Chapter 13):* the merry-go-round: outer stars
+  should go slower but don't; either invisible stuff pulls them (dark matter) or gravity works a little
+  differently when very weak; one number made the rule work for all 153 galaxies, "like one recipe
+  that bakes 153 different cakes right"; not a win yet, but it passed a real test. *En español:*
+  "Probamos una idea sobre la gravedad con 153 galaxias reales, y un solo número funcionó para todas
+  juntas. No es la última palabra, pero pasó la prueba del cielo." *The Irish Poet (with a wee bit of
+  Shawn the Leprechaun):* "A hundred and fifty-three wheels of light, lads and lasses, and one wee
+  number to steady them all. We asked the heavens a fair question, and the heavens didn't say no."
+- *SMoG will fetch the official SPARC files for the rerun.*
 - *Reading:* one a₀ describes the ensemble, so test 1 does not fail at this level. Rung zero inherits MOND's
   record: its success on rotation curves and its open problems with clusters, the Bullet Cluster and the CMB.
 - *Origin:* "We wonder, we marvel and we ask what shall we measure next?" Owner: "We are at the intersection
