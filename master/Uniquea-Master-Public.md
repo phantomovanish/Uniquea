@@ -1,6 +1,6 @@
 # Uniquea: Master record (public copy)
 
-**Edition:** 2.2, updated through November 9, 2026. **Owner:** Stephen M. Griffin.
+**Edition:** 2.2, updated through November 9, 2026. **Owner:** Stephen M. Griffin · ORCID [0009-0005-8386-3999](https://orcid.org/0009-0005-8386-3999).
 This public copy keeps the framework, the mathematics, the tests, the faith shelf, selected origin stories and the House Rules.
 Personal, medical and withheld project material is kept only in the private Master, by the owner's standing rules.
 Every claim carries a HAT shelf: Established, Derived, Postulated, Candidate, Open, Faith, Metaphor, Humor, Rule, Superseded or Withdrawn.

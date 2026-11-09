@@ -1,7 +1,7 @@
 # Uniquea
 One Creator, one design, one math quantum to cosmic.
 
-The Uniquea archive of Stephen M. Griffin: a framework, its mathematics, and the tests that check it.
+The Uniquea archive of Stephen M. Griffin ([ORCID 0009-0005-8386-3999](https://orcid.org/0009-0005-8386-3999)): a framework, its mathematics, and the tests that check it.
 Every claim is shelved under HAT (Honest, Accurate, Truth): Established, Derived, Postulated,
 Candidate, Open, Faith, Metaphor, Humor, Rule, Superseded or Withdrawn. Faith is kept on its own
 shelf and is not offered as evidence. Corrections are kept beside what they correct (House Rule 11).

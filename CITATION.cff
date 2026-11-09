@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use or discuss this archive, please cite it as below."
+title: "Uniquea: the HAT record, tests and workbooks"
+type: dataset
+authors:
+  - family-names: Griffin
+    given-names: Stephen M.
+    alias: Phantom.O.Vanish
+    orcid: "https://orcid.org/0009-0005-8386-3999"
+repository-code: "https://github.com/phantomovanish/Uniquea"
+url: "https://github.com/phantomovanish/Uniquea"
+date-released: 2026-11-09
+abstract: >-
+  A framework, its mathematics and the tests that check it, with every claim shelved under HAT
+  (Honest, Accurate, Truth). Includes the Hubble closure test, a breathing limit from DESI DR2 and
+  Pantheon+, the EPR verdict, and a test of one acceleration scale against 153 SPARC galaxies.
+keywords:
+  - cosmology
+  - MOND
+  - Bell inequality
+  - limit cycle
+  - reproducibility
