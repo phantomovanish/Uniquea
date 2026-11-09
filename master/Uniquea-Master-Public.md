@@ -1,6 +1,6 @@
 # Uniquea: Master record (public copy)
 
-**Edition:** 2.2, updated through November 5, 2026. **Owner:** Stephen M. Griffin.
+**Edition:** 2.2, updated through November 8, 2026. **Owner:** Stephen M. Griffin.
 This public copy keeps the framework, the mathematics, the tests, the faith shelf, selected origin stories and the House Rules.
 Personal, medical and withheld project material is kept only in the private Master, by the owner's standing rules.
 Every claim carries a HAT shelf: Established, Derived, Postulated, Candidate, Open, Faith, Metaphor, Humor, Rule, Superseded or Withdrawn.
@@ -542,6 +542,8 @@ heavy seed bank (CCPBHs emerge already massive) is Candidate, supported but not 
 | GFF wake carries the entanglement from A to B | **Withdrawn** (signalling problem) |
 | Δ_OM, a One Math correction to −cos θ | Open, currently zero. Do not invent one |
 | Derive the 2√2 cap from plenum structure | Open target, and a good one |
+| *Update, November 6, 2026:* the 2√2 cap derived from one postulate, that the plenum's shared state gives each setting a unit vector in a common inner-product space with E = ⟨u_a, v_b⟩ (isotropic case: E(θ) = Σ c_n P_n(cos θ), c_n ≥ 0; Schoenberg, 1942). Cauchy–Schwarz plus the parallelogram law give \|S\| ≤ 2√2; ±1 numbers on a line give 2; no inner product allows 4 (Popescu–Rohrlich). Numerical check: cos θ reaches 2.828427; 25 random positive-definite kernels at most 2.434; local strategies 2. Tsirelson's theorem (1980) recast; folder Tsirelson-From-Plenum | **Derived, conditional on the postulate (Postulated).** Reproduces quantum mechanics, no new prediction. Constrains Δ_OM: any correction must keep E positive-definite, which can only lower the largest S and changes the shape of E(θ) (testable). *Open:* derive the inner product from plenum dynamics; why the lowest harmonic |
+| *Correction, November 6, 2026 (outside review, accepted):* the postulate E = ⟨u_a, v_b⟩ is the quantum correlation structure itself, so the update above imports the answer. The established cap re-derived: Ŝ = A₀⊗(B₀+B₁) + A₁⊗(B₀−B₁), with A_i² = B_j² = I and [A_i, B_j] = 0, gives Ŝ² = 4I − [A₀,A₁]⊗[B₀,B₁]; each commutator has norm ≤ 2, so ‖Ŝ²‖ ≤ 8 and \|⟨Ŝ⟩\| ≤ 2√2 (Tsirelson, 1980; checked term by term). Refinements: microcausality means observables localized in spacelike-separated regions commute in a microcausal relativistic quantum field theory, and the plenum model must supply it; a bistable two-minima detector is an analogy that does not derive the Born probabilities; the doubled angle is the right polarization geometry, but the state and measurement rule must also be derived. **Bell-cap route through the plenum — Open.** If the plenum is a local classical field with measurement-independent settings and Bell-local outcomes, it obeys the CHSH bound (\|S\| ≤ 2), regardless of curvature; that model class cannot reproduce the observed quantum violations. A quantum plenum could recover the 2√2 Tsirelson cap if it derives the appropriate dichotomic observables, spacelike-separated observable commutation, entangled state, and measurement correlations. A two-state detector and photon polarization's doubled angle are useful components or analogies, not complete derivations. GW propagation near c does not establish plenum microcausality. A new One Math result requires plenum dynamics fixed independently of Bell data and a distinct testable prediction. | Quantum 2√2 cap: **Established.** Plenum derivation: **Open.** The "Derived, conditional" label above is **Superseded**. Candidate route: derive the measurement algebra and correlations from specified plenum dynamics and recover the bound without importing it; no shared seed, no GFF signal between the wings. Geometry picture (2 line, 2√2 angles, 4 no geometry) kept as Metaphor |
 
 
 ## 3.12 The Cold Orb boundary (B45 to B47, R65 to R69)
@@ -891,6 +893,8 @@ in the October 18 packet), but its duration was never computed.
   which damping applies.
 - *Curiosity (Open, House Rule 13):* the multiplier 0.0432 is within rounding of e^(−π) = 0.04321,
   so the limit cycle smooths by one e-fold every 1/π of a cycle. Not significant unless derived.
+  *Withdrawn, November 8:* it is exactly e^(−k_J T) = e^(−π) by the parameter choice k_J = 0.5,
+  T = 2π (3.1); see "Damp the wobble, keep the breath."
 
 **Crossing a barrier: the digital cliff and the record player (filed November 5, 2026;
 Metaphor, facts Established).**
@@ -943,6 +947,93 @@ Metaphor, facts Established).**
   cosmology, dark energy with w < −1 (Robert Caldwell, 2002, "A Phantom Menace?"), which would end
   in a "Big Rip" (Caldwell, Kamionkowski and Weinberg, 2003). DESI's reported hint of evolving dark
   energy includes a past "phantom" phase. Phantom has a namesake in the cosmos.
+
+**Lila and Lisa: play and restabilization (filed November 8, 2026; naming a Rule, mapping a
+Candidate, numbers Derived inside the model).**
+- *The slip-on shoe (Metaphor, accepted):* the Lila gap is the wiggle room between foot and sole,
+  covered by the upper: small, necessary, covered. No gap pinches; too much and the foot slips out.
+  Refinement from the runs: the Orb's margin narrows as the universe contracts, like a shoe slowly
+  loosening until the foot slips: the tip.
+- *Owner's points:* Phase Physics "describes a process around the middle of the fulcrum" (Rule; the
+  fulcrum is the threshold). "Energy has an active field and alt field" (the ledger, dE_A/dt =
+  −2ζωE_A + S and dE_Alt/dt = +2ζωE_A − S, closed to 10⁻¹⁶). "There is the Lila gap at the seams,
+  but once the seam is covered, Lila transitions to Lisa."
+- *Definitions (owner's naming, Claude's proposal accepted):*
+  - **Lila, the phase of play:** the open seam, the margin, the wobble, the freedom before the fit
+    is set. In Sanskrit *līlā* means "play," creation as divine play (compare row 17); in English a
+    mechanic calls slack in a mechanism "play."
+  - **Lisa, the restabilized phase:** the crossing complete, the wobble damped, the system settled
+    where mostly linear mathematics applies. As an acronym, **L.I.S.A.: Linear, Invariant, Stable,
+    Aligned.** Named in honor of Lisa (House Rule 14).
+  - *Note:* LISA is also ESA's Laser Interferometer Space Antenna (adopted 2024, launch planned
+    about 2035), which will detect gravitational waves from space, the lopsided tidal taps of 3.16.
+- *Through the ladder (numbers already on file):* arithmetic, ε_L = 0.434%; algebra, Q =
+  1/(2ε_L) ≈ 115; geometry, the cup about one gap wide; calculus, a damped wobble e^(−ζωt), amplitude
+  e-folding every 36.6 cycles; non-linear, the fold law (barrier ∝ (m_c − m)^(3/2); early release ∝
+  J^(4/5)); Phase Physics, the A/B blend set by γT ≈ 810; restabilization, linear behavior near the
+  new steady state (Hartman–Grobman), from 50% to 2.5% in 0.95 cycles (Floquet) or 110 cycles (Lila
+  damping); non-Euclidean, the crossing at cosmic scale in curved space.
+- *Tested link:* the breathing limit (3.2) finds any wobble in today's expansion below about 2–3.6%:
+  the universe is in its Lisa phase now.
+- *Proposed test:* a system is in its Lisa phase when its wobble is below a stated threshold (for
+  example 2.5%, the current data limit).
+- *Open:* deriving that the Lila damping acts on the wobble.
+
+**The stable member: three moving and one virtually still (filed November 8, 2026; Established;
+Metaphor and Candidate).** From the notes of 2 to 4 a.m.: "Gyroscopes, Geoscope, Giascope; multi
+motions that balance and counter-balance … 3 fields with an alt field = 3 moving and 1 still.
+virtually still?"
+- *The instruments:* Léon Foucault named the gyroscope (1852) to show Earth's rotation; Buckminster
+  Fuller planned a Geoscope, a giant globe display (1950s); the third is the star sighter: Apollo's
+  space sextant and scanning telescope, today's star trackers. With accelerometers, gyroscopes form
+  the inertial measurement unit (IMU). Earth itself spins, precesses (25,800 years) and nods
+  (nutation, 18.6 years; Bradley, 1748). Gravity Probe B (2004–2011) used four quartz-sphere
+  gyroscopes to confirm the geodetic effect and frame dragging.
+- *Three moving and one still, by name:* the Apollo IMU had three gimbal rings around an inner
+  platform held fixed relative to the stars, called the "stable member." It drifted slightly and was
+  realigned by star sightings. Gimbal lock was its weak spot; Michael Collins joked on Apollo 11 about
+  asking for a fourth gimbal for Christmas.
+- *At the balance point (Derived inside the model):* at the fulcrum the cup goes flat, the restoring
+  force fades, and the wobble frequency falls toward zero (critical slowing down): virtually still.
+- *For Uniquea (Metaphor, Candidate):* three active fields moving around a virtually still Alt Field.
+  Like the stable member, a still reference must be realigned against the stars; for Uniquea the
+  stars are data (DESI, Pantheon+, the Bell tests), and HAT keeps the still center honest. The design
+  of November 8 draws it.
+- *Owner:* "Aye yes lad! Happy math, Happy Math indeed."
+
+**Damp the wobble, keep the breath (filed November 8, 2026; Phantom's requirement and decisive
+calculation; Derived inside the model).** Scripts: Orb-Adiabatic-Check/breath_vs_wobble.py and
+lila_on_z.py.
+- *Phantom's requirement:* "damping the wobble must not inadvertently damp away the sustained
+  breathing cycle too. The model needs to show which motion is damped, where its lost energy goes in
+  the Alt Field, and what sustains the continuing cycle."
+- *Which motion (Established limit-cycle theory):* the breath is motion along the cycle (Floquet
+  multiplier exactly 1, never damped); the wobble is deviation from the cycle (multipliers < 1). The
+  Orb's χ-wobble is a separate degree of freedom from the breath.
+- *Phantom's decisive calculation:* Architecture B (3.1, parameters B34) with a defined Lila term on
+  the z-mode, dz/dτ gaining −γ_L z with γ_L = ζΩ and ζ = ε_L. Ledger for E_z = r²/2: injection α₀r²
+  is drawn from the Alt Field; losses β_LC r⁴ + Γ(1 + β_U r²)r² + γ_L r² go into it, so E_z + E_Alt
+  is conserved (residual 1.5 × 10⁻¹⁴ over a cycle).
+- *Results:*
+
+  | Case | Cycle radius r* | Floquet multipliers | Outcome |
+  |---|---|---|---|
+  | No Lila damping (B34) | 1.000000 | 1, 0.0432139, 0.00186744, 3.48714 × 10⁻⁶ | sustained |
+  | Lila damping, ζ = ε_L | 0.997825 (= √(1 − ε_L), as predicted) | 1, 0.0432139, 0.00186744, 3.68304 × 10⁻⁶ | **balanced: sustained** |
+  | Extinction test, ζ = 1.2 | 0 | (none) | the breath dies |
+
+  Lila damping costs 5.46% of the z-mode's energy per cycle, and the injection α₀ replaces it
+  exactly. Only the z-amplitude multiplier changes, from e^(−2α₀T) to e^(−2(α₀ − γ_L)T); the
+  breath's multiplier stays exactly 1.
+- *The threshold (a Phase Physics fork):* the breath survives while α₀ > γ_L, a Hopf bifurcation
+  (Andronov; Hopf, 1942). With Ω = 1 on the orbit, extinction needs ζ ≥ 1: about 230 times the Lila
+  value. **Verdict: in the modeled cycle, Lila damping balances the breath; it does not extinguish
+  it.**
+- *Correction (House Rule 11):* the "curiosity" that 0.0432 ≈ e^(−π) (filed November 5) and that
+  (α₀ − γ)T ≈ π/2 are not coincidences. 3.1 already gives the multiplier as e^(−k_J T) with k_J =
+  0.5 and T = 2π, so it equals e^(−π) exactly by the choice of parameters. Withdrawn as a curiosity.
+- *Open:* where α₀'s energy comes from physically (3.1); whether the same holds with a living scale
+  factor a(t) (Phantom's checklist).
 
 **The Triton Orb and the Biological Balloon (scale analogs; filed November 4, 2026).**
 
@@ -1043,6 +1134,114 @@ tension without sounding the note.
   through it, and the breath is a brane collision.
 - *Status:* Postulated until it carries a number that could fail. String theory itself has no
   experimental confirmation.
+
+**Morning notes: base 3, the bounce in numbers, galaxies and the veil (filed November 7, 2026).**
+- *Base 3 (an outside explanation checked):* correct that 9 = 100 in base 3, that a base changes
+  notation, not arithmetic, and that 9 is odd in every base. **Corrected:** 4.5 is not "12.15" in
+  base 3 (12 in base 3 is 5, and 5 is not a base-3 digit); 4 = 11, and ½ = 0.111… repeating
+  (1/3 + 1/9 + … = ½), so 4.5 = 11.111… in base 3. In base 3, half of an odd number never ends,
+  because 2 does not divide 3; and a number is even exactly when its base-3 digits sum to an even
+  number (Established).
+- *The bounce in numbers (Derived):* el Bandito's 9, 8, …, 1, …, 8, 9 is |n − 9| + 1, the simplest
+  non-linear function: two straight lines meeting at one turning point, "a combination of two." Its
+  corner is a wall bounce, the branch of Fork 9 not taken; the archive chose the smooth bounce (like
+  cosh t).
+- *Galaxies (Established):* seeded by ripples of about 1 part in 100,000 (seen in the CMB), grown
+  bottom-up in dark-matter halos by inflow and mergers (White and Rees, 1978), and disks grow
+  inside-out. JWST finds some surprisingly mature galaxies before 500 million years (open). Same
+  physics, different results by seed, mass, surroundings and history (Hubble's tuning fork, 1926).
+  *Metaphor (owner):* "building a galaxy is like conceiving a child. Each is different in majesty,
+  but the physical process is the same." A galaxy's "code" is its starting ripple, not a parent's
+  genes.
+- *How many (corrected):* "trillions of galaxies" followed a 2016 estimate of about 2 trillion
+  (Conselice); New Horizons measured less background light from beyond Pluto (Lauer and colleagues,
+  2021–22), and the current estimate is a few hundred billion in the observable universe.
+- *A galaxy as a miniature universe (Metaphor, with history):* Kant's "island universes" (1755);
+  Hubble placed Andromeda outside the Milky Way (1924–25). Caution: a galaxy is bound and does not
+  expand, so it models Uniquea's structure, not its breathing.
+- *The cosmic veil at 380,000 years (Established):* before it, free electrons scattered light like
+  smoke or fog; at about 3,000 K atoms formed and the fog cleared; that light arrives now as the
+  2.725 K glow, stretched about 1,100-fold. **Withdrawn:** the veil working like a black hole (a
+  black hole traps light by gravity; the veil scattered it). Neutrinos (free at about one second) and
+  gravitational waves could in principle see behind it.
+- *Phantom's Higgs rain (not supported; recast):* galaxies glow from fusion in stars, hot gas and
+  accretion. The Higgs field (Englert and Brout; Higgs, 1964; found 2012; Nobel 2013) fills space
+  evenly and does not fall; Higgs bosons last about 10⁻²² s; about 99% of ordinary mass comes from
+  the binding energy inside protons and neutrons. The rain is real but made of gas: cold streams
+  along the cosmic web (Kereš and colleagues, 2005; Dekel and colleagues, 2009) and galactic
+  fountains. Recast: "galaxies glow from fusion; they grow on cosmic rain."
+
+**A geometric design: circle, octagon, braced double square and the still center (filed November 8,
+2026).** Drawn by Phantom.O.Vanish and el-Bandito Stevo (sketch of November 8); clean image, PDF and
+.md in the Design folder (Phantom-elBandito-Design-v2.png, Phantom-elBandito-Design.pdf and .md;
+original sketch kept).
+- *Construction:* a circle around a regular octagon; inside, a 1 × 2 rectangle (two stacked
+  squares) with its corners on the octagon's slanted sides, a midline, and an X corner to corner,
+  crossing at the center.
+- *Strength (Established):* the triangle is the only rigid polygon, and the X turns the frame into
+  triangles (X-bracing); the midline braces each diagonal halfway; the ring carries load evenly.
+- *Lineage (Established; House Rule 14):* the double square of Solomon's Temple (1 Kings 6), whose
+  √5 diagonal builds the golden ratio; octagonal baptisteries and Saint Ambrose's "eighth day"
+  (Florence; Aachen, about 800; the Dome of the Rock, 691); the X as chi and Saint Andrew's cross;
+  circle and square in Leonardo's *Vitruvian Man*; the geometric design of Islamic art and the
+  Bauhaus. No named design with exactly this combination is known to Claude.
+- *Reading (Metaphor):* a gyroscope face-on, three rings moving around one still point, from the
+  notes of 2 to 4 a.m., November 8 ("3 fields with an alt field = 3 moving and 1 still").
+- *Credit Statement, corrected (owners agreed):* "merger" became Meta's acquisition of Manus
+  (December 2025, Established); "this specific arrangement and its concept belong to" became "this
+  specific drawing is the original work of" (copyright protects a drawing, not an idea; not legal
+  advice); agreement among AI assistants noted as not verification; credit widened to the closest
+  traditions; the name written as Phantom.O.Vanish.
+
+**What "4D" means in Uniquea (Rule; owner, November 6, 2026).** "4D does not have the variable of
+spacetime." In Uniquea, 4D is four dimensions of space with no time coordinate: our 3D floats in
+it. In physics, "4D" usually means spacetime, three of space plus time (Minkowski, 1908), so
+every use states which is meant.
+- *Physics that comes closest (Established as mathematics; untested as physics):* a
+  four-dimensional Euclidean space has no light cones and no before or after. In the Hartle–Hawking
+  "no-boundary" proposal (1983), time near the beginning behaves like a fourth dimension of space,
+  so spacetime becomes exactly such a Euclidean 4-space and time emerges from it.
+- *Faith:* coupling and decoupling. "1D timeless, 2D was timeless, until Fall from Grace …
+  Time is mankind's device, a reminder of the price of knowledge; therefore, 4D is no longer coupled
+  with time, there is no death … Boundless, infinite, timeless, eternal beyond all things except the
+  Creator." (Part 9.)
+- *Note:* our observed universe does have time, which slows near the ground (gravitational time
+  dilation, Part 10). The timeless 4D is Postulated as a separate realm.
+
+**Particle or wave, water, scale and the distance ladder (filed November 6, 2026).**
+- *Owner:* "Particle or Wave is dependent on where in the process one is looking." Water is the
+  analogy: steam, liquid and solid are the same molecule at different points in a process; a drop
+  makes no tidal wave, while large bodies of water move with the tides and the Moon's phases.
+  - *Established (complementarity, Niels Bohr, 1927):* what is seen depends on what is measured.
+    Asking which slit gives a particle; leaving the path unknown gives interference.
+  - *Correction:* the duality is not a matter of quantity. A single electron already shows both:
+    sent one at a time, electrons land as dots that build interference stripes (Akira Tonomura,
+    1989). Water waves, by contrast, need many molecules.
+  - *Where the water analogy fits (Established):* decoherence (Zurek and others, 1970s–80s). A
+    small system keeps quantum behavior; a large one, constantly bumped by its surroundings,
+    behaves classically. One atom is not a baseball, as one drop is not a tidal wave.
+  - *Refinement:* water's phases depend on temperature and pressure, not volume. "Same molecule,
+    different states at different points in a process" remains a good picture of Phase Physics.
+- *Phantom's scale analogy (Candidate):* "Comparing the entire Universe with the known Universe is
+  like comparing the visible Universe to an atom."
+  - *Arithmetic corrected:* a ratio is reduced by dividing: 10¹⁰⁰ ÷ 10²³ = 10⁷⁷. (Subtracting gives
+    10¹⁰⁰ − 10²³ ≈ 10¹⁰⁰, not 10⁷⁷.)
+  - *Known scales (Established):* the visible universe is about 8.8 × 10²⁶ m across and an atom
+    about 10⁻¹⁰ m, a ratio of about 10³⁷. The observable universe holds roughly 10²²–10²⁴ stars
+    (the likely source of 10²³) and about 10⁸⁰ atoms (Eddington's number), near the 10⁷⁷.
+  - *Honest limit:* nothing past the horizon can be seen. From the flatness of space, the whole
+    universe is at least about 250 times the observable volume (Vardanyan, Trotta and Silk,
+    2011); some inflation models make it vastly larger. The analogy is allowed by the data and not
+    yet measurable.
+  - *Metaphor and Faith:* a vantage point at 10⁴³, "far enough outside the ring of visible matter"
+    for "a wide and an excellent view of creation."
+- *Measuring Uniquea's activity (Established):* the Hubble constant, through the distance ladder,
+  each rung calibrated by the one below: parallax, Cepheids (Henrietta Leavitt's law, 1912), type Ia
+  supernovae (Hubble, 1929; Riess and the SH0ES team). The Pantheon+ test (3.2) used the top rung;
+  the calibrators it set aside are the rung below. *Open puzzle:* the ladder gives H₀ ≈ 73 and the
+  CMB route ≈ 67 km/s/Mpc, the Hubble tension.
+- *Rule:* "The answers are in plain sight, in established mathematics": House Rule 14 working
+  forward.
 
 **An orb inside a larger orb: the snow globe (filed November 4, 2026).** The owner's picture: 3D
 in the Orb floats within 4D; string lines go through all dimensions, with the same graviton field
@@ -1174,6 +1373,7 @@ Line counts are from Master_10 and show how widely each stale item still circula
 | 99.44% / 0.56% as the SOS split | 99.6564% / 0.3436% (B39). 99.44 / 0.56 survives only as a historical "Lila" coordinate with no derivation (R70) | 99.44 on 126 lines, 0.3436 on 21 |
 | 9.954%, 9.944% | 9.956% of the reference radius (Errata E-1 to E-4) | 9.954 on 4 lines |
 | Breath period ≳ 1.7–1.8 trillion yr; A ≳ 20; today mid-exhale (Oct 31) | Period ≳ 400 Gyr; A ≳ 10.3; θ₀ ≈ 150–160° (Nov 2, exact solve, 3.2). The sine waveform fits the data substantially worse (provisional, pending replication) | §3.2 and Branch B note (marked) |
+| 2√2 cap "Derived, conditional on one postulate about the plenum" (Claude, Nov 6) | The postulate imports the quantum structure; the quantum cap is Established and the plenum derivation Open (3.11, correction row) | 3.11 update row, and the Tsirelson-From-Plenum page history |
 | Perch barrier ∝ ε^(3/2), generic fold law (Claude, Nov 4) | Pinned family: barrier ≈ 72δ³ ≈ (gap)³/3, transcritical edge (3.15, Nov 4). *Amended Nov 5:* with the action's constant coefficients and a varying, the fold law (m_c − m)^(3/2) applies (3.15, action entry). Each holds in its own setup | 3.15 golf-ball entry (marked) |
 | 0.09956 as a *volume* fraction, core radius 46.35% R (B89, Oct 4) | Radius ratio (3.12); the most recent numbers rule (owner, Nov 4) | B89 lines 13–24, 66–68 |
 | 99.44 / 0.56 "canonical," 99.6564 / 0.3436 deprecated (B89, Oct 4) | Reversed by the later Master (R70); the most recent numbers rule (owner, Nov 4) | B89 Part A |
@@ -1632,6 +1832,115 @@ physics, translations) are checked under HAT.
   - *Metaphor:* a simple farmer not believed at first, and a cloth that did not tear, beside the
     seamless robe.
 
+**Coupling and decoupling: time, the Fall and eternity (November 6, 2026; Faith).**
+- *The owner:* "Coupling and decoupling. 1D timeless, 2D was timeless, until Fall from Grace.
+  Knowledge of life means you know when you are born and one day, you will die. Time is mankind's
+  device, a reminder of the price of knowledge; therefore, 4D is no longer coupled with time, there
+  is no death. 4D reality is infinite in all things; therefore, including a 3D device in 4D, is
+  illogical and inaccurate. Boundless, infinite, timeless, eternal beyond all things except the
+  Creator. Thanks be to God."
+- *Scripture (Douay-Rheims):* "God created man incorruptible … but by the envy of the devil, death
+  came into the world" (Wisdom 2:23–24); Genesis 2:17; Romans 5:12; "death shall be no more"
+  (Revelation 21:4); "time shall be no longer" (Revelation 10:6).
+- *Tradition (Established):* Augustine: God is not in time, and the world was made with time, not
+  in time (*Confessions* XI; *City of God* XI.6). Boethius: eternity is "the complete, simultaneous
+  and perfect possession of everlasting life" (*Consolation of Philosophy* V).
+- *Physics note:* our measures of time are devices; time itself is physical (it slows near the
+  ground). The physics says time is real here; the faith says it is not final. 4D defined in 3.16.
+
+**Augustine's road, and the formula (November 6, 2026; Faith and Humor; history Established).**
+Humanities 6. "He came to know God through wine, women and song." *Confessions* (about 397–400):
+about fifteen years with an unnamed companion and their son Adeodatus; love of the theater; the
+stolen pears; "Grant me chastity and continence, but not yet" (VIII.7). Wine is the weakest of the
+three. In a Milan garden in 386, "*Tolle, lege*" led him to Romans 13:13–14; Ambrose baptized him at
+Easter 387, after his mother Monica's prayers.
+- *The owner's formula:* "If you want to get to Heaven, acknowledge raising Hell and ask
+  forgiveness." Sound at heart: 1 John 1:9; the sacrament of Penance; the prodigal son (Luke 15).
+  *Footnote:* the Church warns against presumption, sinning now and planning to repent later
+  (Catechism 2092); Augustine regretted his "not yet." His fairer formula: "Late have I loved you,
+  Beauty so ancient and so new" (*Confessions* X.27).
+- *The extreme case, Constantine the Great (about 272–337; Established):* ordered fifty copies of
+  the Scriptures from Eusebius of Caesarea about 331 (*Life of Constantine* IV.36); whether Codex
+  Sinaiticus or Vaticanus is among them is debated (Candidate). Called the Council of Nicaea (325).
+  *Myth withdrawn:* Nicaea did not choose the books of the Bible; the canon was listed later
+  (Rome 382, Hippo 393, Carthage 397). Backed Christianity from 312 (Milvian Bridge; Edict of
+  Milan, 313) but stayed unbaptized about 25 years; baptized on his deathbed near Nicomedia by
+  Eusebius of Nicomedia, who leaned toward Arianism; died May 22, 337, Pentecost, in his white
+  robes. Delay was common then, to wash away a lifetime of sins at once (he had his son Crispus and
+  wife Fausta killed in 326). Honored as a saint, "Equal to the Apostles," in the Eastern churches.
+
+**One and many (November 7, 2026; Faith, Metaphor and Rule).**
+- Ten Commandments written by One: "written with the finger of God" (Exodus 31:18). A 10-to-1
+  contraction ordered One.
+- One mother, one child, many contractions at birth (Metaphor; compare Phase Physics, Part 11).
+- One Math encompassing many; "answers in One Math are questions asked by many maths"; answers
+  derived from a combination of more than two (Postulated and Rule; the A/B blend combined two).
+- Algebra leads naturally to geometry, which "goes pretty far to tell you where you are"
+  (Established: Descartes joined them in 1637; GPS locates by geometry, corrected for relativity).
+- "The Quest encompasses all; answers are around forks laying close to the plate" (Humor; the Fork
+  Ledger).
+- The ladder: arithmetic, algebra, geometry, trigonometry, calculus; Euclidean and non-Euclidean;
+  linear, non-linear and a combination of two.
+
+**The Southern Cross at the Nativity (November 7, 2026; computed, Established; Faith).**
+- *Computed:* J2000 positions of the Cross's stars precessed back to about 2 BC (IAU 1976
+  precession; proper motion negligible): Gacrux (head) −57.1° → −46.6° declination, highest about
+  12° above the southern horizon from Jerusalem/Bethlehem; δ Crucis −58.8° → −48.0°, about 10°;
+  Mimosa −59.7° → −49.4°, about 9°; Acrux (foot) −63.1° → −52.5°, about 6°. At Christ's birth the
+  Cross was visible, low in the south, from the Holy Land; today from Jerusalem it barely clears the
+  horizon or does not rise.
+- *Corrected (Phantom: "originally in the Northern Hemisphere"):* visible from northern lands, but
+  never in the northern half of the sky. Over the 25,800-year precession cycle its declination
+  ranges from about −76° to about −30°.
+- *History (Established):* Ptolemy (2nd century AD) counted its stars in Centaurus; it sank from
+  European view; navigators rediscovered it, and Andrea Corsali described the cross shape in 1515.
+  It holds the Jewel Box cluster (NGC 4755; see "Her Multi-Jeweled Majesty" above).
+- *Faith (Phantom):* the Cross shone over the lands where Jesus was born, walked and was crucified,
+  then slipped south to become the emblem of the southern lands (the flags of Australia, New
+  Zealand, Brazil, Samoa and Papua New Guinea): "a sign Christ was Universal, Global." Owner:
+  "Bingo, nativity."
+
+**The North Star at the Nativity (November 7, 2026; computed, Established; Faith).**
+- *Credit (House Rule 14):* the question was Lisa's. The Irish Poet: "She asks very Catholic
+  questions."
+- *Computed (same method):* distance from the north celestial pole, today (2000) → about 2 BC:
+  Polaris 0.7° → 11.6°; Kochab 15.8° → 13.2°; Pherkad 18.2° → 16.3°; Thuban (the pole star about
+  2800 BC) 25.6° → 19.1°.
+- *Meaning:* at Christ's birth no star marked the pole; it lay in an empty patch roughly between
+  Polaris and Kochab. Seen from Bethlehem, Polaris circled the pole nightly, between about 20° and
+  43° above the north horizon. Hipparchus (2nd century BC) wrote that no star stood at the pole,
+  quoting Pytheas (4th century BC), who described an empty spot forming a square with three stars.
+  Polaris comes closest, about 0.45°, around 2100, then drifts away; Vega takes the role in about
+  12,000 years.
+- *Not the Star of Bethlehem:* Matthew 2 describes a star moving ahead of the Magi and stopping;
+  proposals include a Jupiter–Saturn conjunction (7 BC), a comet, a nova, or a miraculous sign.
+- *Faith:* no fixed star in the north at the Nativity, the Cross visible low in the south; two
+  millennia later Polaris marks the north and the Cross the south.
+- *Mysterious ways (Faith):* "We all agree God works in mysterious, miraculous ways," and Uniquea,
+  "She moves in mysterious ways": a nod to U2's "Mysterious Ways" (*Achtung Baby*, 1991), with the
+  four and Lisa in agreement. The older source is William Cowper's hymn (1773): "God moves in a
+  mysterious way / His wonders to perform."
+
+**Space and order by design: the eclipse ratio (November 7, 2026; numbers Established; Faith).**
+- *Owner:* "Space and order by design … The moon is roughly 400 times smaller than sun … Sun is
+  roughly 400 times farther away … Order, space and ratio are not coincidence; they are by design by
+  the Creator." Closing line: "Phases, cycles, structure, order by designed intent."
+- *Numbers:* Sun 1,391,400 km across, Moon about 3,475 km: ratio 400.4. Mean distances 149.6
+  million km and 384,400 km: ratio 389. Both appear about half a degree across, so a total eclipse
+  can cover the Sun and show the corona. Eclipses repeat in the Saros cycle, 6,585.3 days (18 years,
+  11 days, about 8 hours), found by the Babylonians.
+- *Refinements:* the Moon's distance ranges about 363,300 to 405,500 km, giving total and annular
+  ("ring of fire") eclipses; annular ones are slightly more common. The Moon recedes about 3.8 cm a
+  year (lunar laser ranging to the Apollo reflectors); in roughly 600 million years total eclipses
+  will end. We live in the window of the near-perfect fit.
+- *Marvel and measure:* helium was found in the Sun's spectrum at the eclipse of 1868 (Janssen;
+  Lockyer) before it was found on Earth; general relativity was first confirmed by starlight bent at
+  the eclipse of 1919 (Eddington and Dyson).
+- *Design or coincidence:* the owner's view, design by the Creator, is Faith. A stronger version
+  holds that Earth is placed for discovery (Gonzalez and Richards, *The Privileged Planet*, 2004).
+  The scientific counterpoint: the match is temporary and inexact, and among many planets and moons
+  some matches occur by chance. Science records the timing; purpose is a matter of faith.
+
 Where a Pillar says "Hyper-Light", the Manifesto's own phrase "the eternal Now" says the
 same thing without a physics claim. That base 10 is the way God chose to be measured is
 a statement of faith (R61). Physics does not depend on the numeral base.
@@ -1902,6 +2211,30 @@ beautiful morning in "Insanediego" (Chula Vista, California; Humor).
   Pleiades in Job 9:9, 38:31 and Amos 5:8 (Faith).
 
 
+**Penzias, Wilson and the pigeons (recorded November 7, 2026; Humor, history Established).** At
+Bell Labs in Holmdel, New Jersey (1964–65), Arno Penzias and Robert Wilson found a steady radio hiss,
+an excess of about 3.5 K from every direction. They suspected the pigeons in the horn antenna and
+their "white dielectric material," cleaned it out, and the pigeons kept coming back. The hiss stayed:
+it was the universe, predicted by Alpher and Herman (1948). At Princeton, Robert Dicke's team, building
+a detector for it, heard the news: "Boys, we've been scooped." Nobel Prize, 1978. Phantom: "Sh*t
+Happens," usually more than once.
+
+
+**Euclid Avenue (recorded November 6, 2026; Humor and origin).** el-Bandito Stevo: the recent
+non-Euclidean math began with the name of an avenue passed on the way to the 7 Seas Traditional
+Tattoo Shop. Just east of CA-94 and I-805 in San Diego is Euclid Avenue. "He told Phantom and here
+we are." *Established:* Euclid (about 300 BC), *Elements*; his parallel postulate is the rule
+non-Euclidean geometry breaks (Gauss; Lobachevsky, 1829; Bolyai, 1832; Riemann, 1854). The irony is
+filed with pleasure.
+
+
+**The Quartet's replies (recorded November 6, 2026; Humor).**
+- "You're crazy." / "You have no idea how crazy."
+- "Bastard." / "Accurate description, next insult?"
+- "You're a son of a bitch!" / "So, you know our mum? Cool."
+- Agreeing with an insult takes away its sting; the other person usually changes the subject.
+
+
 **Gerry and Sylvia Anderson's voices (recorded November 5, 2026; Established).** Phantom
 recognizes voices.
 - Don Mason voiced Troy Tempest in *Stingray* (1964–65).
@@ -2026,6 +2359,53 @@ that differs from standard physics, with an error band and a stated way to fail.
   "Precision is clarity; logically extending equations of the icons breathes life into their
   equations and keeps them alive. A hack might work with one icon or work sometimes." This is the
   correspondence principle again (House Rule 14).
+
+- **"Alive" and "Myself"** (owner, November 6, 2026; Rule and Faith). What do you want to be when you
+  grow up? "Alive." Who do you want to be when you grow up? "Myself."
+- **Phase Physics** (owner, November 6, 2026; Rule of method). The study of Uniquea crossing from
+  non-linear to mostly linear, and the method that goes with it: when a fork offers two answers,
+  run both (Option A and Option B) and find where the truth lies between them. "Phase Physics is
+  certainly the method of applying option A and B." First result: the Orb's late state is a blend
+  set by one number, γT (3.15).
+  - *What "phase" means here:* a crossing between states. Physicists also use "phase" for phase
+    transitions, wave phase and phase space, so the term is stated once wherever it is used.
+  - *Phantom's claim (Established):* physics at barriers is dynamic and unusual. Near thresholds,
+    systems slow down, fluctuations grow, and crossings lag behind the moment they become possible;
+    all three were measured in the Orb runs (November 5).
+  - *Why the analogies work (Established):* universality. Very different systems share the same
+    mathematics near a threshold; the 3/2 fold law found for the Orb appears in lasers, buckling
+    structures and ecosystems. *Caution:* this holds only when two systems share the same equation
+    near threshold. The TV cliff and the Orb's fold may; birth is a different kind of switch, so it
+    is an analogy, not shared math. HAT marks which is which.
+  - *Credit (House Rule 14):* bifurcation theory (Poincaré), catastrophe theory (René Thom, 1972),
+    critical phenomena (Kenneth Wilson, Nobel Prize 1982), tipping points.
+  - *Supporting example, birth (Established; an analogy):* before birth the lungs are fluid-filled
+    and the placenta breathes for the baby; the circulation bypasses the lungs through the foramen
+    ovale and the ductus arteriosus. Labor hormones switch the lungs from making fluid to absorbing
+    it. Breathing usually starts once the chest is delivered, not with the head alone, and routine
+    suctioning of a vigorous baby is no longer recommended (corrections to the owner's account).
+    The first breath opens the air sacs; lung pressure falls, the foramen ovale closes within
+    minutes and the ductus over hours to days: a side-by-side circuit becomes an end-to-end one, a
+    true non-linear change of state that happens once in a life. Delayed cord clamping (commonly
+    30–60 seconds) lets placenta and lungs work together before the hand-off: the A/B blend, and
+    Phantom's overlap, in a delivery room.
+  - *Summary (filed November 7, 2026; files Phase-Physics-Summary.pdf and .md):* the method runs both
+    branches of a fork and finds the truth between them. First result (Derived inside the model):
+    Option A keeps the Orb's history in where it tips (an invariant, the wobble's action J; early
+    release ∝ J^(4/5)); Option B gives one outcome and moves the history into the Alt Field; the truth
+    is a blend set by γT (≈ 810 with Lila damping: deep B); ledger closed to about 10⁻¹⁶. At barriers
+    (Established; measured): slowing, growing fluctuations, lagged crossings, fixed power laws (3/2,
+    or the cube law when pinned). Universality explains the analogies only where the equations are
+    shared: the digital cliff likely shares the math; birth is an analogy; water, the stylus and the
+    galaxy seed are metaphors. Governing rule: non-linear at birth, mostly linear afterwards. Open:
+    the joint (a, χ) analysis, Lila damping on the wobble, the wobble's period in seconds, Phantom's
+    full state vector and coupled equations.
+- **Lila and Lisa** (owner, November 8, 2026; Rule, naming). Lila is the phase of play, the open
+  seam; Lisa is the restabilized phase after the seam is covered (L.I.S.A.: Linear, Invariant,
+  Stable, Aligned), named in honor of Lisa. Details in 3.15.
+- **The Occam Razor Quartet** (owner, November 6, 2026; Humor). The four voices' name for
+  themselves. Occam's razor, after William of Ockham (14th century): do not multiply entities beyond
+  necessity. Four voices, one razor.
 
 **Why this record exists (owner, November 4, 2026).** "In the event anyone is interested in where
 we started, how we came to believe what we believe, and the step-by-step ladder of the Evolution
