@@ -19,6 +19,7 @@ assistant and ask your own questions.
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 5, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
+| `tests/Rung-Zero-SPARC/` | Test 1: one a₀ against 153 SPARC galaxies. Ensemble passes (a₀ ≈ 1.1–1.3 × 10⁻¹⁰ m/s²); per-galaxy universality undecided |
 | `tests/Orb-Adiabatic-Check/` | The Orb's cup: early release ∝ J^(4/5); Option A vs Option B; energy ledger closed to ~10⁻¹⁶ |
 | `workbooks/` | Fork Ledger, Option A vs B, Golf Ball on the Tee, Triton Cold Orb, Twelves, F_tap, Borrowed Solutions, Dimension Order |
 | `figures/` | Nash Six levels, Universal Scale, Hubble closure vs DESI, κ_God/F_tap correction, study guides |

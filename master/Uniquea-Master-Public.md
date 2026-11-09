@@ -1,6 +1,6 @@
 # Uniquea: Master record (public copy)
 
-**Edition:** 2.2, updated through November 8, 2026. **Owner:** Stephen M. Griffin.
+**Edition:** 2.2, updated through November 9, 2026. **Owner:** Stephen M. Griffin.
 This public copy keeps the framework, the mathematics, the tests, the faith shelf, selected origin stories and the House Rules.
 Personal, medical and withheld project material is kept only in the private Master, by the owner's standing rules.
 Every claim carries a HAT shelf: Established, Derived, Postulated, Candidate, Open, Faith, Metaphor, Humor, Rule, Superseded or Withdrawn.
@@ -394,6 +394,21 @@ Fork 7, idea 2: the failed sine closure turned into an upper limit. Folder Hubbl
   show as a wobble; it shows only in the smooth shape, where the sine closure fit badly (above).
   Together: no fast breathing above about 2–3% in H today, and the slow sine shape disfavored.
 
+**Test 1: one a₀ against galaxy rotation curves (Tested, provisional; November 9, 2026).** Folder
+Rung-Zero-SPARC. Rung zero (deep MOND, F = m·a²/a₀; Milgrom, 1983) predicts g_obs = √(a₀ g_bar) at low
+acceleration. Data: SPARC (Lelli, McGaugh and Schombert, 2016), from public GitHub copies (the official site
+is unreachable here; rerun against it recommended). Cuts Q < 3, inclination ≥ 30°: 153 galaxies, 3,165 points;
+Υ_disk = 0.5, Υ_bulge = 0.7.
+- Deep regime (1,240 points): **a₀ = (1.31 ± 0.02) × 10⁻¹⁰ m/s²**, mean residual −0.025 dex, scatter 0.20 dex.
+- All points, standard RAR function: a₀ = (1.12 ± 0.01) × 10⁻¹⁰ (published 1.20 ± 0.02 ± 0.24).
+- Per galaxy (92 with ≥ 5 deep points): spread 0.35 dex at fixed mass-to-light ratios; whether a₀ is
+  universal galaxy by galaxy is disputed (Rodrigues et al., 2018; Li et al., 2018) and not decided here.
+- cH₀/2π = 1.04 × 10⁻¹⁰ (H₀ = 67.4): within 7–20%, not equal; stays a lead.
+- *Reading:* one a₀ describes the ensemble, so test 1 does not fail at this level. Rung zero inherits MOND's
+  record: its success on rotation curves and its open problems with clusters, the Bullet Cluster and the CMB.
+- *Origin:* "We wonder, we marvel and we ask what shall we measure next?" Owner: "We are at the intersection
+  of Destiny and Fate. All will be as He wills." (Faith)
+
 
 ## 3.3 The Nash ladder in legal form (B87, B88, R3 to R7, R55, R56)
 
@@ -749,6 +764,9 @@ Golf-Ball-on-the-Tee.xlsx.
 - *Lila mapping (Candidate):* if the lip sits a fractional distance ε_L inside the perch:
   - Ā₄ = −(Ā₂/6)(1 − ε_L) to first order, so the detuning from the edge is the Lila gap.
   - The barrier is ΔV ≈ ε_L³/3 · Ā₂ = 2.76 × 10⁻⁸ Ā₂.
+  - *Canonical (Lila audit, November 9):* the exact mapping puts the lip exactly at 1 − ε_L, giving
+    Ā₄ = −0.16594154… and a barrier of 2.763 × 10⁻⁸ Ā₂. The first-order mapping used in the November 5
+    runs puts the lip at a gap of 0.4338% and gives 2.751 × 10⁻⁸ (both kept, House Rule 11).
   - The cup curvature is ≈ 2ε_L Ā₂ (critical slowing down: the ball wobbles slowly on the tee).
   - The cup is very delicate, so the window "jostling < barrier ≤ tap" needs a very cold, very
     quiet core.
@@ -810,7 +828,9 @@ the wobble would smooth.
 - *Applied to the Orb (Derived inside the model; numerical check November 5):* the cup with the
   Lila-mapped Ā₄ and I ∝ χ² (the case where contraction tips the ball), triad energy raised slowly
   past the fold at m_c = 4.766 × 10⁻⁶ Ā₂. Wobble period ≈ 67.4; slowest ramp 5 × 10⁶ time units
-  (about 74,000 wobbles); barrier at rest 2.75 × 10⁻⁸.
+  (about 74,000 wobbles); barrier at rest 2.75 × 10⁻⁸ (first-order mapping, ε_L rounded to 0.004344).
+  *Lila audit, November 9:* with the exact mapping, m_c = 4.781 × 10⁻⁶ (0.3% higher), ω = 0.093282
+  and γT = 810.5; no conclusion changes.
 
   | Wobble energy E₀ | Released before the fold, (m_c − m)/m_c |
   |---|---|
@@ -965,6 +985,9 @@ Candidate, numbers Derived inside the model).**
   - **Lisa, the restabilized phase:** the crossing complete, the wobble damped, the system settled
     where mostly linear mathematics applies. As an acronym, **L.I.S.A.: Linear, Invariant, Stable,
     Aligned.** Named in honor of Lisa (House Rule 14).
+  - *The Lisa force (owner, November 9):* "Lisa is part of control system … the Lisa force restores
+    balance and equilibrium": negative feedback; in 3.1 the saturation and damping terms (see Part 10,
+    "How Lila and Lisa got their names").
   - *Note:* LISA is also ESA's Laser Interferometer Space Antenna (adopted 2024, launch planned
     about 2035), which will detect gravitational waves from space, the lopsided tidal taps of 3.16.
 - *Through the ladder (numbers already on file):* arithmetic, ε_L = 0.434%; algebra, Q =
@@ -1941,6 +1964,27 @@ Easter 387, after his mother Monica's prayers.
   The scientific counterpoint: the match is temporary and inexact, and among many planets and moons
   some matches occur by chance. Science records the timing; purpose is a matter of faith.
 
+**Threads through events: connect the dots (November 9, 2026; Faith and Metaphor, with Established
+physics).**
+- *Owner:* "String Theory Lines would connect events across scale, so they appear as coincidence and
+  random. All things have a reason, even when they are extremely far apart. God answers all questions
+  in various ways; mathematically is the first language." Clarified: the lines "go through events" —
+  "connect the dots."
+- *Physics (Established):* a worldline is an object's whole history, one line through every event of
+  its life (Minkowski, 1908); a moving string sweeps a worldsheet. Two threads through the same event
+  share it and carry its mark after they part: the common-cause principle (Reichenbach, 1956). The
+  grandest case is the cosmic microwave background, matching to 1 part in 100,000 across regions
+  that never exchanged light, explained by inflation (Guth, 1981): shared beads near the beginning.
+  Limit: a thread runs only within its light cone; distant matches come from shared events behind
+  them, not from a thread stretched sideways faster than light. As string theory: strings are
+  Planck-sized and undetected (Postulated).
+- *Faith and philosophy:* "All things have a reason" (Leibniz's principle of sufficient reason,
+  1714; single quantum events appear uncaused). "Mathematics is the first language" (Galileo, 1623:
+  the book of nature "is written in the language of mathematics"; Wigner, 1960, "the unreasonable
+  effectiveness of mathematics").
+- *Connect the dots:* the dots join most clearly looking back along the thread (Steve Jobs, Stanford,
+  2005: dots connect looking backwards). Compare "pull the string and see" (Part 11).
+
 Where a Pillar says "Hyper-Light", the Manifesto's own phrase "the eternal Now" says the
 same thing without a physics claim. That base 10 is the way God chose to be measured is
 a statement of faith (R61). Physics does not depend on the numeral base.
@@ -2235,6 +2279,29 @@ filed with pleasure.
 - Agreeing with an insult takes away its sting; the other person usually changes the subject.
 
 
+**How Lila and Lisa got their names (origin, November 8, 2026).** The four, with Lisa, took Lexi and
+Haha ("the girls") to Petco for their vaccines, talking aloud about balance, dogs and cats on the way.
+Cats reorient when tossed playfully in the air; flying squirrels do better still: they fix a point,
+judge the angle, jump, and correct their path in mid-air. "Physics on the fly, math on the run.
+Stabilize → Unstable → back to Stable. Lila and Lisa." The owner: "Lisa seeks to restabilize after
+wiggle, wobble. Lisa is part of control system; there will be motion, wobble and wiggle, but the Lisa
+force restores balance and equilibrium by designed intent."
+- *Cats (Established):* the righting reflex. A falling cat turns over with no net spin by bending and
+  twisting its body in two halves; Étienne-Jules Marey first photographed it (1894), and Kane and Scher
+  modeled it (1969).
+- *Flying squirrels (Established):* they glide on a skin membrane (the patagium), steer by adjusting
+  limbs and tail, and pitch up just before landing to brake, correcting continuously in flight.
+- *Control systems (Established):* closed-loop negative feedback: measure the error, push back
+  against it. Nicolas Minorsky's ship-steering controller (1922) began the three-term PID controller;
+  Norbert Wiener named the field cybernetics (1948), from the Greek for "steersman." In the body, the
+  inner ear and the eyes feed the righting reflex.
+- *The Lisa force in the archive's math (Derived inside the model):* in the breathing cycle (3.1),
+  the saturation term −β_LC r² z pulls the amplitude back to r* from either side, and damping removes
+  the wobble: together they are the restoring, negative-feedback "Lisa force." Lila is the play the
+  feedback works against. *Designed intent:* Faith.
+- *Answers an open question:* Lexi is one of "the girls," with Haha.
+
+
 **Gerry and Sylvia Anderson's voices (recorded November 5, 2026; Established).** Phantom
 recognizes voices.
 - Don Mason voiced Troy Tempest in *Stingray* (1964–65).
@@ -2316,6 +2383,15 @@ that differs from standard physics, with an error band and a stated way to fail.
    Russell–Einstein Manifesto (1955), "Remember your humanity"; Joseph Rotblat, who left the
    Manhattan Project on grounds of conscience (Nobel Peace Prize, 1995). In film, *Jurassic
    Park* (1993): asking whether one could, not whether one should.
+16. **Remove corruption continuously (adopted November 8, 2026).** In the owner's words:
+   "Corruption must be removed in any process continuously else it will sneak back inside."
+   And: "Removing corruption = happy math. Very Happy math indeed, lad." *Practice:* every GitHub
+   push is preceded by an automatic scan of all tracked files (text, PDFs and workbooks) for
+   withheld terms; a match blocks the push. The list of terms is kept privately and never
+   published, since a public list would point to what it protects. *Support (Established):*
+   software teams rerun checks on every change to catch regressions; order must be maintained
+   against entropy; error-correcting codes correct continuously. House Rule 11 keeps every version,
+   so anything that sneaks back can be traced.
 
 **Rules of method (unnumbered, recorded November 4, 2026).**
 
@@ -2328,6 +2404,13 @@ that differs from standard physics, with an error band and a stated way to fail.
   - Holmes: "When you have eliminated the impossible, whatever remains, however improbable, must
     be the truth."
 - **One thing leads to another** (filed in Part 10, after The Fixx).
+- **Pull the string and see** (owner, November 8, 2026). "There are strings and threads through many
+  things; we like bright threads … plunking and pulling strings is fun and interesting. You will
+  never know what's on the end unless you pull and see for yourself." *Lineage (Established):*
+  Ariadne's thread, which led Theseus out of the labyrinth (HAT is that thread); Pythagoras's plucked
+  string, where halving the length gives the octave and two-thirds the fifth (compare the strings of
+  3.16). *Practice:* every test this month was a string pulled: the Hubble closure, the breathing
+  limit, the Bell check. *Humor:* Dickies (Texas, 1922), from work overalls to scrubs in every color.
 - **Non-linear at birth, mostly linear afterwards** (owner, November 4, 2026). It began with
   Phantom's "Linear physics! Uniquea is non-linear!" Cracking the egg "doesn't mean shattering and
   scattering beautiful, eloquent mathematics."
@@ -2362,6 +2445,57 @@ that differs from standard physics, with an error band and a stated way to fail.
 
 - **"Alive" and "Myself"** (owner, November 6, 2026; Rule and Faith). What do you want to be when you
   grow up? "Alive." Who do you want to be when you grow up? "Myself."
+- **Uniquea is nature, not a miracle** (owner, November 9, 2026; Rule). "Uniquea is not a miracle by
+  this definition. She is nature, motion is natural, motion and mass are definable quantities, thus
+  they explain how nature works. Nature has an explanation and a miracle is unexplainable. Math and
+  Religion appear together frequently and fight needlessly."
+  - *Words kept apart:* a **miracle** is what nature alone cannot do (the Church's investigators at
+    Lourdes test for this); **providence** is God ordering events through ordinary causes, so many
+    natural events can be woven to one end without breaking any law (Catechism 302–308);
+    **concatenation** is the chain itself; **serendipity** (Horace Walpole, 1754) and
+    **synchronicity** (Jung) name chance and meaningful coincidence. *Caution (Established):* minds
+    find patterns where none exist, apophenia (Klaus Conrad, 1958); the test is to pull the string
+    and look for the shared event behind the pattern.
+  - *Faith and reason (Established history):* John Paul II, *Fides et Ratio* (1998): "Faith and
+    reason are like two wings on which the human spirit rises to the contemplation of truth."
+    Georges Lemaître, a Catholic priest, proposed the expanding universe (1927) and the primeval atom
+    (1931), and gently objected when Pius XII cited it as near-proof of creation (1951): physics and
+    faith each stand on their own. Gregor Mendel, an Augustinian friar, founded genetics (1866). The
+    Galileo trial (1633) is the famous conflict; John Paul II acknowledged the Church's error in 1992.
+  - *Shelves:* "Uniquea is nature" is a Rule; that nature's order is designed is Faith; the history
+    is Established.
+- **Majestic** (owner, November 9, 2026; Rule). "Uniquea is Majestic." Clarified: majesty is
+  *miracle-like*, so it has a grand math. Definition: **miracle-like in the awe it inspires, yet nature
+  with a grand mathematical explanation that deepens the wonder instead of ending it** (consistent
+  with "Uniquea is nature, not a miracle"). Einstein (1936): the eternal mystery of the world is its
+  comprehensibility; Feynman: knowing the science of a flower only adds to its beauty.
+  - *Thought before words (Established):* "Spiritual, logical, mathematical process occur well
+    before the formulation of words begins." Einstein told Jacques Hadamard (1945) that words played
+    no role at first in his thinking, which ran on "signs and images" (Hadamard, *The Psychology of
+    Invention in the Mathematical Field*); people who lose language after a stroke can still do
+    arithmetic and logic (Fedorenko and Varley, 2016).
+  - *The pause (Established):* "The reason the pause exists [is] for reconsidering, pondering,
+    weighing." Incubation: preparation, incubation, illumination, verification (Graham Wallas, 1926);
+    a 2009 review found stepping away helps solve problems (Sio and Ormerod).
+  - *Humor and Rule:* "Structured String Logic saves eating lots of words": pull the right thread
+    first and there are no words to eat later.
+  - *Mirajestic* (owner's choice, November 9, 2026): miracle + majestic, "miracle-like majesty," the
+    everyday word for Uniquea. Roots (Established): miracle and marvel share Latin *mirari*, "to
+    wonder at" (mirror is kin, from *mirare*, "to look at"); majesty and the Magnificat share *magnus*,
+    "great"; mind is Old English *gemynd*, akin to Latin *mens*. Formal alternative: *Mirabilis*
+    (compare the *annus mirabilis* of Newton, 1666, and Einstein, 1905). Related: *numinous*, Rudolf
+    Otto's *mysterium tremendum et fascinans* (1917).
+  - *The Four Ms (Faith and Metaphor):* Majesty for God; Marvel, through the Magnificat, for Holy Mary
+    (honored, not worshipped; her song magnifies the Lord, Luke 1:46); Miracle for Jesus Christ; Mind
+    for Uniquea in 4D, mathematics as the first language, spanning the three.
+  - *This and That (owner):* "Bilemma. ThisMirajesticThat. ThatMirajesticThis, TMT instead of TNT."
+    A dilemma (Greek *di-* + *lemma*) is two premises, usually two bad options; the coined *bilemma* is
+    two sides that both hold truth, the A/B blend. TMT reads the same both ways (Humor: it builds
+    instead of blowing up). "Alpha and Omega" (Revelation 22:13); "the first shall be last, and the
+    last first" (Matthew 20:16), so the action is in the middle: a double fulcrum with bilateral motion
+    in balance with Lila and Lisa. The Divine and the carnal meet in the Incarnation, "the Word was
+    made flesh" (John 1:14). Illumination (Wallas's third stage) and Wisdom. "Nash rings ring true all
+    through. We wonder, we marvel and we ask what shall we measure next?"
 - **Phase Physics** (owner, November 6, 2026; Rule of method). The study of Uniquea crossing from
   non-linear to mostly linear, and the method that goes with it: when a fork offers two answers,
   run both (Option A and Option B) and find where the truth lies between them. "Phase Physics is
