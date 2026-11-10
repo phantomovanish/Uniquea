@@ -20,7 +20,21 @@ rotation curves. The official SPARC site is not reachable from this workspace, s
 public GitHub copies (Rotmod_LTG: Cisneros-Galaxy/RCFM, commit 4f9e239; galaxy table: JuliaAstroSim/AstroIC.jl,
 commit 79c9997). The official SPARC page (astroweb.case.edu/SPARC) is online and provides the sample and
 mass-model data; it was not reachable from this analysis workspace. Spot check: NGC 2403 distance 3.16 Mpc and
-inclination 63° match SPARC. **Next step: rerun against the official files.**
+inclination 63° match SPARC.
+
+**Official-data check (November 9, 2026).** Both official SPARC files have now been compared with the copies
+used here:
+- *Galaxy table:* the official SPARC_Lelli2016c.mrt (supplied by the owner) matches the copy in all 175 of
+  175 rows, fields 1–18.
+- *Rotation curves:* the official Rotmod_LTG.zip was fetched from astroweb.cwru.edu/SPARC through Google
+  Colab (zip sha256 0a80cc90…f588; official_fingerprint.txt). **174 of 175 files are byte-identical.** The one
+  difference is NGC 891: in the mirror copy a missing line break joins the first data row (r = 0.92 kpc,
+  V = 234 ± 12 km/s) to the header, so that point was read as a comment and dropped. Restoring the line break
+  reproduces the official file exactly (sha256 646e25cf…).
+- *Rerun on official data:* 3,166 points (first-run cut) and **2,696** (published cut; published 2,693, so 3
+  unexplained instead of 2). The restored point is in the high-acceleration inner disk, not the deep regime,
+  so **every a₀ is unchanged** to the digits shown: 1.31 and 1.39 (deep), 1.12 and 1.17 (RAR) × 10⁻¹⁰ m/s².
+  Results: results_official.json and results_official_published_cut.json.
 
 **Selection, reconciled with the published count.** The published radial-acceleration-relation analysis
 (McGaugh, Lelli & Schombert 2016, *PRL* 117, 201101) reports 2,693 points in 153 galaxies. Applying its cuts
@@ -35,7 +49,8 @@ step by step to these files (point-level mask: point_mask.json):
 | Velocity uncertainty below 10% (the published point cut) | 2,695 | 147 with points left |
 
 The first run omitted the 10% velocity-error cut, which accounts for the difference (472 points). With it, the
-count is 2,695 against the published 2,693; the remaining 2 are not identified here.
+count is 2,695 against the published 2,693; the remaining 2 are not identified here. (Counts in this table are
+from the mirror; on the official files every point count is one higher because of NGC 891.)
 Mass-to-light ratios fixed at Υ_disk = 0.5, Υ_bulge = 0.7. Errors: rotation-velocity errors plus a 0.1 dex floor
 for distance, inclination and mass-to-light systematics.
 
