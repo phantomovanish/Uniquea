@@ -1,0 +1,22 @@
+{
+ "mapping": "exact",
+ "A4": -0.16594154401411476,
+ "lip": 0.9956555554444333,
+ "eps_L": 0.004344444555566678,
+ "w0": 0.09328168003752325,
+ "w0_sq_over_2eps": 1.0014481390346421,
+ "continuum": {
+  "N": 1200,
+  "zeta_eff": 0.004352130189378756,
+  "zeta_over_eps": 1.0017690716762009,
+  "cycles_per_amplitude_efold": 36.5694352343384,
+  "frac_wobble_left_at_110T": 0.002448374836205861,
+  "ledger_rel": 3.314130275815574e-07,
+  "recurrence_cycles": 400.0
+ },
+ "single_partner": {
+  "min_wobble_frac": 0.020974999515033232,
+  "max_wobble_frac_after_min": 0.999996752071297,
+  "ledger_rel": 3.165985731217221e-07
+ }
+}
