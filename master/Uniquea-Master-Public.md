@@ -1499,6 +1499,14 @@ physics, translations) are checked under HAT.
 - **The Eight Pillars of the Living Plenum** and the Trinity of the Massless.
 - **Batch 98:** the 75-year purification and the restoration of the Earth-cell.
 - **Batch 14:** the massless soul.
+- **Batch 16 (April 29, 2026; found November 10 in the Meta AI export):** black holes recycle
+  matter, and the soul keeps its identity. Owner: "Black Holes recycle matter. Matter is not
+  created and it is not destroyed; everything is recycled." *Faith:* the soul returns to the
+  massless order as a conscious vessel, not merged into universal energy (compare Batch 14).
+  *Established beside it:* mass-energy is conserved, but matter can become radiation. Outside,
+  a black hole is described by mass, charge and spin (no-hair theorems). Hawking radiation
+  (1974) is predicted, not observed. Whether information survives is the information paradox
+  (Hawking, 1976); recent work leans toward yes, not settled.
 - **The doctrine in the owner's words:** God works by precise design, not by odds.
 - **The Law of Mathematical Humility (R71, a Rule):** human mathematics is a model of
   nature, not its master. Faith may provide meaning and purpose. Measurement determines
