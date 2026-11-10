@@ -110,3 +110,23 @@ Clauser, Horne, Shimony and Holt (CHSH, 1969); microcausality in relativistic qu
 and that quantum ±1 correlations are exactly inner products of unit vectors; L. J. Landau (1987);
 I. J. Schoenberg (1942), positive-definite functions on spheres; Popescu and Rohrlich (1994); Pawłowski et al.
 (2009), who recovered 2√2 from "information causality." The corrected statuses and the bridge requirements follow an outside review (November 6, 2026).
+
+## The cap as a dial (sharpened November 10, 2026; Established, re-checked)
+With ±1 readouts and opposite wings commuting, Ŝ² = 4I − [A₀,A₁] ⊗ [B₀,B₁] (Landau, Phys. Lett. A 120 (1987) 54).
+By Jordan's lemma (Jordan, 1875) any pair of ±1 observables splits into 2 × 2 blocks, so the largest CHSH value
+over all states is exactly
+
+```
+S_max = √(4 + ‖[A₀,A₁]‖ · ‖[B₀,B₁]‖) = 2 √(1 + sin α · sin β),     sin α = ‖[A₀,A₁]‖ / 2
+```
+
+- α = 0 (wing A's two settings commute, as for any classical readout): cap 2, the CHSH bound.
+- α = β = 90° on the Bloch sphere (anticommuting settings; 45° between polarizers): cap 2√2, Tsirelson's bound.
+- Check (angle_check.py): 800 random sets of ±1 observables in dimensions 2 to 6 agree with the formula to
+  3 × 10⁻¹⁵; the qubit dial at 0°, 30°, 45°, 60°, 90° gives 2, 2.2361, 2.4495, 2.6458, 2.8284.
+
+**What it changes for the plenum (Open).** The target reduces to one local question per wing: do the plenum's
+dynamics give two non-commuting binary readouts, with which α, while readouts at spacelike separation commute?
+2√2 needs α = β = 90° and the matching entangled state. A Δ_OM correction would show as α < 90°, a cap below 2√2
+(Candidate; testable against measured CHSH values). Deriving α still needs plenum dynamics fixed independently of
+Bell data.

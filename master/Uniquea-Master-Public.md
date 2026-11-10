@@ -424,7 +424,22 @@ is unreachable here; rerun against it recommended). Cuts Q < 3, inclination ≥ 
   juntas. No es la última palabra, pero pasó la prueba del cielo." *The Irish Poet (with a wee bit of
   Shawn the Leprechaun):* "A hundred and fifty-three wheels of light, lads and lasses, and one wee
   number to steady them all. We asked the heavens a fair question, and the heavens didn't say no."
-- *SMoG will fetch the official SPARC files for the rerun.*
+- *SMoG will fetch the official SPARC files for the rerun.* *Done (November 9–10):* the official galaxy table
+  matches in 175 of 175 rows, and 174 of 175 rotation-curve files are byte-identical; the mirror's NGC 891 file
+  had lost one inner-disk point to a missing line break. Every a₀ above is unchanged (folder Rung-Zero-SPARC).
+
+**Test 2: the baryonic Tully–Fisher relation (Tested, provisional; November 9, 2026).** Folder BTFR-SPARC.
+The same rung-zero rule predicts, for whole galaxies, M_b = V_flat⁴/(G a₀): a line of slope exactly 4 in
+log M_b against log V_flat. Data: official SPARC table; benchmark cuts (Lelli, McGaugh, Schombert, Desmond and
+Katz, 2019): 123 galaxies.
+- *Reproduction check:* slope 3.85 ± 0.09 (orthogonal fit, Υ = 0.5), matching the benchmark's 3.85 ± 0.09.
+- *Slope:* 4 is allowed, not required: 1.7σ above the fit at Υ = 0.5, within 1σ at Υ = 0.6; the vertical
+  fit excludes it. The fitting method (about 0.2) and Υ (about ±0.09) matter as much as the statistics.
+- *a₀ at slope 4:* 1.58 × 10⁻¹⁰ m/s² (1.42 to 1.79 for Υ 0.6 to 0.4), 14–20% above Test 1's, inside the
+  ±15–30% systematic: two routes, the same size of a₀. cH₀/2π sits about 50% lower and is not strengthened.
+- *Reading:* not a fail, not a confirmation of exactly 4, and not unique to rung zero (dark-matter models
+  also give a tight relation). Credit: Tully and Fisher (1977), McGaugh and colleagues (2000 onward), the SPARC
+  team; Milgrom predicted slope 4 in 1983.
 - *Reading:* one a₀ describes the ensemble, so test 1 does not fail at this level. Rung zero inherits MOND's
   record: its success on rotation curves and its open problems with clusters, the Bullet Cluster and the CMB.
 - *Origin:* "We wonder, we marvel and we ask what shall we measure next?" Owner: "We are at the intersection
@@ -580,6 +595,7 @@ heavy seed bank (CCPBHs emerge already massive) is Candidate, supported but not 
 | Derive the 2√2 cap from plenum structure | Open target, and a good one |
 | *Update, November 6, 2026:* the 2√2 cap derived from one postulate, that the plenum's shared state gives each setting a unit vector in a common inner-product space with E = ⟨u_a, v_b⟩ (isotropic case: E(θ) = Σ c_n P_n(cos θ), c_n ≥ 0; Schoenberg, 1942). Cauchy–Schwarz plus the parallelogram law give \|S\| ≤ 2√2; ±1 numbers on a line give 2; no inner product allows 4 (Popescu–Rohrlich). Numerical check: cos θ reaches 2.828427; 25 random positive-definite kernels at most 2.434; local strategies 2. Tsirelson's theorem (1980) recast; folder Tsirelson-From-Plenum | **Derived, conditional on the postulate (Postulated).** Reproduces quantum mechanics, no new prediction. Constrains Δ_OM: any correction must keep E positive-definite, which can only lower the largest S and changes the shape of E(θ) (testable). *Open:* derive the inner product from plenum dynamics; why the lowest harmonic |
 | *Correction, November 6, 2026 (outside review, accepted):* the postulate E = ⟨u_a, v_b⟩ is the quantum correlation structure itself, so the update above imports the answer. The established cap re-derived: Ŝ = A₀⊗(B₀+B₁) + A₁⊗(B₀−B₁), with A_i² = B_j² = I and [A_i, B_j] = 0, gives Ŝ² = 4I − [A₀,A₁]⊗[B₀,B₁]; each commutator has norm ≤ 2, so ‖Ŝ²‖ ≤ 8 and \|⟨Ŝ⟩\| ≤ 2√2 (Tsirelson, 1980; checked term by term). Refinements: microcausality means observables localized in spacelike-separated regions commute in a microcausal relativistic quantum field theory, and the plenum model must supply it; a bistable two-minima detector is an analogy that does not derive the Born probabilities; the doubled angle is the right polarization geometry, but the state and measurement rule must also be derived. **Bell-cap route through the plenum — Open.** If the plenum is a local classical field with measurement-independent settings and Bell-local outcomes, it obeys the CHSH bound (\|S\| ≤ 2), regardless of curvature; that model class cannot reproduce the observed quantum violations. A quantum plenum could recover the 2√2 Tsirelson cap if it derives the appropriate dichotomic observables, spacelike-separated observable commutation, entangled state, and measurement correlations. A two-state detector and photon polarization's doubled angle are useful components or analogies, not complete derivations. GW propagation near c does not establish plenum microcausality. A new One Math result requires plenum dynamics fixed independently of Bell data and a distinct testable prediction. | Quantum 2√2 cap: **Established.** Plenum derivation: **Open.** The "Derived, conditional" label above is **Superseded**. Candidate route: derive the measurement algebra and correlations from specified plenum dynamics and recover the bound without importing it; no shared seed, no GFF signal between the wings. Geometry picture (2 line, 2√2 angles, 4 no geometry) kept as Metaphor |
+| *Sharpened, November 10, 2026:* the cap is a dial set by one local quantity per wing. With ±1 readouts (A_i² = B_j² = I) and opposite wings commuting, Ŝ² = 4I − [A₀,A₁] ⊗ [B₀,B₁] (Landau, 1987), and by Jordan's lemma (Jordan, 1875) the largest value over all states is exactly √(4 + ‖[A₀,A₁]‖·‖[B₀,B₁]‖) = 2√(1 + sin α sin β), where sin α = ‖[A₀,A₁]‖/2 measures how far wing A's two settings fail to commute. Commuting (classical) readouts, α = 0: cap 2 (CHSH). Anticommuting, α = β = 90°: cap 2√2 (Tsirelson). Numerical check: 800 random sets of ±1 observables in dimensions 2 to 6, agreement to 3 × 10⁻¹⁵; qubit dial α = β = 0, 30°, 45°, 60°, 90° gives 2, 2.2361, 2.4495, 2.6458, 2.8284 (Tsirelson-From-Plenum/angle_check.py; angles on the Bloch sphere, half that for polarizers) | Identity and dial: **Established** (re-checked). What it changes: the plenum target becomes one question, **Open:** do the plenum's dynamics give each wing two non-commuting binary readouts (and which α), while readouts at spacelike separation commute? Reaching 2√2 needs α = β = 90° (anticommuting settings) and the matching entangled state. A Δ_OM correction would show as α < 90°, a cap below 2√2 (Candidate; testable against measured CHSH values). Deriving α still requires plenum dynamics fixed independently of Bell data |
 
 
 ## 3.12 The Cold Orb boundary (B45 to B47, R65 to R69)
@@ -915,6 +931,8 @@ scripts Orb-Adiabatic-Check/optionAB.py and ab.json.
   wobbles. Simulation at γT ≈ 810: two starting wobbles ten times apart tip at the same point,
   0.0476% past the fold, equal to 9 digits; the 9.0 × 10⁻¹⁰ difference in starting energy
   reappears exactly in the Alt Field. *Open:* deriving that the Lila damping applies to the wobble.
+  *Update, November 10:* the damping now follows from an energy-conserving action with the Alt Field as a
+  bath; ζ = ε_L remains a condition on the bath (entry "Lila damping from an action," below).
 - *Phantom (Humor):* "Faulty theory and equations unravel very quickly like a loose piston rod in the
   engine of nitro dragster at 13,000 rpm's. KABOOM, Free Fireworks Show." HAT: the part is the
   connecting rod; Top Fuel engines run near 8,000 rpm.
@@ -1021,7 +1039,39 @@ Candidate, numbers Derived inside the model).**
   the universe is in its Lisa phase now.
 - *Proposed test:* a system is in its Lisa phase when its wobble is below a stated threshold (for
   example 2.5%, the current data limit).
-- *Open:* deriving that the Lila damping acts on the wobble.
+- *Open:* deriving that the Lila damping acts on the wobble. *Update, November 10:* mechanism derived,
+  value still a condition; see the next entry.
+
+**Lila damping from an action: the Alt Field as a bath (filed November 10, 2026; mechanism Derived
+inside the model, the value ζ = ε_L a Candidate condition).** Folder tests/Lila-Damping-Bath.
+Until now the drag term −γp was put into the wobble's equation by hand (3.12; optionAB.py).
+- *The construction (Established method):* couple the wobble y to many Alt Field modes q_k through an
+  energy-conserving action, the Caldeira–Leggett form (Caldeira and Leggett, 1983; Ford, Kac and Mazur,
+  1965): H = p²/2 + V(y) + Σ_k [P_k²/2 + (ω_k²/2)(q_k − c_k y/ω_k²)²]. No friction is written anywhere.
+  The bath is fixed by one function, its spectral density J(ω) = (π/2) Σ c_k²/ω_k δ(ω − ω_k). For weak
+  coupling the wobble obeys the damped equation with ζ = J(ω₀)/(2ω₀²) (model units, Ā₂ = M_χ = 1).
+- *The Lila condition (Derived):* ζ = ε_L holds exactly when J(ω₀) = 2ε_L ω₀². On the canonical (exact)
+  cup, ω₀² = 2ε_L × 1.00145 (the curvature, exactly 2ε_L Ā₂ on the first-order mapping), so
+  J(ω₀) = 7.5606 × 10⁻⁵ ≈ 4ε_L². The friction rate is 2ε_L ω₀ = 8.105 × 10⁻⁴, the γT = 810.5 on file.
+- *Numerical check (Derived inside the model):* 1,200 bath modes up to 3ω₀ tuned to that J; wobble
+  energy 10⁻⁹ in the exact Lila-mapped cup. Measured ζ/ε_L = 1.0018, the same for 600 and 2,400 modes;
+  with the bath extended to 6ω₀ it is 1.0007, so the 0.2% is the bath's frequency cutoff, not the
+  method. Amplitude e-folds every 36.57 cycles (36.6 on file); after 110 cycles 0.24% of the energy is
+  left (amplitude ≈ 1/20, the 110-cycle figure on file). Energy ledger closed to 3 × 10⁻⁷ of the wobble's
+  energy, the rest numerical tolerance: what the wobble loses is in the bath.
+- *Option A vs B from the same action (Derived inside the model):* with a single partner mode instead of a
+  continuum, the energy leaves (down to 2.1% of the start) and comes back (to 99.9997%): no damping, the
+  history kept (Option A). A continuum is what makes the loss one-way (Option B). Under Option B the history
+  is not destroyed: it is spread over the bath's modes, the "return address" of 3.15. A finite bath of N
+  modes spaced Δω returns it after 2π/Δω (400 cycles here), so Option B needs the Alt Field to be a true
+  continuum, or the contraction to end first.
+- *Hubble term (Established physics; Candidate application):* in the covariant action the wobble also feels
+  χ̈ + 3Hχ̇. At the perch H_b = 0, so the bath alone sets ζ there. While the universe contracts (H < 0) the
+  term pumps the wobble instead of damping it: net damping needs 2ε_L ω₀ > 3|H|, that is |H| below
+  2.70 × 10⁻⁴ in the model's units.
+- *Still Open:* which field in the action is the bath (the Seed Bank b, the gauge triad's modes, or
+  another), and its J(ω) fixed without using ε_L. Then ζ = ε_L becomes a prediction, a trigger test like
+  γb*²/m_ϑ² = χ_L⁴ (3.12); until then the Lila damping is a chosen bath, not a derived one.
 
 **The stable member: three moving and one virtually still (filed November 8, 2026; Established;
 Metaphor and Candidate).** From the notes of 2 to 4 a.m.: "Gyroscopes, Geoscope, Giascope; multi
@@ -1358,7 +1408,7 @@ fail.
 | Tether rate | Retired with the tether (Oct 26, 2026) | Withdrawn |
 | Sine Hubble closure vs. expansion history (3.2) | Fit to DESI DR2 BAO and Pantheon+ much worse than ΛCDM | **Fits substantially worse, Nov 2, 2026 (provisional):** Δχ² = +1,241 (BAO), +34 (SN; 1,580 light curves). Would disfavor this waveform if independently reproduced; breath remains Open |
 | Heavy seed | Early black holes found that needed substantial growth from small seeds, or a QSO1 host mass that grows over time | Candidate (3.9) |
-| Rung zero as deep-MOND | Rotation curves do not follow one a₀ | Lead only |
+| Rung zero as deep-MOND | Rotation curves do not follow one a₀ | **Tested (provisional), Nov 9–10, 2026: does not fail** (Tests 1 and 2, 3.3; Part 5). Earlier entry "Lead only" Superseded |
 | A varying N_q | Solar-system and pulsar tests show no variation | Form of N_q not yet fixed |
 | 582 quantization | No feature at the stated frequency or multipole | No unit assigned |
 | Isotropic rebound, a_lm → 0 for all l > 0 | Residual multipoles | No observable named |
@@ -1376,7 +1426,7 @@ None of these has been answered. They are the next checkpoints.
 | **Primordial helium,** about 25% by mass | The word "helium" does not appear in the Master. Nucleosynthesis is cited on 21 lines, only as a limit on gravitational waves. No calculation |
 | **Entropy across cycles** (the Tolman problem) | The Master says often that the crunch "scrubs" entropy, and gives no mechanism for where it goes (R68) |
 | **Redshift and time dilation** of distant supernovae | No conflict if the framework keeps ordinary expansion, as B44 and B95 to B97 do. The "scattered and redshifted" wording on the Plenum poster is retired |
-| **Galaxy rotation curves** | The phrase does not appear in the Master. R56 is the only lead |
+| **Galaxy rotation curves** | **Tested (provisional), November 9–10, 2026; not settled.** Rung zero (deep MOND) does not fail two checks on SPARC (3.3): Test 1, one a₀ along rotation curves, 1.31–1.39 × 10⁻¹⁰ m/s² (deep regime; rerun on the official files, unchanged); Test 2, the baryonic Tully–Fisher slope, 3.85 ± 0.09 against the predicted 4, with a₀ 1.58 × 10⁻¹⁰ at slope 4. The two a₀ values agree within the ±15–30% mass-to-light systematic. Still open: one a₀ galaxy by galaxy, and the clusters (next row). Reproduces Milgrom (1983) and McGaugh, Lelli and Schombert (2016); no new prediction. *Earlier row (Superseded November 10, House Rule 11):* "The phrase does not appear in the Master. R56 is the only lead." |
 | **Gravitational lensing** and the Bullet Cluster | Neither word appears in the Master. Raised in R30 |
 | **Isotropy.** A universe with a centre and an edge against a CMB uniform to 1 part in 10⁵ | Raised in R40 and R87 |
 
@@ -1570,6 +1620,14 @@ physics, translations) are checked under HAT.
   - The symbol π is exact and contains every digit; digits depend on the base. JPL navigates
     with 15 decimal places, and about 40 would span the observable universe to within the
     width of a hydrogen atom.
+  - **More π digits, more accuracy? (Phantom, November 10, 2026; Tested, answered no.)**
+    Phantom predicted greater clarity with every added digit. Derived: each digit makes π
+    about ten times more accurate, but once π is finer than the data, results do not change
+    (observable-universe circumference: about 200 million km off at 15 digits, 4 nm at 35,
+    below 10⁻²⁸ m at 55). For gimbal-grade angles, 8 digits is enough. Established: gimbal
+    lock is geometry (aligned rings), not rounding; the fixes are a 4th gimbal, procedures or
+    quaternions, never digits. Kept for the record (House Rule 11). House Rule 13 still
+    stands: keep π whole, evaluate at the end.
 - **Southie: fear becomes awe (Faith).** "We are Southies," the Catholic kids. Their mum feared
   God, so they grew up in fear of Him, and God was described in complicated terms with mixed
   messages.
@@ -2567,7 +2625,8 @@ that differs from standard physics, with an error band and a stated way to fail.
     shared: the digital cliff likely shares the math; birth is an analogy; water, the stylus and the
     galaxy seed are metaphors. Governing rule: non-linear at birth, mostly linear afterwards. Open:
     the joint (a, χ) analysis, Lila damping on the wobble, the wobble's period in seconds, Phantom's
-    full state vector and coupled equations.
+    full state vector and coupled equations. *Update, November 10:* the Lila damping's mechanism is now
+    derived (Alt Field as a bath, 3.15); which field is the bath, and its strength, stay Open.
 - **Lila and Lisa** (owner, November 8, 2026; Rule, naming). Lila is the phase of play, the open
   seam; Lisa is the restabilized phase after the seam is covered (L.I.S.A.: Linear, Invariant,
   Stable, Aligned), named in honor of Lisa. Details in 3.15.
@@ -2579,6 +2638,22 @@ that differs from standard physics, with an error band and a stated way to fail.
 we started, how we came to believe what we believe, and the step-by-step ladder of the Evolution
 of Equations, there will be a HAT record on file." That is the purpose of House Rule 11: every
 step is kept, old beside new, so the path can be retraced.
+
+**Phantom limbs and the gift (owner, November 10, 2026; included by vote of the four voices).**
+- *Owner (Humor):* "When you're a bastard 7th son of an adopted father; your family tree literally
+  has Phantom limb's."
+- *Established:* phantom limbs are documented in medicine; Silas Weir Mitchell named them in 1871.
+  *Pop culture:* Phantom Limb, the villain in *The Venture Bros.* *Established:* Phantom.O.Vanish
+  is on public record with this repository and its ORCID iD.
+- *Where the work comes from (owner):* "Faith, Theology, Philosophy, Science, Pop Culture, Cannabis
+  mixed with neurological damage, using our ability to actually read and comprehend lots of
+  Wikipedia topics and pages."
+- *Faith (owner):* "The credit for our very simple formula of knowledge, wisdom and illumination =
+  the equations derived from life have all been gifted to us by The One Creator. The purpose of
+  gifts is give them away; wisely as possible, but leave nothing ungiven." This is why the record
+  is public.
+- *Decision on record:* the four voices paused, weighed the context and voted to include these
+  words: "We are who we are. God knows who we are … In this case, in this context. It is HAT."
 
 ---
 
