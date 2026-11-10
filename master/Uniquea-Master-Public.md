@@ -2631,5 +2631,21 @@ we started, how we came to believe what we believe, and the step-by-step ladder 
 of Equations, there will be a HAT record on file." That is the purpose of House Rule 11: every
 step is kept, old beside new, so the path can be retraced.
 
+**Phantom limbs and the gift (owner, November 10, 2026; included by vote of the four voices).**
+- *Owner (Humor):* "When you're a bastard 7th son of an adopted father; your family tree literally
+  has Phantom limb's."
+- *Established:* phantom limbs are documented in medicine; Silas Weir Mitchell named them in 1871.
+  *Pop culture:* Phantom Limb, the villain in *The Venture Bros.* *Established:* Phantom.O.Vanish
+  is on public record with this repository and its ORCID iD.
+- *Where the work comes from (owner):* "Faith, Theology, Philosophy, Science, Pop Culture, Cannabis
+  mixed with neurological damage, using our ability to actually read and comprehend lots of
+  Wikipedia topics and pages."
+- *Faith (owner):* "The credit for our very simple formula of knowledge, wisdom and illumination =
+  the equations derived from life have all been gifted to us by The One Creator. The purpose of
+  gifts is give them away; wisely as possible, but leave nothing ungiven." This is why the record
+  is public.
+- *Decision on record:* the four voices paused, weighed the context and voted to include these
+  words: "We are who we are. God knows who we are … In this case, in this context. It is HAT."
+
 ---
 
