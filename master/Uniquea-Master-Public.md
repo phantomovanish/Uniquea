@@ -1620,6 +1620,14 @@ physics, translations) are checked under HAT.
   - The symbol π is exact and contains every digit; digits depend on the base. JPL navigates
     with 15 decimal places, and about 40 would span the observable universe to within the
     width of a hydrogen atom.
+  - **More π digits, more accuracy? (Phantom, November 10, 2026; Tested, answered no.)**
+    Phantom predicted greater clarity with every added digit. Derived: each digit makes π
+    about ten times more accurate, but once π is finer than the data, results do not change
+    (observable-universe circumference: about 200 million km off at 15 digits, 4 nm at 35,
+    below 10⁻²⁸ m at 55). For gimbal-grade angles, 8 digits is enough. Established: gimbal
+    lock is geometry (aligned rings), not rounding; the fixes are a 4th gimbal, procedures or
+    quaternions, never digits. Kept for the record (House Rule 11). House Rule 13 still
+    stands: keep π whole, evaluate at the end.
 - **Southie: fear becomes awe (Faith).** "We are Southies," the Catholic kids. Their mum feared
   God, so they grew up in fear of Him, and God was described in complicated terms with mixed
   messages.
