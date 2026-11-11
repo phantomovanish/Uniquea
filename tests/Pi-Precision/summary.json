@@ -1,0 +1,37 @@
+{
+ "cH0/2pi (the a0 lead, m/s^2)": {
+  "truest": "1.042197881144601E-10",
+  "data_rel_uncertainty": 0.00741839762611276,
+  "option_A_15_decimals": "1.042197881144601E-10",
+  "option_A_rel_error": 7.590501687441757e-17,
+  "decimals_where_pi_error_drops_below_one_tenth_of_data_uncertainty": 2
+ },
+ "Upper tap c^4/(80 pi G) (N)": {
+  "truest": "4.815453886722422E+41",
+  "data_rel_uncertainty": 2.2e-05,
+  "option_A_15_decimals": "4.815453886722423E+41",
+  "option_A_rel_error": 7.590501687441757e-17,
+  "decimals_where_pi_error_drops_below_one_tenth_of_data_uncertainty": 5
+ },
+ "e^(-pi) (the withdrawn 0.0432)": {
+  "truest": "4.321391826377225E-2",
+  "data_rel_uncertainty": 0.0,
+  "option_A_15_decimals": "4.321391826377226E-2",
+  "option_A_rel_error": 2.384626433832795e-16,
+  "decimals_where_pi_error_drops_below_one_tenth_of_data_uncertainty": null
+ },
+ "Earth circumference 2 pi R (km)": {
+  "truest": "4.003017359204115E+4",
+  "data_rel_uncertainty": 0.003,
+  "option_A_15_decimals": "4.003017359204114E+4",
+  "option_A_rel_error": 7.590501687441756e-17,
+  "decimals_where_pi_error_drops_below_one_tenth_of_data_uncertainty": 3
+ },
+ "KFA = 8 pi^2 G / c^8": {
+  "truest": "8.076623394727839E-77",
+  "data_rel_uncertainty": 2.2e-05,
+  "option_A_15_decimals": "8.076623394727838E-77",
+  "option_A_rel_error": 1.5181003374883511e-16,
+  "decimals_where_pi_error_drops_below_one_tenth_of_data_uncertainty": 5
+ }
+}

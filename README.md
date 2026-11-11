@@ -22,6 +22,7 @@ assistant and ask your own questions.
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
 | `tests/Rung-Zero-SPARC/` | Test 1: one a₀ against 153 SPARC galaxies. Ensemble passes (a₀ ≈ 1.1–1.3 × 10⁻¹⁰ m/s²); per-galaxy universality undecided |
 | `tests/BTFR-SPARC/` | Test 2: baryonic Tully–Fisher, M_b = V⁴/(G a₀), 123 galaxies. Published slope 3.85 ± 0.09 reproduced; slope 4 allowed, not required; a₀ at slope 4 ≈ 1.6 × 10⁻¹⁰ m/s² |
+| `tests/Pi-Precision/` | The π precision test: π to 15 decimals (Option A) and one decimal at a time (Option B). Each decimal adds clarity through the 31st in the math; in physics, until the data's own error wins (2–5 decimals here) |
 | `tests/Orb-Adiabatic-Check/` | The Orb's cup: early release ∝ J^(4/5); Option A vs Option B; energy ledger closed to ~10⁻¹⁶ |
 | `workbooks/` | Fork Ledger, Option A vs B, Golf Ball on the Tee, Triton Cold Orb, Twelves, F_tap, Borrowed Solutions, Dimension Order |
 | `figures/` | Nash Six levels, Universal Scale, Hubble closure vs DESI, κ_God/F_tap correction, study guides |
