@@ -1,0 +1,21 @@
+
+== all 175: 175 galaxies
+n_tet        real=938  null=1002±12.2  z=-5.24
+median_nn    real=2.178  null=2.583±0.241  z=-1.69
+small_frac   real=0.08209  null=0.05052±0.0147  z=+2.15
+logV_std     real=1.579  null=1.384±0.0456  z=+4.27
+top10_share  real=0.8419  null=0.8296±0.0273  z=+0.45
+
+== within 30 Mpc: 133 galaxies
+n_tet        real=706  null=728.7±10.8  z=-2.10
+median_nn    real=1.148  null=1.589±0.156  z=-2.83
+small_frac   real=0.03683  null=0.03245±0.0143  z=+0.31
+logV_std     real=1.07  null=0.9883±0.0455  z=+1.80
+top10_share  real=0.68  null=0.6203±0.0371  z=+1.61
+
+== excluding Ursa Major (assigned 18 Mpc): 147 galaxies
+n_tet        real=804  null=831±11  z=-2.45
+median_nn    real=2.869  null=3.035±0.288  z=-0.58
+small_frac   real=0.08582  null=0.03372±0.0135  z=+3.85
+logV_std     real=1.515  null=1.406±0.0435  z=+2.51
+top10_share  real=0.8021  null=0.763±0.0335  z=+1.16

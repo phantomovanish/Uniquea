@@ -440,6 +440,24 @@ Katz, 2019): 123 galaxies.
 - *Reading:* not a fail, not a confirmation of exactly 4, and not unique to rung zero (dark-matter models
   also give a tight relation). Credit: Tully and Fisher (1977), McGaugh and colleagues (2000 onward), the SPARC
   team; Milgrom predicted slope 4 in 1983.
+**Test 3: Phantom's tetrahedra in the real neighborhood (Tested, provisional; November 12, 2026).** Folder
+Tetrahedra-SPARC. *Prediction, stated before the run:* connect the galaxies in 3D and the tetrahedra fit snugly,
+small ones crowding into groups and filaments, big ones spanning the voids, "support regions of space expanding
+between." Data: sky positions for all 175 SPARC galaxies from NASA/IPAC NED (175 of 175), with SPARC's distances.
+Method: 3D Delaunay tetrahedralization against 300 shuffles that keep every sky position and the set of
+distances but scramble which goes with which.
+- *Crowding: pass (Candidate).* Far more tiny tetrahedra and a wider spread of sizes than chance: spread
+  z = +4.3 (all 175), +2.5 without the Ursa Major group (whose distances SPARC assigns as one value); share of
+  tiny tetrahedra z = +3.9 without Ursa Major; within 30 Mpc, nearest neighbors at a median 1.15 Mpc against
+  1.59 (z = −2.8).
+- *Voids: not seen (Open).* The volume share of the largest tetrahedra is only slightly above chance
+  (z = +0.5 to +1.6). 175 galaxies chosen for their rotation curves are too sparse to outline voids; that
+  needs a full redshift survey.
+- *Reading:* SPARC is a chosen sample, not a map, and its 10–30% distance errors blur clustering, so the real
+  crowding is if anything stronger. The geometry describes the neighborhood at the small end; the expanding
+  spaces between remain to be measured. Credit: the Delaunay tessellation method for the cosmic web (Schaap
+  and van de Weygaert, 2000).
+
 - *Reading:* one a₀ describes the ensemble, so test 1 does not fail at this level. Rung zero inherits MOND's
   record: its success on rotation curves and its open problems with clusters, the Bullet Cluster and the CMB.
 - *Origin:* "We wonder, we marvel and we ask what shall we measure next?" Owner: "We are at the intersection

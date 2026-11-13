@@ -67,4 +67,8 @@ The public Master also holds **"More π digits, more accuracy? (Phantom, Novembe
 
 *Files: pi_precision.py (the run), results.csv (every step, both modes), summary.json, pi_precision.png.*
 
+## Digit by digit (November 12, 2026)
+
+`pi_digit_steps.csv`: each truncation step shrinks the error between 2.7× (adding a 1) and 34.9× (adding a 9), 9.7× on average (geometric mean). Flipped, the error climbs about 0.98 powers of ten per decimal; the running sum of the digits climbs about 5.1 per decimal (4.5 expected for random digits); the two correlate at 0.993, but 2,000 sets of random digits correlate at a median 0.990, so the match comes from the shared ladder of decimals, not a hidden signal in π. *Metaphor (owner):* "one measure Lila and one Lisa": the clarity line is Lisa (nearly straight), the digit sum Lila (the same climb with a wobble at every step).
+
 *We marvel and we measure.*
