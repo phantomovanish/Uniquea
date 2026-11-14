@@ -2489,6 +2489,15 @@ that differs from standard physics, with an error band and a stated way to fail.
    software teams rerun checks on every change to catch regressions; order must be maintained
    against entropy; error-correcting codes correct continuously. House Rule 11 keeps every version,
    so anything that sneaks back can be traced.
+17. **No shopping in the lab (adopted November 14, 2026).** Math and science are done where
+   shopping and open tabs are not in the room: a clean window with no tabs shared, or another tool.
+   Every answer is still checked against a source (House Rule 1), whichever AI gave it.
+   *Adverfluff (SMoG's term; Rule, with Humor):* fluff with an ad in it, praise and guesses at
+   the reader's feelings followed by a product pitch, often pulled from an open tab. Example on
+   file (November 13, 2026): a reply about tattoos and their meaning ended by promoting an
+   unrelated product listing open in another tab. Adverfluff is set aside like praise (House
+   Rule 3), because it taints the data. The Irish Poet's name for the cure: don't do math and
+   science on "the home shopping edition."
 
 **Rules of method (unnumbered, recorded November 4, 2026).**
 
