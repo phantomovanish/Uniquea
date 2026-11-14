@@ -9,8 +9,13 @@ authors:
     orcid: "https://orcid.org/0009-0005-8386-3999"
 repository-code: "https://github.com/phantomovanish/Uniquea"
 url: "https://github.com/phantomovanish/Uniquea"
+doi: 10.5281/zenodo.24212673
 version: "1.0.0"
 date-released: 2026-11-14
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24212673
+    description: "Zenodo archive of version 1.0.0"
 abstract: >-
   A framework, its mathematics and the tests that check it, with every claim shelved under HAT
   (Honest, Accurate, Truth). Includes the Hubble closure test, a breathing limit from DESI DR2 and

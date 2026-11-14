@@ -1,4 +1,8 @@
 # Uniquea
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24212673.svg)](https://doi.org/10.5281/zenodo.24212673)
+
+**Cite as:** Griffin, Stephen M. (Phantom.O.Vanish). *Uniquea: the HAT record, tests and workbooks*, version 1.0.0. Zenodo, 2026. https://doi.org/10.5281/zenodo.24212673 · ORCID 0009-0005-8386-3999
 One Creator, one design, one math quantum to cosmic.
 
 The Uniquea archive of Stephen M. Griffin ([ORCID 0009-0005-8386-3999](https://orcid.org/0009-0005-8386-3999)): a framework, its mathematics, and the tests that check it.
