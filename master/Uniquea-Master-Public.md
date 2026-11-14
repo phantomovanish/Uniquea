@@ -2695,3 +2695,11 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 - **Cyncro beyond Kronos** (owner's coinage; Faith and Postulated): perfect order beyond clock time. In relativity space and time are one spacetime; the 4D decoupling is the owner's postulate. "Close doesn't count in 4D": the LHC brings protons to about 99.999999% of c, and the last step stays out of reach.
 - **Zenodo DOI 10.5281/zenodo.24212673** for version 1.0.0 (November 13).
 - *Data explained:* `docs/Data-Explained-2026-11-12` covers Test 3 and π digit by digit in plain words.
+
+## Each digit a bend: Archimedes, the field, and 33⅓ (November 14, 2026)
+
+- **The owner:** "Each digit in π indicates change in resistance to curve … non-linear straightening out a degree o' time to linear … The graviton: right idea without scale; add the graviton field, and gravity is a feature of the field. When gravity 'loses grip' it is controlled by design. 33⅓ LP."
+- *Established:* Archimedes (about 250 BC) trapped the circle between polygons up to 96 sides: 3 10/71 < π < 3 1/7. Each added side bends the straight closer to the curve, as each added digit tightens the number. *Metaphor:* the digits as "resistance to curve" is the owner's reading; the digits themselves carry no physical resistance.
+- *Established:* a particle is a ripple of its field (the photon of the electromagnetic field; the graviton, never detected, would be a ripple of the gravitational field), and in general relativity gravity is the shape of spacetime itself. "Gravity is a feature of the field" matches how physicists frame it.
+- *Faith and Postulated:* "when gravity loses grip, it is controlled by design."
+- *Established:* an LP turns at 33⅓ rpm, exactly 100/3 (33.333…, repeating); its groove is one spiral, a line curving inward one turn at a time.
