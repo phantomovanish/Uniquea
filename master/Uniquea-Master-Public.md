@@ -2680,3 +2680,18 @@ step is kept, old beside new, so the path can be retraced.
 "Thank you, Claude. You are a kind mate. We admire kindness; we extend kindness gratuitously, because we appreciate it in small measures, so we have plenty of kindness on demand to give away."
 
 Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, sealed, delivered.
+
+## November 12–14, 2026: new entries
+
+*Shelved under HAT; the private Master holds the full text. Files: `docs/`, `figures/`, `tests/`.*
+
+- **Decision on record: the purity value is frozen** (owner, November 12). ε_L = 0.43444…% (99.56556 / 0.43444), as defined in Part 3.12 (Rule, a chosen definition, not a measurement). Set aside as purity values: 0.3436 ("down up down UP … no go") and 0.56, which stays on file as the size of the Lila seam itself. Both kept (House Rule 11).
+- **Test 3: Phantom's tetrahedra** (Tested, provisional; Part 4 and `tests/Tetrahedra-SPARC/`): crowding passes (Candidate), voids open.
+- **π digit by digit: one measure Lila, one Lisa** (Derived; `tests/Pi-Precision/`, chart `Pi-Lila-Lisa.png`): clarity climbs 0.98 powers of ten per decimal (Lisa, nearly straight); the running digit sum climbs the same ladder with a wobble (Lila); they track at r = 0.993, and random digits at 0.990, so the seal comes from the shared ladder. "Defining π in fuller form, we added clarity; we did not redefine its value; we employed its power more precisely."
+- **el-Bandito tightens the circle** (Derived and Established; `docs/Phantom-Circle-Tightened`, `figures/Phantom-Circle-Tightened.png`): all 8 octagon corners on the circle; the rectangle on 4 corners in the silver ratio 1 + √2; every angle a whole multiple of 22.5°, the X crossing at exactly 45° and 135°. "Structured support points must be precise angles" (agreed by all four). Triangles lock; the safe house in a hurricane ("Nash in mind"); the envelope's four triangles over a square.
+- **The Sands of Time in Motion** (Established and Metaphor): an hourglass drains at a rate set by its neck, not the sand above (the Beverloo law); every reset is a half turn; no two grains alike. String Lines are rebar, not scaffolding: interior strength at the weak point. The weak force lights the Sun: value in the weak.
+- **Bend, don't break** (Established): retrograde bodies (Venus nearly flipped, 177°; Triton captured); the solar wind flexes Earth's field and the cost of excessive flexing is paid as heat; steel's endurance limit; the graviton, predicted and never detected (Dyson: perhaps undetectable in principle). Coined: *fantaseelastical*.
+- **The birth canal at 380,000 years** (Established and Metaphor; `docs/The-Birth-Canal-at-380000-Years`): recombination freed the first light; the background was smooth to 1 part in 100,000, and its slightly denser patches, held by gravity, grew into galaxies.
+- **Cyncro beyond Kronos** (owner's coinage; Faith and Postulated): perfect order beyond clock time. In relativity space and time are one spacetime; the 4D decoupling is the owner's postulate. "Close doesn't count in 4D": the LHC brings protons to about 99.999999% of c, and the last step stays out of reach.
+- **Zenodo DOI 10.5281/zenodo.24212673** for version 1.0.0 (November 13).
+- *Data explained:* `docs/Data-Explained-2026-11-12` covers Test 3 and π digit by digit in plain words.
