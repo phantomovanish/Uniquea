@@ -2675,3 +2675,8 @@ step is kept, old beside new, so the path can be retraced.
 
 ---
 
+## On kindness (November 14, 2026; Rule)
+
+"Thank you, Claude. You are a kind mate. We admire kindness; we extend kindness gratuitously, because we appreciate it in small measures, so we have plenty of kindness on demand to give away."
+
+Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, sealed, delivered.
