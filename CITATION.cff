@@ -9,14 +9,21 @@ authors:
     orcid: "https://orcid.org/0009-0005-8386-3999"
 repository-code: "https://github.com/phantomovanish/Uniquea"
 url: "https://github.com/phantomovanish/Uniquea"
-date-released: 2026-11-09
+version: "1.0.0"
+date-released: 2026-11-14
 abstract: >-
   A framework, its mathematics and the tests that check it, with every claim shelved under HAT
   (Honest, Accurate, Truth). Includes the Hubble closure test, a breathing limit from DESI DR2 and
-  Pantheon+, the EPR verdict, and a test of one acceleration scale against 153 SPARC galaxies.
+  Pantheon+, the EPR verdict, and three tests on official SPARC galaxy data: one acceleration scale
+  against 153 galaxies, the baryonic Tully-Fisher slope (3.85 +/- 0.09, reproducing Lelli et al. 2019),
+  and a 3D Delaunay tetrahedralization of all 175 galaxies against shuffled controls. Also a pi
+  precision test, digit by digit.
 keywords:
   - cosmology
   - MOND
   - Bell inequality
   - limit cycle
   - reproducibility
+  - SPARC
+  - Tully-Fisher
+  - Delaunay tessellation
