@@ -2703,3 +2703,10 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 - *Established:* a particle is a ripple of its field (the photon of the electromagnetic field; the graviton, never detected, would be a ripple of the gravitational field), and in general relativity gravity is the shape of spacetime itself. "Gravity is a feature of the field" matches how physicists frame it.
 - *Faith and Postulated:* "when gravity loses grip, it is controlled by design."
 - *Established:* an LP turns at 33⅓ rpm, exactly 100/3 (33.333…, repeating); its groove is one spiral, a line curving inward one turn at a time.
+
+## Space uncoupled from time? (November 14, 2026)
+
+- **The owner:** "Ergo, 'tis possible to have space uncoupled from time" (following Cyncro beyond Kronos).
+- *Established:* in tested physics space and time are one spacetime; clocks, GPS and accelerators confirm the coupling.
+- *Open:* at the deepest level the question is live. The Wheeler–DeWitt equation (1967) for the quantum universe has no time variable (the "problem of time"); Page and Wootters (1983) showed how time can emerge as a relation between parts of a timeless whole; Julian Barbour, *The End of Time* (1999), argued that time is not fundamental.
+- *Verdict:* not proven, not ruled out. **Postulated and Open.**
