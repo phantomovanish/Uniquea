@@ -6,21 +6,35 @@
 
 > "CaGiggers and KaJiggers, Chaos and Kaos, and all things in between: in the middle are the valuable answers, or so Phantom Logic figures." "Megajiggers, microjiggers, gammajiggers: the complete scale, macro to micro. All things in between measures. Lila-gap-Lisa."
 
-## The scale
+## The scale (rev. 3: 19 rings, real metric prefixes)
 
-| Jigger | Prefix | Size | Band |
-|---|---|---|---|
-| Terajigger | tera | 10¹² | Big (astro) |
-| CaGigger | giga | 10⁹ | Big (astro) |
-| Megajigger | mega | 10⁶ | Big (astro) |
-| KaJigger | kilo | 10³ | Middle |
-| **the jigger** | (none) | **1** | **Middle: Lila-gap-Lisa** |
-| Millijigger | milli | 10⁻³ | Middle |
-| Microjigger | micro | 10⁻⁶ | Little (quantum) |
-| Nanojigger | nano | 10⁻⁹ | Little (quantum) |
-| Gammajigger | pico (gamma rays) | 10⁻¹² | Little (quantum) |
+Each ring is 1,000 times the one below it. Sizes are given in meters, so each ring has a real tenant.
 
-Each step out from the middle is a factor of 1,000. **Phase physics runs the whole column**, top to bottom: it is the bridge, not one band.
+| Jigger | Metric prefix (symbol) | Size | Who lives there (in meters) | Band |
+|---|---|---|---|---|
+| Ronnajigger | ronna (R) | 10²⁷ | the observable universe, about 8.8 × 10²⁶ m across | Big (astro) |
+| Yottajigger | yotta (Y) | 10²⁴ | superclusters of galaxies (100 million light-years) | Big (astro) |
+| Zettajigger | zetta (Z) | 10²¹ | the Milky Way, about 100,000 light-years across | Big (astro) |
+| Exajigger | exa (E) | 10¹⁸ | the Sun's neighborhood of stars (100 light-years) | Big (astro) |
+| Petajigger | peta (P) | 10¹⁵ | the inner Oort cloud of comets (a tenth of a light-year) | Big (astro) |
+| Terajigger | tera (T) | 10¹² | the orbits of Jupiter and Saturn | Big (astro) |
+| CaGigger | giga (G) | 10⁹ | the Sun, 1.4 × 10⁹ m across | Big (astro) |
+| Megajigger | mega (M) | 10⁶ | the Moon and small planets | Big (astro) |
+| KaJigger | kilo (k) | 10³ | a ten-minute walk; a mountain | Middle |
+| **the jigger** | (none) | **1** | **a child; a guitar: Lila-gap-Lisa** | **Middle** |
+| Millijigger | milli (m) | 10⁻³ | a grain of sand | Middle |
+| Microjigger | micro (µ) | 10⁻⁶ | a bacterium | Little (quantum) |
+| Nanojigger | nano (n) | 10⁻⁹ | the width of DNA (2 nm) | Little (quantum) |
+| Gammajigger | pico (p) | 10⁻¹² | gamma-ray wavelengths; just under an atom (10⁻¹⁰) | Little (quantum) |
+| Femtojigger | femto (f) | 10⁻¹⁵ | the proton (0.84 × 10⁻¹⁵ m), home of quarks and gluons | Little (quantum) |
+| Attojigger | atto (a) | 10⁻¹⁸ | the reach of the W and Z bosons; quarks and leptons show no size down to about 10⁻¹⁹ | Little (quantum) |
+| Zeptojigger | zepto (z) | 10⁻²¹ | beyond the reach of today's colliders (about 10⁻²⁰): unexplored | Little (quantum) |
+| Yoctojigger | yocto (y) | 10⁻²⁴ | unexplored | Little (quantum) |
+| Rontojigger | ronto (r) | 10⁻²⁷ | unexplored | Little (quantum) |
+
+**Phase physics runs the whole column**, top to bottom: it is the bridge, not one band.
+
+**Jiggers, leptons, quarks, bosons.** The smallest tenants are the particles of the Standard Model: 6 quarks and 6 leptons (the stuff) and the bosons (the messengers: photon, W and Z, gluons, and the Higgs). The streak in a cloud chamber is usually a muon, a lepton: a jigger you can watch at home.
 
 ## Phantom's concept
 
@@ -31,8 +45,8 @@ Each step out from the middle is a factor of 1,000. **Phase physics runs the who
 
 ## HAT
 
-- **Established:** the prefixes are the SI's (tera 10¹², giga 10⁹, mega 10⁶, kilo 10³, milli 10⁻³, micro 10⁻⁶, nano 10⁻⁹, pico 10⁻¹²; since 2022 the SI runs from quecto, 10⁻³⁰, to quetta, 10³⁰). Gamma rays have wavelengths around a picometer (10⁻¹² m) and shorter. A jigger is also a real bar measure, 1.5 US fluid ounces (about 44 ml). Chaos is Greek *khaos*, the yawning gap before creation; KAOS is the villains' agency on *Get Smart* (1965).
-- **Coinage:** CaGigger, KaJigger, Megajigger, Microjigger, Gammajigger and the rest. The owner's K and G land on the real prefixes kilo and giga.
+- **Established:** every prefix is the SI's own, kilo through ronna and milli through ronto (ronna and ronto were adopted in 2022, with quetta, 10³⁰, and quecto, 10⁻³⁰, the last two the SI has; the scale stops one ring short of each). The tenants' sizes are standard values. The Planck length, 1.6 × 10⁻³⁵ m, lies beyond even quecto. The Standard Model's particles are Established; that rings below about 10⁻²⁰ m are unexplored is the honest state of experiment. Gamma rays have wavelengths around a picometer (10⁻¹² m) and shorter. A jigger is also a real bar measure, 1.5 US fluid ounces (about 44 ml). Chaos is Greek *khaos*, the yawning gap before creation; KAOS is the villains' agency on *Get Smart* (1965).
+- **Coinage:** the nineteen jigger names. CaGigger (giga), KaJigger (kilo) and Gammajigger (pico) are the owner's originals; the rest take the SI prefix whole. The owner's K and G land on the real prefixes kilo and giga.
 - **Metaphor:** the ring, and the seam where big meets little. In physics, the largest and smallest scales are linked in real ways (the early universe was quantum-small; quantum fluctuations seeded today's galaxies), but the ring itself is a picture, not a derived law.
 - **Established, the bridge in standard physics:** the math of phases already crosses scales. Phase transitions share "universality": a magnet at its Curie point and a fluid at its critical point obey the same exponents, whatever their atoms (the renormalization group, Kenneth Wilson, Nobel 1982). Phase transitions also run at both ends: Bose–Einstein condensates and superconductors at the quantum end; in cosmology, the early universe passed through phase transitions (electroweak, quark–hadron), and neutron stars hold superfluid phases.
 - **Open:** a full bridge between quantum physics and gravity (quantum gravity) is not yet settled in physics.

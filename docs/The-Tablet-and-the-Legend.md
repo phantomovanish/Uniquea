@@ -68,7 +68,7 @@ Four ways of saying the same thing: keep it in view. **The Alt Field**, in the r
 | **Fantaseelastical** | Fantastical and elastic in one word: blending 7–8 ideas accurately; bending far and springing back | Coinage |
 | **Cyncro beyond Kronos** | Perfect order beyond clock time | Faith, Postulated |
 | **String Lines are rebar** | Interior strength at the weak point: rebar stays inside; scaffolding comes down | Metaphor |
-| **The Jigger Scale** | Terajigger (10¹²) to Gammajigger (10⁻¹²), the jigger (1) in the middle; astrophysics at the big end, quantum physics at the little end | Coinage; prefixes Established |
+| **The Jigger Scale** | 19 rings on a 360° compass, Ronnajigger (10²⁷) to Rontojigger (10⁻²⁷), each a real metric prefix; the jigger (1) in the middle; astrophysics at the big end, quantum physics at the little end | Coinage; prefixes Established |
 | **Phase physics** | Phases blended, micro to macro, across all creation; some phases more quantum, others more macro; the math of phases bridges quantum and cosmic | Postulated (the bridge); phase-transition universality Established |
 | **Phantom Phase Physics (PPP)** | The phases on either side of the gap, transitional and blended: like Supermarine, Marine, Submarine, where Marine is "a little super, marine, and a wee bit o' sub" | Coinage; diffuse interfaces Established; the reach across scales Postulated |
 | **UFO** | Uniquea Filed Observations: every entry in the record, identified, dated and labeled | Coinage, Humor |

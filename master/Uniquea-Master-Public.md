@@ -2745,3 +2745,10 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 - **On being trusted (Faith):** "Trusted with a little leads to trusted with more: a key concept in the Holy Bible. Layers and circles." (Luke 16:10; Matthew 25:21.)
 - **On no choice (Rule):** "Every man makes his own terms with God, one way or the other. No choice by default is a choice. Zero effort is not the point; results are. No results. Conclusion: grade 0.0." (Compare Rush, "Freewill," 1980.)
 - **Every Soul Has a Vote (the Irish Poet, el-Bandito Stevo; Faith):** "Every soul has a vote, every soul has a say… The Illumination is not a destination; 'tis a journey through all of Creation, with the Creator guiding the tour, without need to end… Be still and listen. All will be clear." (Psalm 46:10.) *Miraqestic* (coinage): miracle + majestic. We do not speak for the Vatican, the Pope or the Catholic Church.
+
+## The Jigger Scale expanded: 19 rings (November 15, 2026)
+
+- **Owner:** "jiggers, leptons, quarks, bosons." "Expand scale, add real metric prefixes; expand out 5 names/rings."
+- **Rev. 3 (coinage; prefixes and tenants Established):** five rings added at each end, all real SI prefixes: Petajigger (10¹⁵), Exajigger (10¹⁸), Zettajigger (10²¹), Yottajigger (10²⁴), Ronnajigger (10²⁷); Femtojigger (10⁻¹⁵), Attojigger (10⁻¹⁸), Zeptojigger (10⁻²¹), Yoctojigger (10⁻²⁴), Rontojigger (10⁻²⁷). In meters the big end reaches the observable universe (about 8.8 × 10²⁶ m) and the little end passes the proton (femto) and the W and Z (atto) into rings no experiment has yet explored.
+- *Established:* the Standard Model's 6 quarks, 6 leptons and its bosons; quarks and leptons show no size down to about 10⁻¹⁹ m; the Planck length (1.6 × 10⁻³⁵ m) lies beyond the SI's last prefix. *Postulated:* jiggers at the seams are particle-scale events.
+- Table of all 19 rings with their tenants: [docs/Jigger-Scale.md](../docs/Jigger-Scale.md); figure: [figures/Jigger-Scale.png](../figures/Jigger-Scale.png).
