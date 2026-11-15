@@ -23,14 +23,15 @@ assistant and ask your own questions.
 | `Tsirelson-From-Plenum/` | The EPR open target: the quantum 2√2 cap re-derived (Established) and what a plenum derivation must supply (Open) |
 | `docs/UFO-Log.md` | **The UFO Log (Uniquea Filed Observations):** every public observation numbered, dated, HAT-labeled, with what would settle it |
 | `docs/` | Uniquea in public: write-ups, the Tablet and the Legend, the Jigger Scale, and how GitHub, ORCID, Zenodo, arXiv and LaTeX work |
-| `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 5, 2026 (public copy) |
+| `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 15, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
 | `tests/Rung-Zero-SPARC/` | Test 1: one a₀ against 153 SPARC galaxies. Ensemble passes (a₀ ≈ 1.1–1.3 × 10⁻¹⁰ m/s²); per-galaxy universality undecided |
 | `tests/BTFR-SPARC/` | Test 2: baryonic Tully–Fisher, M_b = V⁴/(G a₀), 123 galaxies. Published slope 3.85 ± 0.09 reproduced; slope 4 allowed, not required; a₀ at slope 4 ≈ 1.6 × 10⁻¹⁰ m/s² |
 | `tests/Tetrahedra-SPARC/` | Test 3: Phantom's tetrahedra. 175 SPARC galaxies placed in 3D (NED sky positions, SPARC distances) and tetrahedralized against 300 shuffles. Crowding passes (z up to +4.3; Candidate); voids not seen in so small a sample (Open) |
 | `tests/Pi-Precision/` | The π precision test: π to 15 decimals (Option A) and one decimal at a time (Option B). Each decimal adds clarity through the 31st in the math; in physics, until the data's own error wins (2–5 decimals here) |
-| `tests/Orb-Adiabatic-Check/` | The Orb's cup: early release ∝ J^(4/5); Option A vs Option B; energy ledger closed to ~10⁻¹⁶ |
+| `tests/Orb-Adiabatic-Check/` | The Orb's wobble, its memory and the breath (model calculations): early tipping ∝ J^(4/5); Option A vs Option B; the breath survives Lila damping; energy ledger closed to ~10⁻¹⁶ |
+| `tests/Lila-Damping-Bath/` | Lila damping derived from an energy-conserving action, with the Alt Field as a bath: ζ/ε_L = 1.0018 (mechanism Derived; ζ = ε_L a Candidate condition) |
 | `workbooks/` | Fork Ledger, Option A vs B, Golf Ball on the Tee, Triton Cold Orb, Twelves, F_tap, Borrowed Solutions, Dimension Order |
 | `figures/` | Nash Six levels, Universal Scale, Hubble closure vs DESI, κ_God/F_tap correction, study guides |
 | `packets/` | Audit packets: General, and UC San Diego Department of Physics |

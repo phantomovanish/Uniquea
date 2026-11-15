@@ -3,10 +3,14 @@
 **Status: Tested (provisional).** Run November 2, 2026, and re-run from scratch November 3, 2026.
 The results matched exactly.
 
+## In plain words
+
+Uniquea's earliest guess for how the universe expands was a simple "breathing" curve, a sine wave in time (the sine closure). This test asks: does that curve match the two best modern measurements of the expansion history, the baryon acoustic oscillation ruler (DESI DR2) and the Type Ia supernova standard candles (Pantheon+), as well as the standard model, flat ΛCDM? **Answer: no, it fits much worse.** χ² measures misfit (smaller is better); a difference Δχ² of +1,241 on 13 BAO points is decisive. The breathing idea was then reworked into a limit on a small wobble: see [`../Hubble-Breathing-Limit/`](../Hubble-Breathing-Limit/).
+
 ## What is tested
 The archive's sine closure (Master §3.2, B44) is compared with flat ΛCDM:
 
-- **Sine closure:** cos θ = cos θ₀ + ln(1+z)/A and H/H₀ = sin θ / sin θ₀. Two free parameters, A and θ₀.
+- **Sine closure:** cos θ = cos θ₀ + ln(1+z)/A and H/H₀ = sin θ / sin θ₀. Two free parameters, A and θ₀. Here z is redshift (how much the light has stretched), H the expansion rate, and θ the phase of the breath.
 - **Flat ΛCDM:** one free parameter, Ωm.
 
 ## Data (public, pinned)
@@ -50,8 +54,12 @@ The minimal sine closure fits the stated data substantially worse than flat ΛCD
 ## Limitations, and why the label is provisional
 - Only best-fit χ² values are reported: no posterior, no parameter uncertainties, and no joint BAO + supernova fit.
 - The sine best fit lies on the edge of its parameter space (A → ∞, θ₀ → π), so its χ² is a limiting value.
-- Radiation and orbital details are ignored. These are negligible at z < 2.5.
+- Radiation and spatial curvature are ignored. Both are negligible at z < 2.5 for these data.
 - The test has not yet been checked by anyone independent. It moves from provisional to Tested when an outside reviewer reruns it.
+
+## What would settle it
+
+An independent rerun of `closure_test.py` reproducing the χ² values; then the label moves from provisional to Tested. It would disfavor this waveform only.
 
 ## Run it
 ```

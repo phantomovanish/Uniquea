@@ -2,6 +2,10 @@
 
 **Status: Tested (provisional), November 9, 2026; revised the same day after review by Phantom.**
 
+## In plain words
+
+Stars at the edge of a galaxy orbit faster than the visible matter can explain. One proposal (MOND, Milgrom 1983) says gravity changes below a tiny acceleration, a₀, about 10⁻¹⁰ m/s². Uniquea calls that law "rung zero" of its ladder. The test: take 175 real galaxies (SPARC), compute the pull of their visible gas and stars, compare with the measured orbits, and see whether **one** a₀ fits them all. **Answer: as an ensemble, yes (a₀ ≈ 1.1–1.4 × 10⁻¹⁰ m/s², matching the published value); whether every single galaxy shares it is not yet decided.** Dark-matter models also fit these data; this test checks rung zero, it does not rule them out.
+
 ## The relation tested
 Rung zero of the Nash ladder is the deep-MOND law, F = m·a²/a₀ (credit: Milgrom, 1983). In the low-acceleration
 regime it predicts
@@ -16,11 +20,10 @@ g_obs = √(a₀ · g_bar)
 
 ## Data
 SPARC (Lelli, McGaugh & Schombert 2016): 175 disk galaxies with Spitzer 3.6 µm photometry and HI/Hα
-rotation curves. The official SPARC site is not reachable from this workspace, so the files were taken from
-public GitHub copies (Rotmod_LTG: Cisneros-Galaxy/RCFM, commit 4f9e239; galaxy table: JuliaAstroSim/AstroIC.jl,
-commit 79c9997). The official SPARC page (astroweb.case.edu/SPARC) is online and provides the sample and
-mass-model data; it was not reachable from this analysis workspace. Spot check: NGC 2403 distance 3.16 Mpc and
-inclination 63° match SPARC.
+rotation curves. The official SPARC site (astroweb.cwru.edu/SPARC) was not reachable from the analysis
+workspace, so the first run used public GitHub copies (Rotmod_LTG: Cisneros-Galaxy/RCFM, commit 4f9e239; galaxy
+table: JuliaAstroSim/AstroIC.jl, commit 79c9997). Spot check: NGC 2403 distance 3.16 Mpc and inclination 63°
+match SPARC. Both copies were then checked against the official files (below).
 
 **Official-data check (November 9, 2026).** Both official SPARC files have now been compared with the copies
 used here:
@@ -88,6 +91,12 @@ inclination are galaxy-level nuisance parameters too; this test does not margina
 - **Rung zero inherits MOND's record.** It shares MOND's success on rotation curves and its known problems:
   galaxy clusters, the Bullet Cluster and the cosmic microwave background (open in the audit packet).
 - **cH₀/2π stays a lead**, not a derivation: close, but the fitted a₀ is 7–20% higher.
+
+## What would settle it
+
+- **Universality:** a per-galaxy fit that marginalizes distance, inclination and mass-to-light ratio (as Li et al. 2018 did); if the a₀ spread then shrinks to the errors, one a₀ holds galaxy by galaxy.
+- **More galaxies:** BIG-SPARC (about 3,882 galaxies) when its rotation curves are public.
+- **Beyond galaxies:** rung zero must also face clusters and the cosmic microwave background (Open).
 
 ## Run
 ```

@@ -4,6 +4,10 @@
 
 **Status: mechanism Derived inside the model; the value ζ = ε_L is a Candidate condition on the bath.**
 
+## In plain words
+
+In Uniquea a small wobble on the young universe fades away. Earlier runs simply *wrote in* a drag to make it fade. A drag written by hand is a guess; a physicist wants it to *follow* from a law that keeps every bit of energy. So here the wobble is joined to many quiet background modes, the Alt Field, acting like a **bath**: no friction is written anywhere, the total energy is conserved, and the wobble still fades because its energy spreads into the bath and never comes back. With a single partner instead of a bath, the energy sloshes back and forth and the wobble never fades. The fade rate comes out at Uniquea's purity value ε_L (0.43444%) **if** the bath has the right strength; that strength is a condition, not yet derived. *Terms:* ζ is the damping ratio (how fast the wobble fades per cycle); ε_L the purity value; ω₀ the wobble's frequency; J(ω) how strongly the bath responds at each frequency.
+
 ## The question
 Earlier runs (Orb-Adiabatic-Check/optionAB.py) put the Lila damping into the wobble's equation by hand, as a drag
 term −γp with ζ = ε_L. The Master listed as Open: derive that the Lila damping acts on the wobble.
@@ -40,6 +44,10 @@ No friction is written anywhere. V(y) is the Lila-mapped cup of Master 3.15 at m
   that plays the bath (the Seed Bank b, the gauge triad's modes, or another) has a J(ω) fixed without using ε_L.
 - Hubble term: in the covariant action the wobble also feels 3Hχ̇. It vanishes at the perch (H_b = 0) and pumps
   the wobble during contraction (H < 0); net damping needs 2ε_L ω₀ > 3|H|.
+
+## What would settle it
+
+A physical field for the bath (the Seed Bank, the gauge triad's modes, or another) whose J(ω) is fixed **without** using ε_L. If it gives ζ = ε_L, the Candidate becomes a prediction; if not, the condition is retired.
 
 ## Run
 ```

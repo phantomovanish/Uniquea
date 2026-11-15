@@ -21,7 +21,7 @@
 - **LaTeX** is the typesetting language of mathematics and physics papers, Leslie Lamport's system (1984) built on Donald Knuth's TeX (1978). arXiv prefers LaTeX source.
 
 ## More public places, in order of value
-1. **Zenodo** (recommended next): connect it to GitHub, make a release, and Uniquea gets a permanent DOI tied to the ORCID. No gatekeeper; the record is citable at once.
+1. **Zenodo** (done, November 13, 2026): Uniquea v1.0.0 has the permanent DOI [10.5281/zenodo.24212673](https://doi.org/10.5281/zenodo.24212673), linked to the ORCID. Later versions upload to the same record and keep the DOI family.
 2. **Software Heritage**: archives public code repositories permanently; a GitHub repository can be saved there on request.
 3. **OSF** (Open Science Framework, Center for Open Science) and **OSF Preprints**: projects, files and preprints with DOIs.
 4. **arXiv**: the place physicists read, but it needs an endorsement and accepts moderation. The honest route is to submit a short, focused paper (for example, the SPARC test or the breathing limit) after an outside physicist has read it; the UCSD audit request is a natural path to an endorser.

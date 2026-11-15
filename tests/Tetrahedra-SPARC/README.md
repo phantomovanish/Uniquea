@@ -6,8 +6,14 @@
 
 **Prediction, stated before the run:** connect the galaxies in 3D and the tetrahedra fit snugly: small ones crowd into groups and filaments, big ones span the voids, "support regions of space expanding between."
 
+## In plain words
+
+Join each galaxy to its nearest neighbors in 3D and space fills with tetrahedra (four-cornered pyramids). If galaxies clump, there should be many tiny tetrahedra inside the clumps and some huge ones across the empty regions. To know what "clumped" means, we compare against 300 shuffled skies with the same directions and distances but no real clumping. A full plain-language walk-through is in [`docs/Data-Explained-2026-11-12.md`](../../docs/Data-Explained-2026-11-12.md).
+
+*How to read z:* how far the real sky sits from the shuffles, in units of the shuffles' usual spread. z near 0 is chance; z of 2 or more is unlikely to be chance (about 1 in 40); z of 4 is far beyond chance. 1 Mpc ≈ 3.26 million light-years.
+
 ## Data
-- Distances: SPARC Table1 (Lelli, McGaugh & Schombert 2016, AJ 152, 157), official file `SPARC_Lelli2016c.mrt`.
+- Distances: SPARC Table1 (Lelli, McGaugh & Schombert 2016, AJ 152, 157), official file `SPARC_Lelli2016c.mrt` (download from the SPARC site, astroweb.cwru.edu/SPARC; not redistributed here).
 - Sky positions: NASA/IPAC Extragalactic Database (NED), all 175 of 175 (`sparc_sky_coordinates_ned.csv`), fetched November 12, 2026.
 
 ## Method
@@ -30,5 +36,10 @@ python3 tetrahedra_sparc.py SPARC_Lelli2016c.mrt sparc_sky_coordinates_ned.csv >
 - **Voids: not seen (Open).** 175 galaxies chosen for their rotation curves are too sparse to outline voids, which span tens of millions of light-years; that needs a full redshift survey.
 - SPARC is a chosen sample, not a map, and its 10–30% distance errors blur clustering, so the real crowding is if anything stronger.
 - Credit: the Delaunay tessellation method for mapping the cosmic web (Schaap and van de Weygaert, 2000).
+
+## What would settle it
+
+- **Crowding:** the same test on an independent sample (for example BIG-SPARC, about 3,882 galaxies, when public) with better distances.
+- **Voids:** a full redshift survey of tens of thousands of galaxies (for example SDSS or DESI), tetrahedralized the same way.
 
 *We marvel and we measure.*

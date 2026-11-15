@@ -1,6 +1,12 @@
-# How much can the universe still be breathing today? (Uniquea fork 7, idea 2)
+# How much can the universe still be breathing today?
 
 **Status: Tested (provisional), November 5, 2026.** Same data, cuts and likelihoods as Hubble-Closure-Test.
+
+## In plain words
+
+The simple breathing curve failed ([`../Hubble-Closure-Test/`](../Hubble-Closure-Test/)). So we turned the question around: if the expansion rate still carries a small periodic wobble on top of the standard model, **how big could it be without the data noticing?** We tried wobbles of many lengths (periods) and found the largest size each could have. **Answer: under about 2–3.6% of the expansion rate, for periods from 0.1 to 1.5 in ln(1+z).** The data mildly like a small wobble, but not enough to call it a detection. (Archive note: this was "fork 7, idea 2" in the Master's ledger.)
+
+*Terms:* ε is the wobble's size (as a fraction of the expansion rate); P its length in ln(1+z), a stretched clock of the universe's past; φ its starting phase; Ωm the matter share; the 95% limit is the size above which a wobble is ruled out with 95% confidence.
 
 **Model:** a small wobble on flat ΛCDM, periodic in ln(1+z):
 E(z) = E_ΛCDM(z; Ωm) · [1 + ε(sin(2π ln(1+z)/P + φ) − sin φ)].
@@ -30,6 +36,8 @@ same direction as DESI DR2's reported mild preference for evolving dark energy.
 
 **For the archive:** the sine closure's own breathing (period ≳ 2π·10.3 ≈ 65 in ln(1+z)) is far too slow to
 appear as a wobble; it shows only as a change in the smooth shape, where the sine closure fit badly (3.2).
+
+**What would settle it:** a full CMB likelihood and the next DESI and supernova releases; a wobble that grows in significance past about Δχ² = 25 (after the look-elsewhere correction) would be a detection; one that fades confirms the limit.
 
 **Limitations:** profile likelihood on a coarse grid, six phase starts; no CMB; no look-elsewhere correction.
 Run: `python3 breathing_limit.py <data_dir> breathing_results.json` (about 1 minute, 2 cores).

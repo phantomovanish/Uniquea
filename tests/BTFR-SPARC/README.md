@@ -58,6 +58,10 @@ Run it with `python3 btfr_sparc.py <SPARC_Lelli2016c.mrt> results.json`, then `p
 - The fit uses a simple MCMC, not emcee; the reproduced benchmark numbers serve as the check.
 - Next: rerun with the official Rotmod files; then BIG-SPARC (about 3,882 galaxies) when its curves are public.
 
+## What would settle it
+
+A slope measured with refitted V_flat values, per-galaxy distances and a settled choice of likelihood; a slope of 4 within errors under the benchmark's method and Υ near 0.5 would confirm the prediction, and a slope firmly below 3.7 would count against it.
+
 ## For kids
 
 A heavier galaxy spins faster, and the rule says by how much: double the speed means sixteen times the stuff (2 × 2 × 2 × 2). We checked 123 real galaxies. The rule came out close: the real "power" is about 3.85, and the rule says 4. The magic number a₀ came out about the same as in Test 1. Two different ways of asking, nearly the same answer.
