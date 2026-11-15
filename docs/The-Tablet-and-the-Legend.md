@@ -71,6 +71,8 @@ Four ways of saying the same thing: keep it in view. **The Alt Field**, in the r
 | **The Jigger Scale** | Terajigger (10¹²) to Gammajigger (10⁻¹²), the jigger (1) in the middle; astrophysics at the big end, quantum physics at the little end | Coinage; prefixes Established |
 | **Phase physics** | Phases blended, micro to macro, across all creation; some phases more quantum, others more macro; the math of phases bridges quantum and cosmic | Postulated (the bridge); phase-transition universality Established |
 | **Phantom Phase Physics (PPP)** | The phases on either side of the gap, transitional and blended: like Supermarine, Marine, Submarine, where Marine is "a little super, marine, and a wee bit o' sub" | Coinage; diffuse interfaces Established; the reach across scales Postulated |
+| **UFO** | Uniquea Filed Observations: every entry in the record, identified, dated and labeled | Coinage, Humor |
+| **M.A.D.** | Math Amateur Disciples: students of math who love it ("amateur," from Latin *amator*, lover) | Coinage |
 | **The Tada scale** | Tada → Super Tada → Superduper Tada → UberSuper Tada, upscale and down; like encore, double encore, triple standing ovation; Mini Opus, Opus, Magnum Opus | Coinage, Humor |
 | **"The numbers tell no lies, hold no bias"** | Go in with no expectations, test option A and option B, and let the result stand | Rule |
 | **The Phantom Code** | A date read as a closed chain of arithmetic, e.g. 11-13-2026: 2 → 26 → 23 → 6 → 20 → 2 | Arithmetic Derived; meaning Faith |

@@ -21,7 +21,8 @@ assistant and ask your own questions.
 |---|---|
 | `EPR-Paradox-Verdict/` | The EPR question, Bell's test and the experimental verdict; print-friendly PDF and figure |
 | `Tsirelson-From-Plenum/` | The EPR open target: the quantum 2√2 cap re-derived (Established) and what a plenum derivation must supply (Open) |
-| `docs/` | Uniquea in public: how GitHub, ORCID, Zenodo, arXiv and LaTeX work, and where Uniquea goes next |
+| `docs/UFO-Log.md` | **The UFO Log (Uniquea Filed Observations):** every public observation numbered, dated, HAT-labeled, with what would settle it |
+| `docs/` | Uniquea in public: write-ups, the Tablet and the Legend, the Jigger Scale, and how GitHub, ORCID, Zenodo, arXiv and LaTeX work |
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 5, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |
 | `tests/Hubble-Breathing-Limit/` | Upper limit on a wobble in the expansion rate today: below about 2–3.6% (95%), with and without a CMB prior |
