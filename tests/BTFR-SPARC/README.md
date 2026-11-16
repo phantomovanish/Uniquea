@@ -1,5 +1,7 @@
 # Test 2: the baryonic Tully–Fisher relation against SPARC
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · run November 9, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 **Status: Tested (provisional).** The slope-4 prediction holds up against the data without being confirmed. Its a₀ comes out the same size as Test 1's.

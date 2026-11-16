@@ -1,5 +1,7 @@
 # The π precision test: true, truer, truest
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · run November 11, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 **Status: Tested.** Phantom's claim that each decimal place of π adds clarity holds for the mathematics through the first 31 decimals. For measured physics it holds only until π's error falls below the data's own error, which takes 2 to 5 decimals for the samples here.

@@ -1,5 +1,7 @@
 # The Jigger Scale
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · November 15, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 ![The Jigger Scale](../figures/Jigger-Scale.png)

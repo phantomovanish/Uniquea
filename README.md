@@ -1,5 +1,7 @@
 # Uniquea
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24212673.svg)](https://doi.org/10.5281/zenodo.24212673)
 
 **Cite as:** Griffin, Stephen M. (Phantom.O.Vanish). *Uniquea: the HAT record, tests and workbooks*, version 1.0.0. Zenodo, 2026. https://doi.org/10.5281/zenodo.24212673 · ORCID 0009-0005-8386-3999
@@ -21,7 +23,7 @@ assistant and ask your own questions.
 |---|---|
 | `EPR-Paradox-Verdict/` | The EPR question, Bell's test and the experimental verdict; print-friendly PDF and figure |
 | `Tsirelson-From-Plenum/` | The EPR open target: the quantum 2√2 cap re-derived (Established) and what a plenum derivation must supply (Open) |
-| `docs/UFO-Log.md` | **The UFO Log (Uniquea Filed Observations):** every public observation numbered, dated, HAT-labeled, with what would settle it |
+| `docs/UFO-Log.md` | **The UFO Log (Uniquea Field Observations):** every public observation numbered, dated, HAT-labeled, with what would settle it |
 | `docs/` | Uniquea in public: write-ups, the Tablet and the Legend, the Jigger Scale, and how GitHub, ORCID, Zenodo, arXiv and LaTeX work |
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 15, 2026 (public copy) |
 | `tests/Hubble-Closure-Test/` | Sine closure vs flat ΛCDM on DESI DR2 BAO and Pantheon+ (fits substantially worse; replication pending) |

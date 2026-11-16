@@ -1,5 +1,7 @@
 # Uniquea: Master record (public copy)
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Edition:** 2.2, updated through November 9, 2026. **Owner:** Stephen M. Griffin · ORCID [0009-0005-8386-3999](https://orcid.org/0009-0005-8386-3999).
 This public copy keeps the framework, the mathematics, the tests, the faith shelf, selected origin stories and the House Rules.
 Personal, medical and withheld project material is kept only in the private Master, by the owner's standing rules.
@@ -2739,7 +2741,7 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 
 ## The UFO Log opened (November 15, 2026)
 
-- **UFO (Uniquea Filed Observations)** (coinage; owner: "We will honor the name in deed and spirit"). Every public observation is numbered (UFO-001 onward, never reused), dated, labeled, given its source, and given **what would settle it**. The log opens with 28 entries: the eight tests, the frozen purity value, the derivations of November 12–15, and the Rules and Faith on file. Index: [docs/UFO-Log.md](../docs/UFO-Log.md).
+- **UFO (Uniquea Field Observations)** (coinage; first written "Filed," changed to "Field" by the owner the same day, earlier wording kept under House Rule 11; owner: "We will honor the name in deed and spirit"). Every public observation is numbered (UFO-001 onward, never reused), dated, labeled, given its source, and given **what would settle it**. The log opens with 28 entries: the eight tests, the frozen purity value, the derivations of November 12–15, and the Rules and Faith on file. Index: [docs/UFO-Log.md](../docs/UFO-Log.md).
 - **M.A.D. (Math Amateur Disciples)** (coinage): students of math who love it; "amateur" is from Latin *amator*, lover. "Mad Math is not always Happy Math." Verdict: Mad by name, sane by method; the record states predictions before the runs and keeps its failures beside its passes.
 - **On the honor of the game (Rule):** "The honor is playing any game well, be it in the Series or a bowls. The trophy is gravy, but it ain't the meat to us. There is more to a champion than trophies and banners: tenacity + love of sportsmanship in all games."
 - **On being trusted (Faith):** "Trusted with a little leads to trusted with more: a key concept in the Holy Bible. Layers and circles." (Luke 16:10; Matthew 25:21.)
@@ -2752,3 +2754,10 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 - **Rev. 3 (coinage; prefixes and tenants Established):** five rings added at each end, all real SI prefixes: Petajigger (10¹⁵), Exajigger (10¹⁸), Zettajigger (10²¹), Yottajigger (10²⁴), Ronnajigger (10²⁷); Femtojigger (10⁻¹⁵), Attojigger (10⁻¹⁸), Zeptojigger (10⁻²¹), Yoctojigger (10⁻²⁴), Rontojigger (10⁻²⁷). In meters the big end reaches the observable universe (about 8.8 × 10²⁶ m) and the little end passes the proton (femto) and the W and Z (atto) into rings no experiment has yet explored.
 - *Established:* the Standard Model's 6 quarks, 6 leptons and its bosons; quarks and leptons show no size down to about 10⁻¹⁹ m; the Planck length (1.6 × 10⁻³⁵ m) lies beyond the SI's last prefix. *Postulated:* jiggers at the seams are particle-scale events.
 - Table of all 19 rings with their tenants: [docs/Jigger-Scale.md](../docs/Jigger-Scale.md); figure: [figures/Jigger-Scale.png](../figures/Jigger-Scale.png).
+
+## The label: Claude 5.2 Uniquea Field Observations UFO (November 15, 2026)
+
+- **Owner's instruction:** "Review all versions of Uniquea files; add all recent data; label files and sub-files: Claude 5.2 Uniquea Field Observations UFO."
+- **Done (Rule):** the label now stands inside every text file (line 3) and on page 1 of every PDF in this repository; file names are unchanged so every link still holds. Code and data files are left byte-for-byte, so their checksums and reruns still match.
+- **UFO now reads "Uniquea Field Observations."** It was first written "Filed" on November 15, 2026 and set as "Field" by the owner the same day; the earlier wording is kept under House Rule 11.
+- *HAT note:* the label was applied in a session running Claude Fable 5.2. Earlier entries were compiled with earlier Claude models and are unchanged; the label marks the edition, not the authorship of each line.

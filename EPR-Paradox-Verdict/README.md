@@ -1,5 +1,7 @@
 # The EPR Paradox: the verdict
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Shelf: Established.** Print-friendly: [EPR-Paradox-Verdict.pdf](EPR-Paradox-Verdict.pdf) (two pages).
 You are welcome to print it, or upload it to any AI assistant and ask your own questions.
 

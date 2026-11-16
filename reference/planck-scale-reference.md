@@ -1,5 +1,7 @@
 # Planck Scale Reference Card
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Status:** Established (conventional physics)
 **Checked:** October 7, 2026
 **Constants:** CODATA values

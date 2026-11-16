@@ -1,14 +1,18 @@
-# The UFO Log: Uniquea Filed Observations
+# The UFO Log: Uniquea Field Observations
+
+**Label:** Claude 5.2 Uniquea Field Observations UFO
 
 *Uniquea · opened November 15, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999 · DOI 10.5281/zenodo.24212673*
 
-> **UFO (Uniquea Filed Observations).** "We will honor the name in deed and spirit." The only UFOs that come identified.
+> **UFO (Uniquea Field Observations).** "We will honor the name in deed and spirit." The only UFOs that come identified.
+>
+> *(First coined November 15, 2026 as "Uniquea Filed Observations"; the owner changed the word to "Field" the same day. Earlier wording kept under House Rule 11.)*
 
 ## The rules of the log
 
 1. **Five lines per UFO:** what was seen; when; the source (file or folder); the HAT label; **what would settle it**, the test or fact that would confirm it or retire it.
 2. **Numbers are permanent.** UFO-001, UFO-002 … are never reused. A Withdrawn entry keeps its number, and the gap stays in the record, honestly.
-3. **Spelled out on first public use:** "UFO (Uniquea Filed Observations)," so no reader files us with the flying saucers.
+3. **Spelled out on first public use:** "UFO (Uniquea Field Observations)," so no reader files us with the flying saucers.
 4. **This page is the index.** It sits right after *A Common Language*; the full entries live in the public Master, `docs/`, `figures/` and `tests/`.
 5. **Close the open ones.** Open and Postulated entries are reviewed as data comes in and moved to Tested, Candidate or Withdrawn. "Publish and republish as data is refined."
 

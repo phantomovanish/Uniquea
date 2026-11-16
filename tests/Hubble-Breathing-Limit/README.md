@@ -1,5 +1,7 @@
 # How much can the universe still be breathing today?
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Status: Tested (provisional), November 5, 2026.** Same data, cuts and likelihoods as Hubble-Closure-Test.
 
 ## In plain words

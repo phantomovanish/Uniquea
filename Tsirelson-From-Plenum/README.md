@@ -1,5 +1,7 @@
 # Open target: derive the 2√2 cap from the structure of the plenum
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Status: the quantum 2√2 cap is Established. The plenum derivation is Open.**
 *Correction (November 6, 2026, outside review accepted):* an earlier version of this page labeled the result
 "Derived, conditional on one postulate about the plenum." That postulate, correlations as inner products of unit

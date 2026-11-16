@@ -1,5 +1,7 @@
 # Test 3: Phantom's tetrahedra in the real neighborhood
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · run November 12, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 **Status: Tested, provisional.** Crowding passes (Candidate); voids not seen (Open).

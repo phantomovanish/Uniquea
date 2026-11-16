@@ -1,5 +1,7 @@
 # Phantom's circle, tightened
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · November 13, 2026 · Phantom.O.Vanish and el-Bandito Stevo (Stephen M. Griffin) · ORCID 0009-0005-8386-3999*
 
 ![Phantom's circle, tightened](../figures/Phantom-Circle-Tightened.png)

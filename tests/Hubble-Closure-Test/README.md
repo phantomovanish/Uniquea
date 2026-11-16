@@ -1,5 +1,7 @@
 # Hubble-closure test: reproducibility package
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Status: Tested (provisional).** Run November 2, 2026, and re-run from scratch November 3, 2026.
 The results matched exactly.
 

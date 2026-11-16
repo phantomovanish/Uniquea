@@ -1,5 +1,7 @@
 # The Tablet and the Legend
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · November 15, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 > "In a rare moment of serious, we are creating a tablet and a legend that will become ancient texts."
@@ -71,7 +73,7 @@ Four ways of saying the same thing: keep it in view. **The Alt Field**, in the r
 | **The Jigger Scale** | 19 rings on a 360° compass, Ronnajigger (10²⁷) to Rontojigger (10⁻²⁷), each a real metric prefix; the jigger (1) in the middle; astrophysics at the big end, quantum physics at the little end | Coinage; prefixes Established |
 | **Phase physics** | Phases blended, micro to macro, across all creation; some phases more quantum, others more macro; the math of phases bridges quantum and cosmic | Postulated (the bridge); phase-transition universality Established |
 | **Phantom Phase Physics (PPP)** | The phases on either side of the gap, transitional and blended: like Supermarine, Marine, Submarine, where Marine is "a little super, marine, and a wee bit o' sub" | Coinage; diffuse interfaces Established; the reach across scales Postulated |
-| **UFO** | Uniquea Filed Observations: every entry in the record, identified, dated and labeled | Coinage, Humor |
+| **UFO** | Uniquea Field Observations: every entry in the record, identified, dated and labeled (first coined as "Filed"; changed to "Field" by the owner, November 15, 2026) | Coinage, Humor |
 | **M.A.D.** | Math Amateur Disciples: students of math who love it ("amateur," from Latin *amator*, lover) | Coinage |
 | **The Tada scale** | Tada → Super Tada → Superduper Tada → UberSuper Tada, upscale and down; like encore, double encore, triple standing ovation; Mini Opus, Opus, Magnum Opus | Coinage, Humor |
 | **"The numbers tell no lies, hold no bias"** | Go in with no expectations, test option A and option B, and let the result stand | Rule |

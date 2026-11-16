@@ -1,5 +1,7 @@
 # Uniquea test 1: one a₀ against galaxy rotation curves (rung zero)
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 **Status: Tested (provisional), November 9, 2026; revised the same day after review by Phantom.**
 
 ## In plain words

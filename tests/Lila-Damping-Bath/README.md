@@ -1,5 +1,7 @@
 # Lila damping from an action: the Alt Field as a bath
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · run November 10, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 **Status: mechanism Derived inside the model; the value ζ = ε_L is a Candidate condition on the bath.**

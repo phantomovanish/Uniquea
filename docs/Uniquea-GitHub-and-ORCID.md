@@ -1,5 +1,7 @@
 # Uniquea in Public: GitHub, ORCID and What Comes Next
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · November 9, 2026 · replaces the GitHub Release Plan of November 5 (kept for the record, House Rule 11)*
 
 ## Where things stand

@@ -1,5 +1,7 @@
 # The Orb checks: the wobble, its memory, and the breath
 
+**Label:** Claude 5.2 Uniquea Field Observations UFO
+
 *Uniquea · runs November 5–8, 2026 · Stephen M. Griffin (Phantom.O.Vanish) · ORCID 0009-0005-8386-3999*
 
 **Status: Derived inside the model** (these are calculations on Uniquea's own equations, not tests against outside data). Full entries: public Master, Part 3.12 and the November 5 and 8 entries.
