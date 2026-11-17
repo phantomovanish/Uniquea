@@ -2091,8 +2091,8 @@ a statement of faith (R61). Physics does not depend on the numeral base.
 ---
 
 
-**The blackbirds, Dothan, Alabama, about 1963.** The family lived at 1104 Morgan Street,
-later Sumter Street, a few blocks north of what became Rip Hewes Stadium. Before the
+**The blackbirds, Dothan, Alabama, about 1963.** The family lived in Dothan, Alabama,
+a few blocks north of what became Rip Hewes Stadium. Before the
 stadium the site was pines and oaks where blackbirds roosted. A boy watched them fly
 wildly without colliding, close enough to hear the wings.
 

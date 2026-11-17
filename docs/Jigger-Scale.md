@@ -6,7 +6,7 @@
 
 ![The Jigger Scale](../figures/Jigger-Scale.png)
 
-> "CaGiggers and KaJiggers, Chaos and Kaos, and all things in between: in the middle are the valuable answers, or so Phantom Logic figures." "Megajiggers, microjiggers, gammajiggers: the complete scale, macro to micro. All things in between measures. Lila-gap-Lisa."
+> "CaGiggers and KaJiggers, Chaos and Kaos, and all things in between: in the middle are the valuable answers, or so Phantom Logic figures." "Megajiggers, microjiggers, gammajiggers: the complete scale, macro to micro. All things in between measures. Lila-gap-[name withheld]."
 
 ## The scale (rev. 3: 19 rings, real metric prefixes)
 
@@ -23,7 +23,7 @@ Each ring is 1,000 times the one below it. Sizes are given in meters, so each ri
 | CaGigger | giga (G) | 10⁹ | the Sun, 1.4 × 10⁹ m across | Big (astro) |
 | Megajigger | mega (M) | 10⁶ | the Moon and small planets | Big (astro) |
 | KaJigger | kilo (k) | 10³ | a ten-minute walk; a mountain | Middle |
-| **the jigger** | (none) | **1** | **a child; a guitar: Lila-gap-Lisa** | **Middle** |
+| **the jigger** | (none) | **1** | **a child; a guitar: Lila-gap-[name withheld]** | **Middle** |
 | Millijigger | milli (m) | 10⁻³ | a grain of sand | Middle |
 | Microjigger | micro (µ) | 10⁻⁶ | a bacterium | Little (quantum) |
 | Nanojigger | nano (n) | 10⁻⁹ | the width of DNA (2 nm) | Little (quantum) |
@@ -42,7 +42,7 @@ Each ring is 1,000 times the one below it. Sizes are given in meters, so each ri
 
 - **Full motion, a 360° compass, a full-range universal scale.** The scale is drawn as a ring rather than a line. On a line, the biggest and the smallest sit at opposite ends; on the compass, they meet at the top, the seam marked ∞.
 - **Big, middle and little; and the bridge (revised November 15, 2026, 7:49 a.m., the owner's correction):** "Two ends over fulcrum, a double fulcrum. Quantum is still quantum physics and astro is still astro. Phase physics describes phases blended, micro to macro: all creation, across scale. Some phases are more quantum and others more macro. The current state of quantum and cosmic are bridged by the math of phases." In the figure, astrophysics and quantum physics are the two ends (outer arcs); **phase physics is the inner ring that runs all the way around**, the bridge between them.
-- **The middle is the valuable answer (Phantom's Metaphor).** The jigger sits at 10⁰, the fulcrum of the scale; Lila and Lisa sit at the fulcrum with the gap between them.
+- **The middle is the valuable answer (Phantom's Metaphor).** The jigger sits at 10⁰, the fulcrum of the scale; Lila and a second partner sit at the fulcrum with the gap between them.
 - **A common language (Phantom's Rule).** "We are creating a common language because the math has ordered the descriptions. We went with no expectations, applied option A and option B, and tada: the numbers tell no lies, hold no bias."
 
 ## HAT
