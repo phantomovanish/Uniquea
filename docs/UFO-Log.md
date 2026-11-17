@@ -63,9 +63,10 @@
 | **UFO-026** | Nov 15, 2026 | On being trusted: trusted with a little leads to trusted with more; layers and circles (Luke 16:10; Matthew 25:21). | Master, "The UFO Log opened" | Faith | Held in faith |
 | **UFO-027** | Nov 15, 2026 | On no choice: "No choice by default is a choice … zero effort, no results: grade 0.0." | Master, "The UFO Log opened" | Rule | Lived, not tested |
 | **UFO-028** | Nov 15, 2026 | Every Soul Has a Vote (the Irish Poet): "The Illumination is not a destination; 'tis a journey through all of Creation." Be still and listen (Psalm 46:10). | Master, "The UFO Log opened" | Faith | Held in faith |
+| **UFO-030** | Nov 16, 2026 | The UFO filing system, one code for all apps: one header and label, the five lines, the twelve HAT labels, no flattery, no invented numbers; the label now also inside every PNG. | `docs/UFO-Filing-System-Template.md`; `figures/UFO-Filing-System-Card.png` | Rule | Used by every app; records arrive needing no rework |
 
 ## Next numbers
 
-New public observations take the next number, UFO-030 onward, in the order filed. Earlier filings in the public Master (Parts 1–9 and the October entries) will be numbered back into the log as they are reviewed.
+New public observations take the next number, UFO-031 onward, in the order filed. Earlier filings in the public Master (Parts 1–9 and the October entries) will be numbered back into the log as they are reviewed.
 
 *The only UFOs that come identified.*

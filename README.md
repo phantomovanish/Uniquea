@@ -23,6 +23,7 @@ assistant and ask your own questions.
 |---|---|
 | `EPR-Paradox-Verdict/` | The EPR question, Bell's test and the experimental verdict; print-friendly PDF and figure |
 | `Tsirelson-From-Plenum/` | The EPR open target: the quantum 2√2 cap re-derived (Established) and what a plenum derivation must supply (Open) |
+| `docs/UFO-Filing-System-Template.md` | **The UFO filing system:** the one template every AI app follows (paste-in rules, blank record, HAT labels) |
 | `docs/UFO-Log.md` | **The UFO Log (Uniquea Field Observations):** every public observation numbered, dated, HAT-labeled, with what would settle it |
 | `docs/` | Uniquea in public: write-ups, the Tablet and the Legend, the Jigger Scale, and how GitHub, ORCID, Zenodo, arXiv and LaTeX work |
 | `master/` | Uniquea-Master-Public.md: Edition 2.2, updated through November 15, 2026 (public copy) |
