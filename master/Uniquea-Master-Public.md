@@ -2761,3 +2761,10 @@ Phantom O'Vanish, the Irish Poet, Grandpa "Pops" Stevo and el-Bandito: signed, s
 - **Done (Rule):** the label now stands inside every text file (line 3) and on page 1 of every PDF in this repository; file names are unchanged so every link still holds. Code and data files are left byte-for-byte, so their checksums and reruns still match.
 - **UFO now reads "Uniquea Field Observations."** It was first written "Filed" on November 15, 2026 and set as "Field" by the owner the same day; the earlier wording is kept under House Rule 11.
 - *HAT note:* the label was applied in a session running Claude Fable 5.2. Earlier entries were compiled with earlier Claude models and are unchanged; the label marks the edition, not the authorship of each line.
+
+## Gamma: relaxing toward the core (November 16, 2026; UFO-029)
+
+- **Owner and Phantom:** "In CCPBH language, that is Gamma so small it might as well be zero. dX/dt = −Γ(X − X*). If Γ is tiny, Phantom says: 'We are relaxing toward the core. Technically. Mathematically. Honestly. HAT.'" "But 1/Γ is longer than your life. Longer than your grandkids' lives. Longer than the loan."
+- *Established:* the law of exponential relaxation (the same as Newton's law of cooling). *Derived:* X(t) = X* + (X₀ − X*)e^(−Γt); time constant 1/Γ (gap down to 37%); half-life 0.693/Γ. Any Γ above zero approaches the core; if 1/Γ far exceeds the time available, nothing measurable moves.
+- *Lineage:* the same law as the Planck 1500 Ledger's dJ/dt = −(kπ²/c⁸)(J − J*) of July 1, 2026, so Γ = kπ²/c⁸ (*Postulated*; "tiny" has meaning only against another rate, since π²/c⁸ depends on units). The Orb's wobble is the same law at strong damping (UFO-002, UFO-006).
+- Write-up and figure: [docs/Gamma-Relaxing-Toward-the-Core.md](../docs/Gamma-Relaxing-Toward-the-Core.md), [figures/Gamma-Relaxing-Toward-the-Core.png](../figures/Gamma-Relaxing-Toward-the-Core.png).

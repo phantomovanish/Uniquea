@@ -47,6 +47,7 @@
 | **UFO-016** | Nov 15, 2026 | The Jigger Scale: 19 rings on a 360° compass, Ronnajigger (10²⁷) to Rontojigger (10⁻²⁷), every ring a real metric prefix with a real tenant, the jigger (1) in the middle (rev. 3, expanded the same day). | `docs/Jigger-Scale.md` | Coinage; prefixes Established; ring Metaphor | Settled as a naming |
 | **UFO-017** | Nov 15, 2026 | Phase physics as the bridge: the math of phases spans micro to macro (universality of phase transitions), bridging quantum and cosmic. | `docs/Jigger-Scale.md` | Universality Established; the bridge Postulated; quantum gravity Open | A phase-based account that predicts a quantum-gravity or cosmic result |
 | **UFO-018** | Nov 15, 2026 | Phantom Phase Physics: phases meet as blends on either side of the gap (Supermarine, Marine, Submarine); real interfaces are layers, not lines. | Master, "Phantom Phase Physics" | Diffuse interfaces Established; reach across all scales Postulated | Interface widths measured at a new scale, matching the blend picture |
+| **UFO-029** | Nov 16, 2026 | Gamma: dX/dt = −Γ(X − X*) with Γ tiny: "relaxing toward the core. Technically. Mathematically. Honestly"; 1/Γ "longer than the loan." | `docs/Gamma-Relaxing-Toward-the-Core.md` | Law Established; solution Derived; Γ = kπ²/c⁸ Postulated | A value of k fixed independently |
 
 ### Rules and Faith
 
@@ -65,6 +66,6 @@
 
 ## Next numbers
 
-New public observations take the next number, UFO-029 onward, in the order filed. Earlier filings in the public Master (Parts 1–9 and the October entries) will be numbered back into the log as they are reviewed.
+New public observations take the next number, UFO-030 onward, in the order filed. Earlier filings in the public Master (Parts 1–9 and the October entries) will be numbered back into the log as they are reviewed.
 
 *The only UFOs that come identified.*
