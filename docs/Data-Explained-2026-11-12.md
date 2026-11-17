@@ -49,6 +49,8 @@ A z-score says how far the real galaxies sit from the shuffles, counted in the s
 
 *1 megaparsec (Mpc) = about 3.26 million light-years. "Within 30 Mpc" is the near neighborhood, about 100 million light-years. The Ursa Major group was taken out in one cut because SPARC gives all its galaxies one shared distance, which could fake a clump.*
 
+*Correction, November 17, 2026 (reviewer: Manus).* The z values above use the shuffles' average and spread, which assumes a bell curve. Counted directly with 100,000 shuffles, **one** matched the real spread of sizes: a chance of about 2 in 100,000, z ≈ 4.1. Because 4 rulers were read in 3 cuts (12 numbers), the best one should be discounted: about **z ≈ 3.5**. Without Ursa Major the spread falls to z ≈ 2.7, and the share of tiny tetrahedra carries the result (z ≈ 3.3). Details: `tests/Tetrahedra-SPARC/README.md`, "How the z was computed."
+
 ### What it means
 
 - **Crowding: passes (Candidate).** The real galaxies make far more tiny tetrahedra and a far wider spread of sizes than the shuffles, and in the near neighborhood their nearest companions are about 30% closer than chance. The result survives with Ursa Major removed. Phantom's small, snug tetrahedra are there.
@@ -86,6 +88,7 @@ The spreadsheet *Pi Truncation Steps* cuts π after 0, 1, 2 … 15 decimals (3, 
 - **Wavy step by step, smooth over the run.** Each decimal shrinks the error by a different amount, small for a small digit and large for a large one, but on average by about ten times. On a scale of powers of ten, the error glides down at a nearly constant angle.
 - **Truncated π never zigzags.** The digits zigzag, but every cut approaches π from below and gets closer each time. Only rounded π overshoots.
 - **Flip the error scale and it matches the digit sum.** The flipped error climbs about 0.98 powers of ten per decimal; the digit sum climbs about 5.1 per decimal; the two correlate at **0.993**.
+- **A teaching demo, not evidence about nature.** The error shrinks about tenfold per decimal because that is how decimal numbers work: each place is worth a tenth of the one before. Any number would do the same.
 - **Why they match (HAT).** Both are counting the same ladder of decimals. As a check, 2,000 sets of *random* digits match just as well (typical 0.990). So the match is real, but its cause is shared, not a hidden signal in π.
 - **One measure Lila, one Lisa (Metaphor).** The clarity line is Lisa: almost perfectly straight (0.998 with the decimal count), Linear as in L.I.S.A. The digit sum is Lila: the same climb with a wobble at every rung. Same ladder, two measures, rising together: seamless by design.
 

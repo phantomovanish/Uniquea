@@ -1,0 +1,18 @@
+
+== all 175: 175 galaxies, 100000 shuffles
+median_nn    z(bell-curve)=-1.81  shuffles as extreme= 2976/100000  p=0.03  z(from count)=1.88  skew=+0.10
+small_frac   z(bell-curve)=+2.18  shuffles as extreme= 2131/100000  p=0.021  z(from count)=2.03  skew=+0.31
+logV_std     z(bell-curve)=+4.02  shuffles as extreme=    1/100000  p=2e-05  z(from count)=4.11  skew=-0.10
+top10_share  z(bell-curve)=+0.52  shuffles as extreme=31594/100000  p=0.32  z(from count)=0.48  skew=-0.23
+
+== within 30 Mpc: 133 galaxies, 100000 shuffles
+median_nn    z(bell-curve)=-2.95  shuffles as extreme=   31/100000  p=0.00032  z(from count)=3.41  skew=+0.22
+small_frac   z(bell-curve)=+0.27  shuffles as extreme=36545/100000  p=0.37  z(from count)=0.34  skew=+0.54
+logV_std     z(bell-curve)=+1.75  shuffles as extreme= 4103/100000  p=0.041  z(from count)=1.74  skew=+0.04
+top10_share  z(bell-curve)=+1.53  shuffles as extreme= 6547/100000  p=0.065  z(from count)=1.51  skew=+0.07
+
+== excluding Ursa Major: 147 galaxies, 100000 shuffles
+median_nn    z(bell-curve)=-0.66  shuffles as extreme=26339/100000  p=0.26  z(from count)=0.63  skew=+0.27
+small_frac   z(bell-curve)=+3.96  shuffles as extreme=   54/100000  p=0.00055  z(from count)=3.26  skew=+0.50
+logV_std     z(bell-curve)=+2.62  shuffles as extreme=  377/100000  p=0.0038  z(from count)=2.67  skew=-0.06
+top10_share  z(bell-curve)=+1.19  shuffles as extreme=11864/100000  p=0.12  z(from count)=1.18  skew=-0.12

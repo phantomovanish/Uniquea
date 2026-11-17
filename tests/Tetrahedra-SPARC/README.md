@@ -33,8 +33,37 @@ python3 tetrahedra_sparc.py SPARC_Lelli2016c.mrt sparc_sky_coordinates_ned.csv >
 | Median nearest neighbor, real vs shuffled | 2.18 vs 2.58 Mpc | 1.15 vs 1.59 Mpc (z = −2.8) | 2.87 vs 3.04 Mpc |
 | Volume share of the largest 10% (z) | +0.5 | +1.6 | +1.2 |
 
+## How the z was computed, and a counted check (added November 17, 2026)
+
+A reviewer (Manus) asked how z = +4.3 was computed, since a count of 300 shuffles cannot show anything rarer than about 1 in 300 (z ≈ 2.7). The question was fair.
+
+- **How the first run computed z:** (real value − average of the shuffles) ÷ spread of the shuffles. That reading assumes the shuffles form a bell curve. With 300 shuffles it cannot be checked that far out in the tail: **none of the 300 shuffles** matched the real sky's spread of sizes, so the count alone says only "rarer than about 1 in 300."
+- **The counted check:** `tetrahedra_ranks.py` repeats the test and **counts** how many shuffles come out at least as extreme as the real sky, in the predicted direction, first with the same 300 shuffles (`results_ranks_300.txt`, identical z values), then with **100,000 shuffles** (`results_ranks_100000.txt`, `ranks_100000_seed2026.json`).
+
+| Measure (predicted direction) | Cut | z, bell-curve reading | Shuffles as extreme, of 100,000 | Chance, counted | z, from the count | After 12 comparisons |
+|---|---|---|---|---|---|---|
+| Spread of sizes (wider) | All 175 | +4.0 | **1** | 2 × 10⁻⁵ | **4.1** | z ≈ 3.5 |
+| Median nearest neighbor (closer) | Within 30 Mpc | −2.95 | 31 | 3 × 10⁻⁴ | 3.4 | z ≈ 2.7 |
+| Share of tiny tetrahedra (more) | Without Ursa Major | +4.0 | 54 | 6 × 10⁻⁴ | 3.3 | z ≈ 2.5 |
+| Spread of sizes (wider) | Without Ursa Major | +2.6 | 377 | 4 × 10⁻³ | 2.7 | z ≈ 1.7 |
+| Share of tiny tetrahedra (more) | All 175 | +2.2 | 2,131 | 0.02 | 2.0 | not significant |
+| Volume share of the largest 10% (voids) | All three | +0.5 to +1.5 | 6,547 or more | 0.07 or more | ≤ 1.5 | not significant |
+
+*Chance, counted* = (shuffles as extreme + 1) ÷ (shuffles + 1), one-sided. *After 12 comparisons:* the test looked at 4 rulers in 3 cuts, so the best of 12 numbers is expected to look better than any one alone; the last column multiplies each chance by 12 (the Bonferroni correction). The rulers overlap, so this correction is cautious.
+
+**Reading the recount.**
+- The headline survives: one shuffle in 100,000 matched the real spread of sizes. The bell-curve reading (z ≈ 4.0 to 4.3) and the count (z ≈ 4.1) agree once there are enough shuffles to count that far. Allowing for 12 comparisons, about **z ≈ 3.5**.
+- The strongest number leans partly on the Ursa Major group, whose galaxies SPARC places at one shared distance. Without that group the spread of sizes falls to z ≈ 2.7 (z ≈ 1.7 after 12 comparisons). The share of tiny tetrahedra then carries the result instead (z ≈ 3.3; ≈ 2.5 after 12).
+- **Label unchanged: crowding Candidate; voids Open.** The honest headline is "crowding at about z ≈ 3.5 after allowing for the cuts tried, partly carried by one group," not "z = 4.3."
+- *Not claimed:* that 175 galaxies picked for their rotation curves map the cosmic web, or that the cuts were the only reasonable ones.
+
+```
+python3 tetrahedra_ranks.py SPARC_Lelli2016c.mrt sparc_sky_coordinates_ned.csv 100000 2026
+```
+(About ten minutes on one processor. The 300-shuffle run with seed 42 reproduces `results.txt` exactly.)
+
 ## Reading
-- **Crowding: pass (Candidate).** The small tetrahedra crowd as predicted.
+- **Crowding: pass (Candidate).** The small tetrahedra crowd as predicted; see the counted check above for how strong.
 - **Voids: not seen (Open).** 175 galaxies chosen for their rotation curves are too sparse to outline voids, which span tens of millions of light-years; that needs a full redshift survey.
 - SPARC is a chosen sample, not a map, and its 10–30% distance errors blur clustering, so the real crowding is if anything stronger.
 - Credit: the Delaunay tessellation method for mapping the cosmic web (Schaap and van de Weygaert, 2000).
