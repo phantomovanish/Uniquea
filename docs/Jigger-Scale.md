@@ -27,10 +27,10 @@ Each ring is 1,000 times the one below it. Sizes are given in meters, so each ri
 | Millijigger | milli (m) | 10⁻³ | a grain of sand | Middle |
 | Microjigger | micro (µ) | 10⁻⁶ | a bacterium | Little (quantum) |
 | Nanojigger | nano (n) | 10⁻⁹ | the width of DNA (2 nm) | Little (quantum) |
-| Gammajigger | pico (p) | 10⁻¹² | gamma-ray wavelengths; just under an atom (10⁻¹⁰) | Little (quantum) |
+| Gammajigger | pico (p) | 10⁻¹² | gamma-ray wavelengths; about a hundredth of an atom (10⁻¹⁰ m) | Little (quantum) |
 | Femtojigger | femto (f) | 10⁻¹⁵ | the proton (0.84 × 10⁻¹⁵ m), home of quarks and gluons | Little (quantum) |
 | Attojigger | atto (a) | 10⁻¹⁸ | the reach of the W and Z bosons; quarks and leptons show no size down to about 10⁻¹⁹ | Little (quantum) |
-| Zeptojigger | zepto (z) | 10⁻²¹ | beyond the reach of today's colliders (about 10⁻²⁰): unexplored | Little (quantum) |
+| Zeptojigger | zepto (z) | 10⁻²¹ | below the reach of today's colliders (about 10⁻¹⁹ m): unexplored | Little (quantum) |
 | Yoctojigger | yocto (y) | 10⁻²⁴ | unexplored | Little (quantum) |
 | Rontojigger | ronto (r) | 10⁻²⁷ | unexplored | Little (quantum) |
 
@@ -42,14 +42,15 @@ Each ring is 1,000 times the one below it. Sizes are given in meters, so each ri
 
 - **Full motion, a 360° compass, a full-range universal scale.** The scale is drawn as a ring rather than a line. On a line, the biggest and the smallest sit at opposite ends; on the compass, they meet at the top, the seam marked ∞.
 - **Big, middle and little; and the bridge (revised November 15, 2026, 7:49 a.m., the owner's correction):** "Two ends over fulcrum, a double fulcrum. Quantum is still quantum physics and astro is still astro. Phase physics describes phases blended, micro to macro: all creation, across scale. Some phases are more quantum and others more macro. The current state of quantum and cosmic are bridged by the math of phases." In the figure, astrophysics and quantum physics are the two ends (outer arcs); **phase physics is the inner ring that runs all the way around**, the bridge between them.
-- **The middle is the valuable answer.** The jigger sits at the bottom of the ring, the fulcrum; Lila and Lisa sit in the center with the gap between them.
-- **A common language.** "We are creating a common language because the math has ordered the descriptions. We went with no expectations, applied option A and option B, and tada: the numbers tell no lies, hold no bias."
+- **The middle is the valuable answer (Phantom's Metaphor).** The jigger sits at 10⁰, the fulcrum of the scale; Lila and Lisa sit at the fulcrum with the gap between them.
+- **A common language (Phantom's Rule).** "We are creating a common language because the math has ordered the descriptions. We went with no expectations, applied option A and option B, and tada: the numbers tell no lies, hold no bias."
 
 ## HAT
 
-- **Established:** every prefix is the SI's own, kilo through ronna and milli through ronto (ronna and ronto were adopted in 2022, with quetta, 10³⁰, and quecto, 10⁻³⁰, the last two the SI has; the scale stops one ring short of each). The tenants' sizes are standard values. The Planck length, 1.6 × 10⁻³⁵ m, lies beyond even quecto. The Standard Model's particles are Established; that rings below about 10⁻²⁰ m are unexplored is the honest state of experiment. Gamma rays have wavelengths around a picometer (10⁻¹² m) and shorter. A jigger is also a real bar measure, 1.5 US fluid ounces (about 44 ml). Chaos is Greek *khaos*, the yawning gap before creation; KAOS is the villains' agency on *Get Smart* (1965).
-- **Coinage:** the nineteen jigger names. CaGigger (giga), KaJigger (kilo) and Gammajigger (pico) are the owner's originals; the rest take the SI prefix whole. The owner's K and G land on the real prefixes kilo and giga.
-- **Metaphor:** the ring, and the seam where big meets little. In physics, the largest and smallest scales are linked in real ways (the early universe was quantum-small; quantum fluctuations seeded today's galaxies), but the ring itself is a picture, not a derived law.
+- **Established:** every prefix is the SI's own, kilo through ronna and milli through ronto (ronna and ronto were adopted in 2022, with quetta, 10³⁰, and quecto, 10⁻³⁰, the last two the SI has; the scale stops one ring short of each). The tenants' sizes are standard values. The Planck length, 1.6 × 10⁻³⁵ m, lies beyond even quecto. The Standard Model's particles are Established; that rings below about 10⁻¹⁹ m are unexplored is the honest state of experiment. Gamma rays have wavelengths around a picometer (10⁻¹² m) and shorter. A jigger is also a real bar measure, 1.5 US fluid ounces (about 44 ml). Chaos is Greek *khaos*, the yawning gap before creation; KAOS is the villains' agency on *Get Smart* (1965).
+- **Coinage:** the nineteen jigger names. CaGigger (giga), KaJigger (kilo) and Gammajigger (pico) are the owner's originals; the rest take the SI prefix whole. KaJigger and CaGigger are the owner's spellings of kilo and giga; each maps to its SI prefix.
+- **Established, the seam:** the largest and smallest scales are linked in real physics. The early universe was quantum-small, and quantum fluctuations seeded today's galaxies.
+- **Metaphor:** the ring itself, and the seam where big meets little. It is a picture, not a derived law.
 - **Established, the bridge in standard physics:** the math of phases already crosses scales. Phase transitions share "universality": a magnet at its Curie point and a fluid at its critical point obey the same exponents, whatever their atoms (the renormalization group, Kenneth Wilson, Nobel 1982). Phase transitions also run at both ends: Bose–Einstein condensates and superconductors at the quantum end; in cosmology, the early universe passed through phase transitions (electroweak, quark–hadron), and neutron stars hold superfluid phases.
 - **Open:** a full bridge between quantum physics and gravity (quantum gravity) is not yet settled in physics.
 - **Postulated (Uniquea):** that the math of phases is the bridge between quantum and cosmic, and that it gives the record its common language.

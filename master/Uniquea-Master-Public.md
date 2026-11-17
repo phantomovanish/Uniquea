@@ -2785,3 +2785,11 @@ A review by Manus raised four points about a PDF summary made outside this archi
 - **π digit sums: the reviewer's arithmetic is right.** The first 50 digits of π (counting the 3) add to 247, and the running total passes 100 at the 21st digit. "Climbs to 100" and "p = 2.2 × 10⁻¹⁶" are not in this record (2.2 × 10⁻¹⁶ is the smallest number R prints, not a measurement). The tenfold shrink per decimal comes from how decimals work: a teaching demo, as this record's data explainer already said; a line saying so plainly has been added.
 - **Higgs: already agreed.** "Phantom's Higgs rain" was filed as not supported (Part 3.16): galaxies glow from fusion in stars; about 99% of ordinary mass comes from the strong force binding protons and neutrons. The recast, "galaxies glow from fusion; they grow on cosmic rain" (real streams of cold gas), stands.
 - *Rule:* outside review is welcome and is filed with its corrections, whoever gives it.
+
+---
+
+## Humor: the towel story (November 17, 2026)
+
+- **A fib takes over a life (Humor; owner's story, no names).** A tall tale about a concert, a towel and a limo spread through a workplace, and the house of cards came down. The lesson, in the owner's words: an ill word comes back to whoever sent it. Tell the truth as a footnote.
+- **Pranks (Humor, owner's rule of thumb).** A prank is a short, planned script that lands once. Go too far and it recoils.
+- **GigaKajiggers (Humor).** The owner's word for kids, who laugh at "kazzillion" and at the stutter when a logic chain collides ("ka ka kazz zillion").
