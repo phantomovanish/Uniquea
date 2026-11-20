@@ -12,6 +12,12 @@ An earlier, separately prepared four-compass proposal was also consulted. It des
 
 Start with [`RESULTS.md`](RESULTS.md) for the three checks and publication safeguard. The separately parameterized [`geometry/technical_note.md`](geometry/technical_note.md) calculates a center of mass, candidate pivot, gravitational torque and conventional gimbal axes. It uses illustrative SI masses and distances, **not** the dimensionless parameters in the driven model; the two are independent examples, not one jointly validated mechanism. [`FORK_LEDGER.md`](FORK_LEDGER.md) records the new alternatives without changing the older archive's ledger. [`EXTENDED_TESTS.md`](EXTENDED_TESTS.md) records the orthogonal orb-damping sweep and scope-controller ablations.
 
+## Subsequent model extensions, 2026-11-20
+
+The [hybrid rocker experiment](hybrid/README.md) compares five fixed blends of the newer linear and nonlinear rocker laws, with their matching potentials and externally supplied energy. Its [results](hybrid/RESULTS.md) retain a failed gross-work monotonicity check despite a small net energy residual; the figures are numerical model outputs, not empirical evidence or a probability of success. This rocker fork must not be confused with the older damping/Alt Field fork described above.
+
+The separate [90-degree calculation](ninety-degree/NOTE.md) prescribes one-axis motion from −90° to +90°—180° end to end—for an idealized, externally driven rigid body. It begins with nonzero velocity and calculates the torque required for that path. It demonstrates an assumed mathematical example, not a controlled or physically validated 3D four-scope mechanism. Model inputs are Postulated and their mathematical consequences are Derived within the stated models.
+
 ## State and equations
 
 There are eight dynamic coordinates, each with its own velocity:

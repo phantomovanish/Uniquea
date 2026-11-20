@@ -1,0 +1,43 @@
+lambda_000 baseline_standard: integrating
+lambda_025 baseline_standard: integrating
+lambda_050 baseline_standard: integrating
+lambda_075 baseline_standard: integrating
+lambda_100 baseline_standard: integrating
+lambda_000 baseline_tight: integrating
+lambda_100 baseline_tight: integrating
+lambda_050 baseline_tight: integrating
+lambda_075 baseline_tight: integrating
+lambda_025 baseline_tight: integrating
+lambda_000 plus_standard: integrating
+lambda_100 plus_standard: integrating
+lambda_050 plus_standard: integrating
+lambda_075 plus_standard: integrating
+lambda_025 plus_standard: integrating
+lambda_000 plus_tight: integrating
+lambda_100 plus_tight: integrating
+lambda_050 plus_tight: integrating
+lambda_075 plus_tight: integrating
+lambda_025 plus_tight: integrating
+lambda_000 minus_standard: integrating
+lambda_100 minus_standard: integrating
+lambda_050 minus_standard: integrating
+lambda_075 minus_standard: integrating
+lambda_025 minus_standard: integrating
+lambda_000 original A: independent endpoint integration
+lambda_100 original B: independent endpoint integration
+lambda_050 finished
+lambda_075 finished
+lambda_025 finished
+lambda_000 finished
+lambda_100 finished
+Traceback (most recent call last):
+  File "/home/ubuntu/gimbal_hybrid_work/hybrid_experiment.py", line 320, in <module>
+    if __name__=='__main__': main()
+                             ^^^^^^
+  File "/home/ubuntu/gimbal_hybrid_work/hybrid_experiment.py", line 304, in main
+    integrity=verify_outputs(arrays,rowcounts)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/gimbal_hybrid_work/hybrid_experiment.py", line 251, in verify_outputs
+    if np.min(np.diff(data[:,16:],axis=0)) < -1e-9: raise AssertionError(f'non-monotone ledgers: {name}')
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: non-monotone ledgers: lambda_000__baseline_standard

@@ -1,0 +1,10 @@
+lambda_000_baseline.csv: OK
+lambda_025_baseline.csv: OK
+lambda_050_baseline.csv: OK
+lambda_075_baseline.csv: OK
+lambda_100_baseline.csv: OK
+metrics.csv: OK
+overview.png: OK
+stages.csv: OK
+summary.json: OK
+trajectories.npz: OK

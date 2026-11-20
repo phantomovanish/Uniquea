@@ -1,0 +1,72 @@
+{
+  "case": "synthetic fixed-axis prescribed +/-90-degree motion; no controller simulated",
+  "source": "/home/ubuntu/uniquea_gimbal_publish/tests/Four-Way-Gimbal-Transition/geometry/technical_note.md",
+  "dependencies": {
+    "python": "3.12.3",
+    "scipy": "1.18.1"
+  },
+  "input": {
+    "mass_kg": 39,
+    "gravity_m_per_s2": 9.81,
+    "com_m": [
+      0.009230769230769232,
+      -0.006153846153846154,
+      0.4423076923076923
+    ],
+    "pivot_m": [
+      0.009230769230769232,
+      -0.006153846153846154,
+      -0.25
+    ],
+    "h_m": 0.6923076923076923,
+    "h_exact": "9/13",
+    "point_mass_inertia_about_y_kg_m2": 32.04987692307692,
+    "inertia_exact": "1041621/32500",
+    "intrinsic_component_inertia_included": false,
+    "mgh_Nm": 264.87,
+    "mgh_exact": "26487/100",
+    "amplitude_rad": 1.5707963267948966,
+    "phase_rate_per_s": 0.15,
+    "viscous_coefficient_Nm_s_per_rad": 5.0,
+    "initial_angle_rad": 0.0,
+    "initial_angular_speed_rad_per_s": 0.23561944901923448
+  },
+  "results": {
+    "period_s": 41.88790204786391,
+    "angle_min_rad": -1.5707963267948966,
+    "angle_max_rad": 1.5707963267948966,
+    "angle_min_deg": -90.0,
+    "angle_max_deg": 90.0,
+    "end_to_end_angular_span_deg": 180.0,
+    "peak_abs_angular_speed_rad_per_s": 0.23561944901923448,
+    "peak_abs_angular_speed_deg_per_s": 13.5,
+    "peak_abs_angular_acceleration_rad_per_s2": 0.035342917352885174,
+    "peak_abs_angular_acceleration_deg_per_s2": 2.025,
+    "motor_torque_min_Nm": -266.12509300047674,
+    "motor_torque_max_Nm": 266.12509300047674,
+    "motor_torque_peak_abs_Nm": 266.12509300047674,
+    "torque_min_phase_rad": 1.7163071911673102,
+    "torque_max_phase_rad": 4.857899844757103,
+    "torque_min_angle_deg": 89.04887646474323,
+    "torque_zero_first_phase_rad": 0.0028238912992171665,
+    "positive_actuator_work_J": 534.4313619702378,
+    "negative_actuator_work_J_signed": -528.6176850926815,
+    "negative_actuator_work_magnitude_J": 528.6176850926815,
+    "net_actuator_work_J": 5.813676877556304,
+    "viscous_loss_J": 5.813676877556215,
+    "mechanical_energy_change_J": 0.0,
+    "energy_balance_residual_J": 8.881784197001252e-14,
+    "energy_balance_residual_definition": "W_positive + W_negative - delta_mechanical_energy - viscous_loss",
+    "quadrature_sum_error_estimates_J": 1.1802215283550846e-11,
+    "quadrature_loss_error_estimate_J": 6.454477927179492e-14
+  },
+  "independent_analytic_ledger": {
+    "positive_work_J": 534.431361970238,
+    "negative_work_J_signed": -528.6176850926818,
+    "viscous_loss_J": 5.813676877556215,
+    "positive_quadrature_minus_analytic_J": -1.1368683772161603e-13,
+    "negative_quadrature_minus_analytic_J": 2.2737367544323206e-13,
+    "loss_quadrature_minus_analytic_J": 0.0,
+    "loss_exact_form": "b*A^2*omega*pi = 3*pi^3/16 J"
+  }
+}

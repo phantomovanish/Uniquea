@@ -1,0 +1,20 @@
+test_all_eight_force_components_equal_potential_gradient (test_hybrid_experiment.HybridMathematics.test_all_eight_force_components_equal_potential_gradient) ... ok
+test_endpoint_vector_fields_and_potential_exact (test_hybrid_experiment.HybridMathematics.test_endpoint_vector_fields_and_potential_exact) ... ok
+test_exact_endpoints_and_below_threshold_all_weights (test_hybrid_experiment.HybridMathematics.test_exact_endpoints_and_below_threshold_all_weights) ... ok
+test_explicit_convex_formula_and_high_angle_stiffness (test_hybrid_experiment.HybridMathematics.test_explicit_convex_formula_and_high_angle_stiffness) ... ok
+test_instantaneous_energy_ledger_independent_directional_derivative (test_hybrid_experiment.HybridMathematics.test_instantaneous_energy_ledger_independent_directional_derivative) ... ok
+test_pairs_and_weights_are_controlled (test_hybrid_experiment.HybridMathematics.test_pairs_and_weights_are_controlled) ... ok
+test_reference_source_hash (test_hybrid_experiment.HybridMathematics.test_reference_source_hash) ... ok
+test_rocker_gradient_across_regimes_and_boundaries (test_hybrid_experiment.HybridMathematics.test_rocker_gradient_across_regimes_and_boundaries) ... ok
+test_short_endpoint_integrations_recover_reference_exactly (test_hybrid_experiment.HybridMathematics.test_short_endpoint_integrations_recover_reference_exactly) ... ok
+test_short_midpoint_tight_solver_and_stage_energy (test_hybrid_experiment.HybridMathematics.test_short_midpoint_tight_solver_and_stage_energy) ... ok
+test_short_unforced_lossless_and_passive_damping (test_hybrid_experiment.HybridMathematics.test_short_unforced_lossless_and_passive_damping) ... ok
+test_transition_has_matching_first_and_second_force_derivatives (test_hybrid_experiment.HybridMathematics.test_transition_has_matching_first_and_second_force_derivatives) ... ok
+test_all_complete_saved_runs_and_paired_results (test_hybrid_experiment.RecordedOutput.test_all_complete_saved_runs_and_paired_results) ... ok
+test_csv_trajectories_stage_counts_and_ledgers (test_hybrid_experiment.RecordedOutput.test_csv_trajectories_stage_counts_and_ledgers) ... ok
+test_sha256_inventory (test_hybrid_experiment.RecordedOutput.test_sha256_inventory) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 10.037s
+
+OK

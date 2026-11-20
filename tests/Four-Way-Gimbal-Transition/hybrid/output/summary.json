@@ -1,0 +1,811 @@
+{
+  "status": "synthetic, externally driven, unvalidated",
+  "protocol": "PROTOCOL.md",
+  "reference_source_sha256": "f067a35c52327bbfaab842b710dd2087377cf51b64a60aa8806518640494dc2f",
+  "weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "parameters": {
+    "masses": [
+      2.0,
+      1.0,
+      0.6,
+      0.6,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damping": [
+      0.18,
+      0.16,
+      0.18,
+      0.18,
+      0.12,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "rocker_k": 1.0,
+    "nonlinear_gain": 1.5,
+    "transition_lo": 0.1,
+    "transition_hi": 0.24,
+    "load_torque": 0.28,
+    "fulcrum_k": [
+      0.8,
+      0.8
+    ],
+    "fulcrum_lever": [
+      -0.7,
+      0.7
+    ],
+    "orb_coupling_k": [
+      0.8,
+      1.15
+    ],
+    "fulcrum_ground_k": 0.22,
+    "orb_ground_k": 0.3,
+    "scope_k": [
+      1.3,
+      1.3,
+      1.3,
+      0.5
+    ],
+    "scope_lever": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "kp": [
+      4.0,
+      4.0,
+      4.0,
+      16.0
+    ],
+    "kd": [
+      0.65,
+      0.65,
+      0.65,
+      0.8
+    ],
+    "target_bias": [
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "target_amplitude": [
+      0.35,
+      0.35,
+      0.35,
+      0.035
+    ],
+    "target_phase": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "omega": 0.75,
+    "cycles": 20,
+    "samples_per_cycle": 240,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08
+  },
+  "initial_state": [
+    0.06,
+    0.035,
+    -0.015,
+    0.025,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "perturbation_plus": [
+    0.04,
+    0.04
+  ],
+  "perturbation_minus": [
+    -0.04,
+    -0.04
+  ],
+  "solver": "DOP853",
+  "tighter_solver_settings": {
+    "rtol": 2e-11,
+    "atol": 2e-13,
+    "max_step": 0.04
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "state_columns": [
+    "theta",
+    "orb",
+    "fulcrum_L",
+    "fulcrum_R",
+    "upper_1",
+    "upper_2",
+    "upper_3",
+    "lower_trim",
+    "v_theta",
+    "v_orb",
+    "v_fulcrum_L",
+    "v_fulcrum_R",
+    "v_upper_1",
+    "v_upper_2",
+    "v_upper_3",
+    "v_lower_trim",
+    "W_positive_1",
+    "W_positive_2",
+    "W_positive_3",
+    "W_positive_4",
+    "W_negative_magnitude_1",
+    "W_negative_magnitude_2",
+    "W_negative_magnitude_3",
+    "W_negative_magnitude_4",
+    "Q_passive"
+  ],
+  "archive_schema": "time plus lambda_NNN__VARIANT arrays, each 4801 by 25",
+  "comparison": {
+    "lambda_000": {
+      "lambda_weight": 0.0,
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.17047384536444843,
+      "delta_H": 0.11101189536444842,
+      "positive_work_by_control": [
+        1.4456042262868443,
+        2.383147491275837,
+        3.50266579173674,
+        0.06235620669251253
+      ],
+      "negative_work_magnitude_by_control": [
+        3.0252056305448054,
+        1.5982657170344323,
+        1.1087205030981366,
+        0.07023493696014636
+      ],
+      "total_positive_work": 7.393773715991934,
+      "total_negative_work_magnitude": 5.80242678763752,
+      "net_actuator_work": 1.591346928354413,
+      "passive_loss": 1.480335032990986,
+      "max_abs_ledger_residual": 5.599226540319718e-12,
+      "final_ledger_residual": 1.021183138050219e-12,
+      "last_cycle_theta_min": 0.0023790263879672675,
+      "last_cycle_theta_max": 0.18393151252796103,
+      "last_cycle_theta_rms": 0.11312965429110892,
+      "last_cycle_theta_mean": 0.09315526967686148,
+      "last_cycle_theta_half_range": 0.09077624306999688,
+      "last_cycle_theta_max_abs": 0.18393151252796103,
+      "last_cycle_orb_min": -0.004123343587359624,
+      "last_cycle_orb_max": 0.01144049005082396,
+      "last_cycle_turning_times": [
+        159.42878653487838,
+        163.61757702779258
+      ],
+      "last_cycle_zero_crossing_times": [],
+      "last_cycle_below_or_at_lo_fraction": 0.525,
+      "last_cycle_transition_fraction": 0.475,
+      "last_cycle_at_or_above_hi_fraction": 0.0,
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.2763789398417003,
+        0.2935969980815153,
+        0.26772798274275716,
+        0.03153763949544951
+      ],
+      "last_cycle_scope_fundamental_phases_deg": [
+        -1.7645219244549253,
+        82.73158952039398,
+        168.77095687528788,
+        -91.4612331170535
+      ],
+      "baseline_last_cycle_closure_norm": 9.796767952931658e-09,
+      "perturb_plus": {
+        "initial": 0.05656854249492382,
+        "end_cycle_1": 0.032361562468590954,
+        "end_cycle_5": 0.000883000317380851,
+        "end_cycle_20": 1.868997790502235e-09,
+        "maximum": 0.09256023517585438,
+        "last_cycle_max": 4.5449435666590715e-09
+      },
+      "perturb_minus": {
+        "initial": 0.0565685424949238,
+        "end_cycle_1": 0.03236156246865927,
+        "end_cycle_5": 0.0008830003173861204,
+        "end_cycle_20": 1.8689957586980067e-09,
+        "maximum": 0.09256023518475506,
+        "last_cycle_max": 4.544955431931286e-09
+      },
+      "normal_vs_tight_baseline": {
+        "max_physical_state_component": 4.105875153759264e-10,
+        "max_ledger_state_component": 1.4372160233033782e-06
+      },
+      "normal_vs_tight_plus": {
+        "max_physical_state_component": 2.791557471293338e-10,
+        "max_ledger_state_component": 7.911065820209728e-07
+      }
+    },
+    "lambda_025": {
+      "lambda_weight": 0.25,
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.17140861892292059,
+      "delta_H": 0.11194666892292057,
+      "positive_work_by_control": [
+        1.5073217794229157,
+        2.42214722912014,
+        3.4180213963656203,
+        0.06144717780702424
+      ],
+      "negative_work_magnitude_by_control": [
+        3.000285099457624,
+        1.6408019500971764,
+        1.109688840882566,
+        0.06891186852263127
+      ],
+      "total_positive_work": 7.4089375827157005,
+      "total_negative_work_magnitude": 5.819687758959997,
+      "net_actuator_work": 1.5892498237557027,
+      "passive_loss": 1.47730315461222,
+      "max_abs_ledger_residual": 3.342129628602919e-10,
+      "final_ledger_residual": -2.205631233209715e-10,
+      "last_cycle_theta_min": 0.00021111059625566174,
+      "last_cycle_theta_max": 0.18029550890277637,
+      "last_cycle_theta_rms": 0.11024043772733766,
+      "last_cycle_theta_mean": 0.0913363991244326,
+      "last_cycle_theta_half_range": 0.09004219915326035,
+      "last_cycle_theta_max_abs": 0.18029550890277637,
+      "last_cycle_orb_min": -0.0036759823802969545,
+      "last_cycle_orb_max": 0.011029704197183177,
+      "last_cycle_turning_times": [
+        163.88288985505395,
+        167.45997839929825
+      ],
+      "last_cycle_zero_crossing_times": [],
+      "last_cycle_below_or_at_lo_fraction": 0.5291666666666667,
+      "last_cycle_transition_fraction": 0.4708333333333333,
+      "last_cycle_at_or_above_hi_fraction": 0.0,
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.2762022151063206,
+        0.2925347429213047,
+        0.2677337359791737,
+        0.031666941924239245
+      ],
+      "last_cycle_scope_fundamental_phases_deg": [
+        -1.9823285412705616,
+        82.74670811396436,
+        168.99888334829836,
+        -91.48528377880557
+      ],
+      "baseline_last_cycle_closure_norm": 7.396674996264567e-09,
+      "perturb_plus": {
+        "initial": 0.05656854249492382,
+        "end_cycle_1": 0.032062180224458975,
+        "end_cycle_5": 0.0007000763722066859,
+        "end_cycle_20": 1.5670030483684026e-09,
+        "maximum": 0.0925750593387946,
+        "last_cycle_max": 3.908095106123376e-09
+      },
+      "perturb_minus": {
+        "initial": 0.0565685424949238,
+        "end_cycle_1": 0.0321267131943248,
+        "end_cycle_5": 0.0007166262312573232,
+        "end_cycle_20": 1.6358987322342904e-09,
+        "maximum": 0.09256203090612627,
+        "last_cycle_max": 4.025817082685695e-09
+      },
+      "normal_vs_tight_baseline": {
+        "max_physical_state_component": 7.377257138507787e-10,
+        "max_ledger_state_component": 1.1022146781947129e-06
+      },
+      "normal_vs_tight_plus": {
+        "max_physical_state_component": 1.1619130935169864e-09,
+        "max_ledger_state_component": 8.635576311810667e-07
+      }
+    },
+    "lambda_050": {
+      "lambda_weight": 0.5,
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.17117132149616554,
+      "delta_H": 0.11170937149616553,
+      "positive_work_by_control": [
+        1.5867838723781575,
+        2.4218254344960797,
+        3.390267337113827,
+        0.062314216528296607
+      ],
+      "negative_work_magnitude_by_control": [
+        3.024442542575611,
+        1.6285897886930245,
+        1.1392889214248467,
+        0.07028914501018328
+      ],
+      "total_positive_work": 7.461190860516361,
+      "total_negative_work_magnitude": 5.862610397703665,
+      "net_actuator_work": 1.5985804628126954,
+      "passive_loss": 1.4868710920909873,
+      "max_abs_ledger_residual": 1.7651662700957083e-09,
+      "final_ledger_residual": 7.744571650647458e-10,
+      "last_cycle_theta_min": -0.0067031357320964605,
+      "last_cycle_theta_max": 0.17605409009251058,
+      "last_cycle_theta_rms": 0.10882902704760686,
+      "last_cycle_theta_mean": 0.0901513699949904,
+      "last_cycle_theta_half_range": 0.09137861291230352,
+      "last_cycle_theta_max_abs": 0.17605409009251058,
+      "last_cycle_orb_min": -0.004278638886518081,
+      "last_cycle_orb_max": 0.010489296780573776,
+      "last_cycle_turning_times": [
+        163.9354617038787,
+        167.214866499751
+      ],
+      "last_cycle_zero_crossing_times": [
+        163.5115650185164,
+        164.34844748478744
+      ],
+      "last_cycle_below_or_at_lo_fraction": 0.5,
+      "last_cycle_transition_fraction": 0.5,
+      "last_cycle_at_or_above_hi_fraction": 0.0,
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.27633575802563004,
+        0.2918261431563668,
+        0.26749020244768923,
+        0.03175431025335405
+      ],
+      "last_cycle_scope_fundamental_phases_deg": [
+        -2.1324249302851683,
+        82.70772835404097,
+        169.14757404736213,
+        -91.44656489861767
+      ],
+      "baseline_last_cycle_closure_norm": 2.737544629129077e-09,
+      "perturb_plus": {
+        "initial": 0.05656854249492382,
+        "end_cycle_1": 0.03353385343414461,
+        "end_cycle_5": 0.0007702151491561461,
+        "end_cycle_20": 9.46521735757747e-10,
+        "maximum": 0.09258988312193998,
+        "last_cycle_max": 2.356577074126855e-09
+      },
+      "perturb_minus": {
+        "initial": 0.0565685424949238,
+        "end_cycle_1": 0.03299986601519773,
+        "end_cycle_5": 0.0007724114197640952,
+        "end_cycle_20": 9.651898325346312e-10,
+        "maximum": 0.09256382665932324,
+        "last_cycle_max": 2.3630315345193065e-09
+      },
+      "normal_vs_tight_baseline": {
+        "max_physical_state_component": 4.813069470754883e-09,
+        "max_ledger_state_component": 1.536964708614974e-06
+      },
+      "normal_vs_tight_plus": {
+        "max_physical_state_component": 7.178163619059319e-10,
+        "max_ledger_state_component": 1.528570373166005e-06
+      }
+    },
+    "lambda_075": {
+      "lambda_weight": 0.75,
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.17036402511449925,
+      "delta_H": 0.11090207511449923,
+      "positive_work_by_control": [
+        1.6522007323607115,
+        2.403811683224012,
+        3.39172731491619,
+        0.06340738537844862
+      ],
+      "negative_work_magnitude_by_control": [
+        3.0547894351958433,
+        1.598350107634962,
+        1.1782140487206034,
+        0.07197060187609831
+      ],
+      "total_positive_work": 7.511147115879362,
+      "total_negative_work_magnitude": 5.903324193427507,
+      "net_actuator_work": 1.607822922451855,
+      "passive_loss": 1.4969208499952047,
+      "max_abs_ledger_residual": 2.67737698678161e-09,
+      "final_ledger_residual": 2.6578486078676633e-09,
+      "last_cycle_theta_min": -0.01172091276031077,
+      "last_cycle_theta_max": 0.17206404001608855,
+      "last_cycle_theta_rms": 0.10808268838383049,
+      "last_cycle_theta_mean": 0.08934392221603828,
+      "last_cycle_theta_half_range": 0.09189247638819965,
+      "last_cycle_theta_max_abs": 0.17206404001608855,
+      "last_cycle_orb_min": -0.004918782143540338,
+      "last_cycle_orb_max": 0.009965110904681919,
+      "last_cycle_turning_times": [
+        163.91704670235,
+        167.0538625572804
+      ],
+      "last_cycle_zero_crossing_times": [
+        163.3852044602062,
+        164.43771334515333
+      ],
+      "last_cycle_below_or_at_lo_fraction": 0.4708333333333333,
+      "last_cycle_transition_fraction": 0.5291666666666667,
+      "last_cycle_at_or_above_hi_fraction": 0.0,
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.27650946548041366,
+        0.29138711609428075,
+        0.2672499985918587,
+        0.03180881514382129
+      ],
+      "last_cycle_scope_fundamental_phases_deg": [
+        -2.2270258532437026,
+        82.66571077931081,
+        169.23868751586872,
+        -91.40304711125275
+      ],
+      "baseline_last_cycle_closure_norm": 2.0280600742109414e-09,
+      "perturb_plus": {
+        "initial": 0.05656854249492382,
+        "end_cycle_1": 0.035637532221824045,
+        "end_cycle_5": 0.0008005791081789999,
+        "end_cycle_20": 9.44075934783002e-10,
+        "maximum": 0.09260470651497917,
+        "last_cycle_max": 2.097272047886137e-09
+      },
+      "perturb_minus": {
+        "initial": 0.0565685424949238,
+        "end_cycle_1": 0.034622928741536795,
+        "end_cycle_5": 0.0008199250000358034,
+        "end_cycle_20": 9.525171581116983e-10,
+        "maximum": 0.09256562244434037,
+        "last_cycle_max": 2.1179689240331553e-09
+      },
+      "normal_vs_tight_baseline": {
+        "max_physical_state_component": 6.81125431056806e-09,
+        "max_ledger_state_component": 1.0825490306398677e-06
+      },
+      "normal_vs_tight_plus": {
+        "max_physical_state_component": 6.91362592175615e-10,
+        "max_ledger_state_component": 4.707946508641925e-06
+      }
+    },
+    "lambda_100": {
+      "lambda_weight": 1.0,
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.16948373794522759,
+      "delta_H": 0.11002178794522757,
+      "positive_work_by_control": [
+        1.6982372724071113,
+        2.382324455150889,
+        3.4002566242648,
+        0.06418846351298249
+      ],
+      "negative_work_magnitude_by_control": [
+        3.0758303893296945,
+        1.569949633130937,
+        1.2133491394192206,
+        0.07308142075803879
+      ],
+      "total_positive_work": 7.545006815335784,
+      "total_negative_work_magnitude": 5.932210582637891,
+      "net_actuator_work": 1.612796232697892,
+      "passive_loss": 1.502774442917887,
+      "max_abs_ledger_residual": 1.834833840419492e-09,
+      "final_ledger_residual": -1.834777441089841e-09,
+      "last_cycle_theta_min": -0.014270123713657882,
+      "last_cycle_theta_max": 0.16863116726692337,
+      "last_cycle_theta_rms": 0.10746928476691772,
+      "last_cycle_theta_mean": 0.08870098018789997,
+      "last_cycle_theta_half_range": 0.09145064549029062,
+      "last_cycle_theta_max_abs": 0.16863116726692337,
+      "last_cycle_orb_min": -0.005361587399514448,
+      "last_cycle_orb_max": 0.009517640899063274,
+      "last_cycle_turning_times": [
+        163.88620319806148,
+        166.9508821826035
+      ],
+      "last_cycle_zero_crossing_times": [
+        163.31156845806228,
+        164.45211257108454
+      ],
+      "last_cycle_below_or_at_lo_fraction": 0.4625,
+      "last_cycle_transition_fraction": 0.5375,
+      "last_cycle_at_or_above_hi_fraction": 0.0,
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.276609024620766,
+        0.2910914401766353,
+        0.2671064879365469,
+        0.031845393942123545
+      ],
+      "last_cycle_scope_fundamental_phases_deg": [
+        -2.2903609073051143,
+        82.64086778764397,
+        169.30038565016275,
+        -91.37780154163057
+      ],
+      "baseline_last_cycle_closure_norm": 2.0731825382943583e-09,
+      "perturb_plus": {
+        "initial": 0.05656854249492382,
+        "end_cycle_1": 0.03773606755266162,
+        "end_cycle_5": 0.0006632234346146652,
+        "end_cycle_20": 8.962288287381438e-10,
+        "maximum": 0.09261952951851306,
+        "last_cycle_max": 2.3345002253178924e-09
+      },
+      "perturb_minus": {
+        "initial": 0.0565685424949238,
+        "end_cycle_1": 0.036544454954859355,
+        "end_cycle_5": 0.0006757138974978213,
+        "end_cycle_20": 9.195565182697139e-10,
+        "maximum": 0.09256741826117115,
+        "last_cycle_max": 2.2795024264135683e-09
+      },
+      "normal_vs_tight_baseline": {
+        "max_physical_state_component": 1.7014332165388169e-09,
+        "max_ledger_state_component": 5.871208896834901e-07
+      },
+      "normal_vs_tight_plus": {
+        "max_physical_state_component": 1.9391889760633774e-09,
+        "max_ledger_state_component": 5.989811728834837e-07
+      }
+    }
+  },
+  "endpoint_reference_trajectory_bitwise_equal": {
+    "A": true,
+    "B": true
+  },
+  "integrity": {
+    "roundtrip_arrays": 28,
+    "n_time_samples": 4801,
+    "csv_rows": {
+      "lambda_000_baseline.csv": 4801,
+      "lambda_025_baseline.csv": 4801,
+      "lambda_050_baseline.csv": 4801,
+      "lambda_075_baseline.csv": 4801,
+      "lambda_100_baseline.csv": 4801,
+      "stages.csv": 400,
+      "metrics.csv": 5
+    },
+    "all_arrays_exact_after_roundtrip": true,
+    "all_csv_finite_and_rectangular": true,
+    "work_monotone_with_tolerance_1e_9": false,
+    "passive_monotone_with_tolerance_1e_9": true,
+    "monotonicity_by_run": {
+      "lambda_000__baseline_standard": {
+        "minimum_work_increment": -2.0129388866862996e-07,
+        "minimum_work_increment_time_index": 3900,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 28,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_000__baseline_tight": {
+        "minimum_work_increment": -3.295869799302409e-09,
+        "minimum_work_increment_time_index": 4205,
+        "minimum_work_increment_state_column": 17,
+        "work_decreases_exceeding_1e_9": 1,
+        "minimum_passive_increment": 4.028968820187103e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_000__plus_standard": {
+        "minimum_work_increment": -5.277514898982538e-07,
+        "minimum_work_increment_time_index": 180,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 40,
+        "minimum_passive_increment": 4.282571732384465e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_000__plus_tight": {
+        "minimum_work_increment": -3.7907305294737625e-08,
+        "minimum_work_increment_time_index": 4169,
+        "minimum_work_increment_state_column": 21,
+        "work_decreases_exceeding_1e_9": 2,
+        "minimum_passive_increment": 4.28257173764628e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_000__minus_standard": {
+        "minimum_work_increment": -3.173949201240589e-07,
+        "minimum_work_increment_time_index": 3273,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 36,
+        "minimum_passive_increment": 3.8234248028032446e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_000__reference_endpoint": {
+        "minimum_work_increment": -2.0129388866862996e-07,
+        "minimum_work_increment_time_index": 3900,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 28,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_025__baseline_standard": {
+        "minimum_work_increment": -3.8057430451488017e-07,
+        "minimum_work_increment_time_index": 3124,
+        "minimum_work_increment_state_column": 17,
+        "work_decreases_exceeding_1e_9": 28,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_025__baseline_tight": {
+        "minimum_work_increment": -2.2797108645278286e-09,
+        "minimum_work_increment_time_index": 899,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 2,
+        "minimum_passive_increment": 4.028968820187103e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_025__plus_standard": {
+        "minimum_work_increment": -6.979802869011564e-08,
+        "minimum_work_increment_time_index": 4564,
+        "minimum_work_increment_state_column": 17,
+        "work_decreases_exceeding_1e_9": 25,
+        "minimum_passive_increment": 4.282571732384465e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_025__plus_tight": {
+        "minimum_work_increment": -8.082933800057646e-08,
+        "minimum_work_increment_time_index": 1387,
+        "minimum_work_increment_state_column": 22,
+        "work_decreases_exceeding_1e_9": 3,
+        "minimum_passive_increment": 4.28257173764628e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_025__minus_standard": {
+        "minimum_work_increment": -8.149809383461992e-07,
+        "minimum_work_increment_time_index": 1867,
+        "minimum_work_increment_state_column": 22,
+        "work_decreases_exceeding_1e_9": 33,
+        "minimum_passive_increment": 3.8234248028032446e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_050__baseline_standard": {
+        "minimum_work_increment": -2.954032130020323e-07,
+        "minimum_work_increment_time_index": 4622,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 40,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_050__baseline_tight": {
+        "minimum_work_increment": -2.1357071666727734e-10,
+        "minimum_work_increment_time_index": 106,
+        "minimum_work_increment_state_column": 17,
+        "work_decreases_exceeding_1e_9": 0,
+        "minimum_passive_increment": 4.028968820187103e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_050__plus_standard": {
+        "minimum_work_increment": -1.5271877964462277e-06,
+        "minimum_work_increment_time_index": 2942,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 22,
+        "minimum_passive_increment": 4.282571732384465e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_050__plus_tight": {
+        "minimum_work_increment": -4.426148336733604e-10,
+        "minimum_work_increment_time_index": 3994,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 0,
+        "minimum_passive_increment": 4.28257173764628e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_050__minus_standard": {
+        "minimum_work_increment": -2.33470333732555e-07,
+        "minimum_work_increment_time_index": 1913,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 23,
+        "minimum_passive_increment": 3.8234248028032446e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_075__baseline_standard": {
+        "minimum_work_increment": -2.3774641100260396e-07,
+        "minimum_work_increment_time_index": 3309,
+        "minimum_work_increment_state_column": 18,
+        "work_decreases_exceeding_1e_9": 44,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_075__baseline_tight": {
+        "minimum_work_increment": -1.3455379033189274e-08,
+        "minimum_work_increment_time_index": 4500,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 3,
+        "minimum_passive_increment": 4.028968820187103e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_075__plus_standard": {
+        "minimum_work_increment": -4.197916764869802e-06,
+        "minimum_work_increment_time_index": 4792,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 50,
+        "minimum_passive_increment": 4.282571732384465e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_075__plus_tight": {
+        "minimum_work_increment": -1.3246849284165307e-08,
+        "minimum_work_increment_time_index": 2100,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 2,
+        "minimum_passive_increment": 4.28257173764628e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_075__minus_standard": {
+        "minimum_work_increment": -6.309580475871712e-07,
+        "minimum_work_increment_time_index": 2872,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 38,
+        "minimum_passive_increment": 3.8234248028032446e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__baseline_standard": {
+        "minimum_work_increment": -5.2064047961764004e-08,
+        "minimum_work_increment_time_index": 4740,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 21,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__baseline_tight": {
+        "minimum_work_increment": -7.921663325305417e-11,
+        "minimum_work_increment_time_index": 863,
+        "minimum_work_increment_state_column": 21,
+        "work_decreases_exceeding_1e_9": 0,
+        "minimum_passive_increment": 4.028968820187103e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__plus_standard": {
+        "minimum_work_increment": -9.16744027357197e-08,
+        "minimum_work_increment_time_index": 1022,
+        "minimum_work_increment_state_column": 20,
+        "work_decreases_exceeding_1e_9": 20,
+        "minimum_passive_increment": 4.282571732384465e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__plus_tight": {
+        "minimum_work_increment": -3.075602966751134e-11,
+        "minimum_work_increment_time_index": 838,
+        "minimum_work_increment_state_column": 23,
+        "work_decreases_exceeding_1e_9": 0,
+        "minimum_passive_increment": 4.28257173764628e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__minus_standard": {
+        "minimum_work_increment": -3.7734791902277465e-07,
+        "minimum_work_increment_time_index": 322,
+        "minimum_work_increment_state_column": 17,
+        "work_decreases_exceeding_1e_9": 27,
+        "minimum_passive_increment": 3.8234248028032446e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      },
+      "lambda_100__reference_endpoint": {
+        "minimum_work_increment": -5.2064047961764004e-08,
+        "minimum_work_increment_time_index": 4740,
+        "minimum_work_increment_state_column": 16,
+        "work_decreases_exceeding_1e_9": 21,
+        "minimum_passive_increment": 4.028968822444083e-05,
+        "passive_decreases_exceeding_1e_9": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+test_angles_kinematics_and_nonzero_initial_velocity (test_calculate_ninety.PrescribedMotionTests.test_angles_kinematics_and_nonzero_initial_velocity) ... ok
+test_equation_of_motion_and_energy_rate (test_calculate_ninety.PrescribedMotionTests.test_equation_of_motion_and_energy_rate) ... ok
+test_exact_geometry_and_point_mass_inertia (test_calculate_ninety.PrescribedMotionTests.test_exact_geometry_and_point_mass_inertia) ... ok
+test_numerical_and_analytic_energy_ledger (test_calculate_ninety.PrescribedMotionTests.test_numerical_and_analytic_energy_ledger) ... ok
+test_power_signs_and_exact_zero (test_calculate_ninety.PrescribedMotionTests.test_power_signs_and_exact_zero) ... ok
+test_signed_gravity_and_turning_point_motor_torque (test_calculate_ninety.PrescribedMotionTests.test_signed_gravity_and_turning_point_motor_torque) ... ok
+test_torque_derivative_and_global_extrema (test_calculate_ninety.PrescribedMotionTests.test_torque_derivative_and_global_extrema) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.018s
+
+OK

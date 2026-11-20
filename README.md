@@ -35,7 +35,7 @@ assistant and ask your own questions.
 | `tests/Pi-Precision/` | The π precision test: π to 15 decimals (Option A) and one decimal at a time (Option B). Each decimal adds clarity through the 31st in the math; in physics, until the data's own error wins (2–5 decimals here) |
 | `tests/Orb-Adiabatic-Check/` | The Orb's wobble, its memory and the breath (model calculations): early tipping ∝ J^(4/5); Option A vs Option B; the breath survives Lila damping; energy ledger closed to ~10⁻¹⁶ |
 | `tests/Lila-Damping-Bath/` | Lila damping derived from an energy-conserving action, with the Alt Field as a bath: ζ/ε_L = 1.0018 (mechanism Derived; ζ = ε_L a Candidate condition) |
-| `tests/Four-Way-Gimbal-Transition/` | Synthetic three-scope/trim rocking, pivot and axis checks; independently driven linear/nonlinear candidates and energy bookkeeping, not a physical 90° flip or observational validation |
+| `tests/Four-Way-Gimbal-Transition/` | Synthetic driven three-scope/trim model, linear/nonlinear hybrid and energy checks; separate idealized powered one-axis ±90° calculation, not a validated physical 3D mechanism |
 | `workbooks/` | Fork Ledger, Option A vs B, Golf Ball on the Tee, Triton Cold Orb, Twelves, F_tap, Borrowed Solutions, Dimension Order |
 | `figures/` | Nash Six levels, Universal Scale, Hubble closure vs DESI, κ_God/F_tap correction, study guides |
 | `packets/` | Audit packets: General, and UC San Diego Department of Physics |

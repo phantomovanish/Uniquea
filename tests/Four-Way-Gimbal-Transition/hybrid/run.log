@@ -1,0 +1,39 @@
+lambda_000 baseline_standard: integrating
+lambda_025 baseline_standard: integrating
+lambda_050 baseline_standard: integrating
+lambda_075 baseline_standard: integrating
+lambda_100 baseline_standard: integrating
+lambda_000 baseline_tight: integrating
+lambda_100 baseline_tight: integrating
+lambda_050 baseline_tight: integrating
+lambda_075 baseline_tight: integrating
+lambda_025 baseline_tight: integrating
+lambda_000 plus_standard: integrating
+lambda_100 plus_standard: integrating
+lambda_050 plus_standard: integrating
+lambda_075 plus_standard: integrating
+lambda_025 plus_standard: integrating
+lambda_000 plus_tight: integrating
+lambda_100 plus_tight: integrating
+lambda_050 plus_tight: integrating
+lambda_075 plus_tight: integrating
+lambda_025 plus_tight: integrating
+lambda_000 minus_standard: integrating
+lambda_100 minus_standard: integrating
+lambda_050 minus_standard: integrating
+lambda_075 minus_standard: integrating
+lambda_025 minus_standard: integrating
+lambda_000 original A: independent endpoint integration
+lambda_100 original B: independent endpoint integration
+lambda_050 finished
+lambda_075 finished
+lambda_025 finished
+lambda_000 finished
+lambda_100 finished
+All runs complete; array/CSV integrity passed.
+WARNING: gross cumulative work monotonicity at tolerance 1e-9 FAILED; worst (-4.197916764869802e-06, 'lambda_075__plus_standard'). Values are retained unmodified; see summary.json.
+lambda=0.00 theta=[0.002379,0.183932] rms=0.113130 W+=7.393774 W-=5.802427 Q=1.480335 residual=5.6e-12
+lambda=0.25 theta=[0.000211,0.180296] rms=0.110240 W+=7.408938 W-=5.819688 Q=1.477303 residual=3.34e-10
+lambda=0.50 theta=[-0.006703,0.176054] rms=0.108829 W+=7.461191 W-=5.862610 Q=1.486871 residual=1.77e-09
+lambda=0.75 theta=[-0.011721,0.172064] rms=0.108083 W+=7.511147 W-=5.903324 Q=1.496921 residual=2.68e-09
+lambda=1.00 theta=[-0.014270,0.168631] rms=0.107469 W+=7.545007 W-=5.932211 Q=1.502774 residual=1.83e-09
