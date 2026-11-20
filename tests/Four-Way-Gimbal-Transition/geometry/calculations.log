@@ -1,0 +1,43 @@
+SYNTHETIC GIMBAL CALCULATION (SI units)
+M = 39.000000 kg; g = 9.810000 m/s^2
+COM = (+0.009231, -0.006154, +0.442308) m
+Upper 2 and 3 use y = +/-0.3*sqrt(3) m.
+
+CASE below_COM:
+  Pivot = (+0.009231, -0.006154, -0.250000) m; h = +0.692308 m; M*h = +27.000000 kg m
+  Zero-angle gravity torque = (-0.000000, +0.000000, +0.000000) N m
+  tau_y(theta) = (+264.870000) * sin(theta) N m
+  U(theta)-U(0) = (+264.870000) * (cos(theta)-1) J
+  Point-mass I_y = 32.049877 kg m^2
+  Linearized unstable exponential rate = 2.874771 s^-1
+  At +10 deg pitch: gravity torque = (-0.000000, +45.994193, +0.000000) N m
+  At +90 deg pitch: gravity torque = (-0.000000, +264.870000, +0.000000) N m
+  Trim limit |delta| = 10 deg gives |delta_x| = 0.086824 m, delta_z = 0.007596 m
+  Largest |static-balanced frame pitch| near zero = 0.552256 deg
+  Trim torque change at +90 deg pitch (at |delta|=10 deg) = +0.223554 N m
+  Remaining gravity tau_y at +90 deg pitch = +265.093554 N m
+
+CASE above_COM:
+  Pivot = (+0.009231, -0.006154, +0.750000) m; h = -0.307692 m; M*h = -12.000000 kg m
+  Zero-angle gravity torque = (-0.000000, +0.000000, +0.000000) N m
+  tau_y(theta) = (-117.720000) * sin(theta) N m
+  U(theta)-U(0) = (-117.720000) * (cos(theta)-1) J
+  Point-mass I_y = 17.049877 kg m^2
+  Linearized undamped natural frequency = 2.627632 rad/s
+  Point-mass small-angle period = 2.391197 s
+  At +10 deg pitch: gravity torque = (-0.000000, -20.441863, +0.000000) N m
+  At +90 deg pitch: gravity torque = (-0.000000, -117.720000, +0.000000) N m
+  Trim limit |delta| = 10 deg gives |delta_x| = 0.086824 m, delta_z = 0.007596 m
+  Largest |static-balanced frame pitch| near zero = 1.245833 deg
+  Trim torque change at +90 deg pitch (at |delta|=10 deg) = +0.223554 N m
+  Remaining gravity tau_y at +90 deg pitch = -117.496446 N m
+
+FOUR TEMPORAL PHASE STAGES: roll=10*cos(phi) deg, pitch=10*sin(phi) deg
+Gravity torques are world-axis components; stationary holding torque is their negative.
+  phi=  0 deg: roll=+10.000, pitch=+0.000 deg; below tau=(+45.9942, +0.0000, +0.0000); above tau=(-20.4419, +0.0000, +0.0000) N m
+  phi= 90 deg: roll=+0.000, pitch=+10.000 deg; below tau=(-0.0000, +45.9942, +0.0000); above tau=(-0.0000, -20.4419, +0.0000) N m
+  phi=180 deg: roll=-10.000, pitch=+0.000 deg; below tau=(-45.9942, +0.0000, +0.0000); above tau=(+20.4419, -0.0000, +0.0000) N m
+  phi=270 deg: roll=-0.000, pitch=-10.000 deg; below tau=(-0.0000, -45.9942, +0.0000); above tau=(-0.0000, +20.4419, +0.0000) N m
+
+Checks passed: particle/COM torques agree; tau_y = -dU/dtheta;
+trim torque and the near-upright balance formula agree with particle sums.

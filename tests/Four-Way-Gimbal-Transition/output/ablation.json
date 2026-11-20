@@ -1,0 +1,1142 @@
+{
+  "status": "Synthetic, actively driven where controllers are enabled; not physical validation.",
+  "model_copy_sha256": "f067a35c52327bbfaab842b710dd2087377cf51b64a60aa8806518640494dc2f",
+  "units_and_caveats": [
+    "All quantities are synthetic model units; theta is the model angle in radians.",
+    "Disabling a controller removes its entire PD force, including periodic target and controller damping; this is not a damping-only ablation.",
+    "Passive spring couplings, all physical coordinates, masses, passive damping, load and timing of remaining targets are unchanged.",
+    "The disturbance is one common theta and orb initial perturbation; norm mixes normalized coordinates and velocities, not a universal physical metric.",
+    "Extrema and residual maxima are sampled at 240 samples/cycle; RMS is trapezoidal integration over sampled final cycle including its endpoints.",
+    "Actuator work is mechanical work on scope coordinates; negative work fate is unspecified. The passive bath is bookkeeping only."
+  ],
+  "parameters": {
+    "masses": [
+      2.0,
+      1.0,
+      0.6,
+      0.6,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damping": [
+      0.18,
+      0.16,
+      0.18,
+      0.18,
+      0.12,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "rocker_k": 1.0,
+    "nonlinear_gain": 1.5,
+    "transition_lo": 0.1,
+    "transition_hi": 0.24,
+    "load_torque": 0.28,
+    "fulcrum_k": [
+      0.8,
+      0.8
+    ],
+    "fulcrum_lever": [
+      -0.7,
+      0.7
+    ],
+    "orb_coupling_k": [
+      0.8,
+      1.15
+    ],
+    "fulcrum_ground_k": 0.22,
+    "orb_ground_k": 0.3,
+    "scope_k": [
+      1.3,
+      1.3,
+      1.3,
+      0.5
+    ],
+    "scope_lever": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "kp": [
+      4.0,
+      4.0,
+      4.0,
+      16.0
+    ],
+    "kd": [
+      0.65,
+      0.65,
+      0.65,
+      0.8
+    ],
+    "target_bias": [
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "target_amplitude": [
+      0.35,
+      0.35,
+      0.35,
+      0.035
+    ],
+    "target_phase": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "omega": 0.75,
+    "cycles": 10,
+    "samples_per_cycle": 240,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08
+  },
+  "observation": {
+    "cycles": 10,
+    "period": 8.377580409572781,
+    "initial_state": [
+      0.06,
+      0.035,
+      -0.015,
+      0.025,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "perturbed_initial_state": [
+      0.1,
+      0.07500000000000001,
+      -0.015,
+      0.025,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "perturbation_q": [
+      0.04,
+      0.04,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "perturbation_v": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "solver": {
+    "method": "DOP853",
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08,
+    "samples_per_cycle": 240
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "trajectory_file": {
+    "path": "trajectories.npz",
+    "location": "next to ablation.json",
+    "keys": [
+      "time",
+      "A_all_on_baseline",
+      "A_all_on_perturbed",
+      "A_lower_only_baseline",
+      "A_lower_only_perturbed",
+      "A_upper_only_baseline",
+      "A_upper_only_perturbed",
+      "A_all_off_baseline",
+      "A_all_off_perturbed",
+      "B_all_on_baseline",
+      "B_all_on_perturbed",
+      "B_lower_only_baseline",
+      "B_lower_only_perturbed",
+      "B_upper_only_baseline",
+      "B_upper_only_perturbed",
+      "B_all_off_baseline",
+      "B_all_off_perturbed"
+    ],
+    "columns": [
+      "q_theta",
+      "q_orb",
+      "q_fulcrum_L",
+      "q_fulcrum_R",
+      "q_upper_1",
+      "q_upper_2",
+      "q_upper_3",
+      "q_lower_trim",
+      "v_theta",
+      "v_orb",
+      "v_fulcrum_L",
+      "v_fulcrum_R",
+      "v_upper_1",
+      "v_upper_2",
+      "v_upper_3",
+      "v_lower_trim",
+      "W_plus_1",
+      "W_plus_2",
+      "W_plus_3",
+      "W_plus_4",
+      "W_minus_magnitude_1",
+      "W_minus_magnitude_2",
+      "W_minus_magnitude_3",
+      "W_minus_magnitude_4",
+      "Q_passive"
+    ]
+  },
+  "results": {
+    "A": {
+      "all_on": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.06731529958438119,
+            "all_10_cycles_sampled_max": 0.21854814719490676,
+            "last_cycle_sampled_min": 0.002399460768087912,
+            "last_cycle_sampled_max": 0.18396790848590072,
+            "last_cycle_mean": 0.09315634063368902,
+            "last_cycle_rms_about_zero": 0.11313160861639687,
+            "last_cycle_rms_about_own_mean": 0.06419234430891042
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": 0.1704757781817336,
+            "delta_H": 0.11101382818173358,
+            "positive_actuator_work_by_control": [
+              0.7517762933045488,
+              1.2649247157915944,
+              1.7567642698622352,
+              0.03554935807367207
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.5358106778796823,
+              0.7936104998473965,
+              0.5580727626102198,
+              0.038828646039127446
+            ],
+            "positive_actuator_work_total": 3.8090146370320506,
+            "negative_actuator_work_magnitude_total": 2.9263225863764264,
+            "net_actuator_work": 0.8826920506556244,
+            "passive_bath": 0.7716782224748382,
+            "final_residual": 9.476863738200336e-13,
+            "max_abs_residual_all_samples": 5.599226540319718e-12
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.05109000570067018,
+            "all_10_cycles_sampled_max": 0.1890002839638664,
+            "last_cycle_sampled_min": 0.002393251732833635,
+            "last_cycle_sampled_max": 0.18395743372287046,
+            "last_cycle_mean": 0.09315619382661769,
+            "last_cycle_rms_about_zero": 0.11313133725826337,
+            "last_cycle_rms_about_own_mean": 0.0641920791186932
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": 0.1704750197483739,
+            "delta_H": 0.10784026974837388,
+            "positive_actuator_work_by_control": [
+              0.7404594823361826,
+              1.2657185965550193,
+              1.7531387431657468,
+              0.0349981994296459
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.522017658610852,
+              0.8101254478858857,
+              0.5542787054943098,
+              0.037457190330497304
+            ],
+            "positive_actuator_work_total": 3.794315021486595,
+            "negative_actuator_work_magnitude_total": 2.923879002321545,
+            "net_actuator_work": 0.8704360191650496,
+            "passive_bath": 0.7625957494180317,
+            "final_residual": 1.3556933353697787e-12,
+            "max_abs_residual_all_samples": 1.6068636005117654e-11
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.032361562468590954,
+          "end_cycle_5": 0.000883000317380851,
+          "end_cycle_10": 1.0778404859699245e-05,
+          "max_over_all_samples": 0.09256023517585438,
+          "max_sample_index": 25
+        }
+      },
+      "lower_only": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.2938562683804791,
+            "all_10_cycles_sampled_max": 0.06578202872352706,
+            "last_cycle_sampled_min": -0.1741340115825199,
+            "last_cycle_sampled_max": -0.11306509516527882,
+            "last_cycle_mean": -0.1435948240260631,
+            "last_cycle_rms_about_zero": 0.1452089617359512,
+            "last_cycle_rms_about_own_mean": 0.021590949061050933
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": -0.02163430882939818,
+            "delta_H": -0.0810962588293982,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.06340767373697279
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.04320814036076224
+            ],
+            "positive_actuator_work_total": 0.06340767373697279,
+            "negative_actuator_work_magnitude_total": 0.04320814036076224,
+            "net_actuator_work": 0.020199533376210548,
+            "passive_bath": 0.1012957922069789,
+            "final_residual": 1.3701539902655213e-12,
+            "max_abs_residual_all_samples": 2.3758034818979756e-11
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.30774344349702104,
+            "all_10_cycles_sampled_max": 0.1,
+            "last_cycle_sampled_min": -0.17414071988725846,
+            "last_cycle_sampled_max": -0.1130611224233069,
+            "last_cycle_mean": -0.14359553272923187,
+            "last_cycle_rms_about_zero": 0.14521023350817203,
+            "last_cycle_rms_about_own_mean": 0.021594788623784746
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": -0.021634188013918667,
+            "delta_H": -0.08426893801391869,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.06337924739974064
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.04222205891008034
+            ],
+            "positive_actuator_work_total": 0.06337924739974064,
+            "negative_actuator_work_magnitude_total": 0.04222205891008034,
+            "net_actuator_work": 0.021157188489660306,
+            "passive_bath": 0.1054261265040824,
+            "final_residual": 5.034167527284694e-13,
+            "max_abs_residual_all_samples": 5.250419890523439e-12
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.043504573030048274,
+          "end_cycle_5": 0.0006051207356343616,
+          "end_cycle_10": 8.282263496901718e-06,
+          "max_over_all_samples": 0.14528232648306375,
+          "max_sample_index": 51
+        }
+      },
+      "upper_only": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.04165113528459262,
+            "all_10_cycles_sampled_max": 0.2354067814763139,
+            "last_cycle_sampled_min": -0.012813823090173846,
+            "last_cycle_sampled_max": 0.2196143662850272,
+            "last_cycle_mean": 0.1034002584662091,
+            "last_cycle_rms_about_zero": 0.1320784391696656,
+            "last_cycle_rms_about_own_mean": 0.08217725136931883
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": 0.16703141445094985,
+            "delta_H": 0.10756946445094984,
+            "positive_actuator_work_by_control": [
+              0.6077518072031038,
+              1.3049978850846462,
+              1.9060671677481082,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.6442123862575888,
+              0.694745903464349,
+              0.46223545750167483,
+              0.0
+            ],
+            "positive_actuator_work_total": 3.8188168600358585,
+            "negative_actuator_work_magnitude_total": 2.801193747223613,
+            "net_actuator_work": 1.0176231128122457,
+            "passive_bath": 0.9100536483639493,
+            "final_residual": 2.6535440511565866e-12,
+            "max_abs_residual_all_samples": 1.4639263759552712e-11
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.03692906016964142,
+            "all_10_cycles_sampled_max": 0.23529443842732925,
+            "last_cycle_sampled_min": -0.012813842602330537,
+            "last_cycle_sampled_max": 0.21961442514635302,
+            "last_cycle_mean": 0.10340025704383889,
+            "last_cycle_rms_about_zero": 0.1320784068063017,
+            "last_cycle_rms_about_own_mean": 0.08217720114337661
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": 0.1670314088778793,
+            "delta_H": 0.10439665887787927,
+            "positive_actuator_work_by_control": [
+              0.6028597899707298,
+              1.301303788305066,
+              1.9058010243406778,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.6379520748302028,
+              0.7082140995030209,
+              0.46179869934134254,
+              0.0
+            ],
+            "positive_actuator_work_total": 3.8099646026164735,
+            "negative_actuator_work_magnitude_total": 2.807964873674566,
+            "net_actuator_work": 1.0019997289419074,
+            "passive_bath": 0.8976030700661881,
+            "final_residual": 2.1600499167107046e-12,
+            "max_abs_residual_all_samples": 1.0821375046043968e-11
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.036265261538459076,
+          "end_cycle_5": 0.0005849554838783355,
+          "end_cycle_10": 6.1725131390201205e-06,
+          "max_over_all_samples": 0.09626022455173301,
+          "max_sample_index": 25
+        }
+      },
+      "all_off": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.3517729360323311,
+            "all_10_cycles_sampled_max": 0.06686428708260517,
+            "last_cycle_sampled_min": -0.19113264402101648,
+            "last_cycle_sampled_max": -0.1910739605671315,
+            "last_cycle_mean": -0.1910965125954873,
+            "last_cycle_rms_about_zero": 0.19109651328414673,
+            "last_cycle_rms_about_own_mean": 1.62234657456026e-05
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": -0.026754243509831018,
+            "delta_H": -0.08621619350983104,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_actuator_work_total": 0.0,
+            "negative_actuator_work_magnitude_total": 0.0,
+            "net_actuator_work": 0.0,
+            "passive_bath": 0.0862161935098335,
+            "final_residual": 2.4702462297909733e-15,
+            "max_abs_residual_all_samples": 1.2913281555171352e-13
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.3545860015345423,
+            "all_10_cycles_sampled_max": 0.1,
+            "last_cycle_sampled_min": -0.19113385828053764,
+            "last_cycle_sampled_max": -0.19107219319706759,
+            "last_cycle_mean": -0.1910960402991271,
+            "last_cycle_rms_about_zero": 0.19109604109411452,
+            "last_cycle_rms_about_own_mean": 1.74309464581653e-05
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": -0.026754243451311475,
+            "delta_H": -0.08938899345131149,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_actuator_work_total": 0.0,
+            "negative_actuator_work_magnitude_total": 0.0,
+            "net_actuator_work": 0.0,
+            "passive_bath": 0.08938899345131238,
+            "final_residual": 8.881784197001252e-16,
+            "max_abs_residual_all_samples": 4.291616432887391e-14
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.039046326907442586,
+          "end_cycle_5": 0.000539887320054163,
+          "end_cycle_10": 6.130392740533271e-06,
+          "max_over_all_samples": 0.14338203462956048,
+          "max_sample_index": 51
+        }
+      }
+    },
+    "B": {
+      "all_on": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.04074772496668965,
+            "all_10_cycles_sampled_max": 0.20148321141872305,
+            "last_cycle_sampled_min": -0.014274366613444937,
+            "last_cycle_sampled_max": 0.16863303773452443,
+            "last_cycle_mean": 0.08870059599489201,
+            "last_cycle_rms_about_zero": 0.10746944839419229,
+            "last_cycle_rms_about_own_mean": 0.06067855146839701
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": 0.1694836443064174,
+            "delta_H": 0.1100216943064174,
+            "positive_actuator_work_by_control": [
+              0.8591663497556403,
+              1.2633540443812292,
+              1.707737963887012,
+              0.03617329324302593
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.5473497963576899,
+              0.7895692063739879,
+              0.6060094546423346,
+              0.039367310866620174
+            ],
+            "positive_actuator_work_total": 3.8664316512669075,
+            "negative_actuator_work_magnitude_total": 2.982295768240633,
+            "net_actuator_work": 0.8841358830262751,
+            "passive_bath": 0.7741141879593966,
+            "final_residual": -7.60460472370994e-10,
+            "max_abs_residual_all_samples": 8.106881832503632e-10
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.0313468624928986,
+            "all_10_cycles_sampled_max": 0.17848872104234756,
+            "last_cycle_sampled_min": -0.01427262529602184,
+            "last_cycle_sampled_max": 0.1686324772298529,
+            "last_cycle_mean": 0.08870071388805204,
+            "last_cycle_rms_about_zero": 0.10746934201203978,
+            "last_cycle_rms_about_own_mean": 0.06067819071339151
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": 0.16948373893004096,
+            "delta_H": 0.10684898893004094,
+            "positive_actuator_work_by_control": [
+              0.8546675392529242,
+              1.2633900323428724,
+              1.706660367532488,
+              0.03578444276603698
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.5417682225491127,
+              0.7982652269880407,
+              0.6044789115295698,
+              0.03854882117155964
+            ],
+            "positive_actuator_work_total": 3.860502381894322,
+            "negative_actuator_work_magnitude_total": 2.983061182238283,
+            "net_actuator_work": 0.8774411996560388,
+            "passive_bath": 0.7705922102410683,
+            "final_residual": -4.849298740339236e-10,
+            "max_abs_residual_all_samples": 5.554514070915673e-10
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.03773606755266162,
+          "end_cycle_5": 0.0006632234346146652,
+          "end_cycle_10": 7.03249495097448e-06,
+          "max_over_all_samples": 0.09261952951851306,
+          "max_sample_index": 25
+        }
+      },
+      "lower_only": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          false,
+          false,
+          false,
+          true
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.21976637040847508,
+            "all_10_cycles_sampled_max": 0.06578202872352706,
+            "last_cycle_sampled_min": -0.1428407238064079,
+            "last_cycle_sampled_max": -0.12433156258531948,
+            "last_cycle_mean": -0.13334352572657912,
+            "last_cycle_rms_about_zero": 0.13350441151093992,
+            "last_cycle_rms_about_own_mean": 0.0065522545499632654
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": -0.02190804857477964,
+            "delta_H": -0.08136999857477965,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.05409738639554753
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.04521794846890177
+            ],
+            "positive_actuator_work_total": 0.05409738639554753,
+            "negative_actuator_work_magnitude_total": 0.04521794846890177,
+            "net_actuator_work": 0.008879437926645757,
+            "passive_bath": 0.09024944588271575,
+            "final_residual": 9.381290341781146e-09,
+            "max_abs_residual_all_samples": 1.1834126505128051e-08
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.22728820827917262,
+            "all_10_cycles_sampled_max": 0.1,
+            "last_cycle_sampled_min": -0.1428387482380065,
+            "last_cycle_sampled_max": -0.12432997275574617,
+            "last_cycle_mean": -0.1333435429334211,
+            "last_cycle_rms_about_zero": 0.13350445434114888,
+            "last_cycle_rms_about_own_mean": 0.006552777036554472
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": -0.021908029438035007,
+            "delta_H": -0.08454277943803502,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.05406156766159866
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.04415302760783194
+            ],
+            "positive_actuator_work_total": 0.05406156766159866,
+            "negative_actuator_work_magnitude_total": 0.04415302760783194,
+            "net_actuator_work": 0.00990854005376672,
+            "passive_bath": 0.09445131435474993,
+            "final_residual": -5.137051811709981e-09,
+            "max_abs_residual_all_samples": 5.592916973301554e-09
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.045301338027034135,
+          "end_cycle_5": 0.0007199919089059091,
+          "end_cycle_10": 7.713853149928773e-06,
+          "max_over_all_samples": 0.14528232648306375,
+          "max_sample_index": 51
+        }
+      },
+      "upper_only": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          true,
+          true,
+          true,
+          false
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.02135440086175621,
+            "all_10_cycles_sampled_max": 0.20970436574612708,
+            "last_cycle_sampled_min": -0.017999409362290174,
+            "last_cycle_sampled_max": 0.18162411591276265,
+            "last_cycle_mean": 0.09412283293505458,
+            "last_cycle_rms_about_zero": 0.11636391658535528,
+            "last_cycle_rms_about_own_mean": 0.06842114734030207
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": 0.16605956973031294,
+            "delta_H": 0.10659761973031293,
+            "positive_actuator_work_by_control": [
+              0.779265006802408,
+              1.3107620306765222,
+              1.749811521174339,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.582957408382719,
+              0.7455492601997188,
+              0.5345611483725847,
+              0.0
+            ],
+            "positive_actuator_work_total": 3.8398385586532693,
+            "negative_actuator_work_magnitude_total": 2.8630678169550228,
+            "net_actuator_work": 0.9767707416982467,
+            "passive_bath": 0.8701731220403369,
+            "final_residual": 7.240352761783697e-11,
+            "max_abs_residual_all_samples": 1.0044905185413455e-10
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.020579859104937533,
+            "all_10_cycles_sampled_max": 0.19671374476866188,
+            "last_cycle_sampled_min": -0.017999332362795124,
+            "last_cycle_sampled_max": 0.18162393528882476,
+            "last_cycle_mean": 0.09412283084636121,
+            "last_cycle_rms_about_zero": 0.11636386386493655,
+            "last_cycle_rms_about_own_mean": 0.06842106055188538
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": 0.16605955254320384,
+            "delta_H": 0.10342480254320383,
+            "positive_actuator_work_by_control": [
+              0.7752090055196915,
+              1.3082614920228135,
+              1.752535741187339,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              1.5791977889605324,
+              0.7533837779065857,
+              0.5355206458562558,
+              0.0
+            ],
+            "positive_actuator_work_total": 3.836006238729844,
+            "negative_actuator_work_magnitude_total": 2.8681022127233735,
+            "net_actuator_work": 0.9679040260064701,
+            "passive_bath": 0.8644792240157094,
+            "final_residual": 5.524426471836819e-10,
+            "max_abs_residual_all_samples": 1.2333353158200389e-09
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.040013821954465956,
+          "end_cycle_5": 0.0006023863625283804,
+          "end_cycle_10": 6.169748576868036e-06,
+          "max_over_all_samples": 0.09634735009620958,
+          "max_sample_index": 25
+        }
+      },
+      "all_off": {
+        "enabled_mask_upper1_upper2_upper3_lower": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "baseline": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.20886232072213146,
+            "all_10_cycles_sampled_max": 0.06686428708260517,
+            "last_cycle_sampled_min": -0.15108914116862268,
+            "last_cycle_sampled_max": -0.15107842196960505,
+            "last_cycle_mean": -0.1510843841831185,
+            "last_cycle_rms_about_zero": 0.15108438420432113,
+            "last_cycle_rms_about_own_mean": 2.5311618623088493e-06
+          },
+          "energy_ledger": {
+            "H_initial": 0.05946195000000001,
+            "H_final": -0.02477977523939518,
+            "delta_H": -0.08424172523939519,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_actuator_work_total": 0.0,
+            "negative_actuator_work_magnitude_total": 0.0,
+            "net_actuator_work": 0.0,
+            "passive_bath": 0.08424172434922182,
+            "final_residual": -8.901733655752864e-10,
+            "max_abs_residual_all_samples": 8.951338281715238e-10
+          }
+        },
+        "perturbed": {
+          "rocker": {
+            "all_10_cycles_sampled_min": -0.2174199568943997,
+            "all_10_cycles_sampled_max": 0.1,
+            "last_cycle_sampled_min": -0.15108740175116173,
+            "last_cycle_sampled_max": -0.1510804671427784,
+            "last_cycle_mean": -0.15108431513463097,
+            "last_cycle_rms_about_zero": 0.15108431514379955,
+            "last_cycle_rms_about_own_mean": 1.66447050308637e-06
+          },
+          "energy_ledger": {
+            "H_initial": 0.06263475000000002,
+            "H_final": -0.024779775232865616,
+            "delta_H": -0.08741452523286564,
+            "positive_actuator_work_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "negative_actuator_work_magnitude_by_control": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "positive_actuator_work_total": 0.0,
+            "negative_actuator_work_magnitude_total": 0.0,
+            "net_actuator_work": 0.0,
+            "passive_bath": 0.08741452390618669,
+            "final_residual": -1.3266789472554663e-09,
+            "max_abs_residual_all_samples": 2.5556103483426185e-09
+          }
+        },
+        "disturbance": {
+          "initial": 0.05656854249492382,
+          "end_cycle_1": 0.04150857832747513,
+          "end_cycle_5": 0.0008208572321521814,
+          "end_cycle_10": 8.95641899740774e-06,
+          "max_over_all_samples": 0.14338203462956048,
+          "max_sample_index": 51
+        }
+      }
+    }
+  },
+  "ascending_rankings_lower_to_higher": {
+    "A": {
+      "rms_about_zero": [
+        {
+          "mask": "all_on",
+          "value": 0.11313160861639687
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.1320784391696656
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.1452089617359512
+        },
+        {
+          "mask": "all_off",
+          "value": 0.19109651328414673
+        }
+      ],
+      "rms_about_own_mean": [
+        {
+          "mask": "all_off",
+          "value": 1.62234657456026e-05
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.021590949061050933
+        },
+        {
+          "mask": "all_on",
+          "value": 0.06419234430891042
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.08217725136931883
+        }
+      ],
+      "end_cycle_1": [
+        {
+          "mask": "all_on",
+          "value": 0.032361562468590954
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.036265261538459076
+        },
+        {
+          "mask": "all_off",
+          "value": 0.039046326907442586
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.043504573030048274
+        }
+      ],
+      "end_cycle_5": [
+        {
+          "mask": "all_off",
+          "value": 0.000539887320054163
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.0005849554838783355
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.0006051207356343616
+        },
+        {
+          "mask": "all_on",
+          "value": 0.000883000317380851
+        }
+      ],
+      "end_cycle_10": [
+        {
+          "mask": "all_off",
+          "value": 6.130392740533271e-06
+        },
+        {
+          "mask": "upper_only",
+          "value": 6.1725131390201205e-06
+        },
+        {
+          "mask": "lower_only",
+          "value": 8.282263496901718e-06
+        },
+        {
+          "mask": "all_on",
+          "value": 1.0778404859699245e-05
+        }
+      ],
+      "max_over_all_samples": [
+        {
+          "mask": "all_on",
+          "value": 0.09256023517585438
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.09626022455173301
+        },
+        {
+          "mask": "all_off",
+          "value": 0.14338203462956048
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.14528232648306375
+        }
+      ]
+    },
+    "B": {
+      "rms_about_zero": [
+        {
+          "mask": "all_on",
+          "value": 0.10746944839419229
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.11636391658535528
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.13350441151093992
+        },
+        {
+          "mask": "all_off",
+          "value": 0.15108438420432113
+        }
+      ],
+      "rms_about_own_mean": [
+        {
+          "mask": "all_off",
+          "value": 2.5311618623088493e-06
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.0065522545499632654
+        },
+        {
+          "mask": "all_on",
+          "value": 0.06067855146839701
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.06842114734030207
+        }
+      ],
+      "end_cycle_1": [
+        {
+          "mask": "all_on",
+          "value": 0.03773606755266162
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.040013821954465956
+        },
+        {
+          "mask": "all_off",
+          "value": 0.04150857832747513
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.045301338027034135
+        }
+      ],
+      "end_cycle_5": [
+        {
+          "mask": "upper_only",
+          "value": 0.0006023863625283804
+        },
+        {
+          "mask": "all_on",
+          "value": 0.0006632234346146652
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.0007199919089059091
+        },
+        {
+          "mask": "all_off",
+          "value": 0.0008208572321521814
+        }
+      ],
+      "end_cycle_10": [
+        {
+          "mask": "upper_only",
+          "value": 6.169748576868036e-06
+        },
+        {
+          "mask": "all_on",
+          "value": 7.03249495097448e-06
+        },
+        {
+          "mask": "lower_only",
+          "value": 7.713853149928773e-06
+        },
+        {
+          "mask": "all_off",
+          "value": 8.95641899740774e-06
+        }
+      ],
+      "max_over_all_samples": [
+        {
+          "mask": "all_on",
+          "value": 0.09261952951851306
+        },
+        {
+          "mask": "upper_only",
+          "value": 0.09634735009620958
+        },
+        {
+          "mask": "all_off",
+          "value": 0.14338203462956048
+        },
+        {
+          "mask": "lower_only",
+          "value": 0.14528232648306375
+        }
+      ]
+    }
+  }
+}

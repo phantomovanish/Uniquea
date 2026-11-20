@@ -1,0 +1,68 @@
+{
+  "gimbal_convention": "Z-Y-X, roll=0; body-rate Jacobian",
+  "axis_rank_checks": [
+    {
+      "pitch_deg": 0,
+      "rank": 3,
+      "determinant": 1.0,
+      "condition_number": 1.0,
+      "rank_tolerance": 1e-12
+    },
+    {
+      "pitch_deg": 45,
+      "rank": 3,
+      "determinant": 0.7071067811865476,
+      "condition_number": 2.414213562373095,
+      "rank_tolerance": 1e-12
+    },
+    {
+      "pitch_deg": 89,
+      "rank": 3,
+      "determinant": 0.017452406437283602,
+      "condition_number": 114.58865012930906,
+      "rank_tolerance": 1e-12
+    },
+    {
+      "pitch_deg": 90,
+      "rank": 2,
+      "determinant": 6.123233995736787e-17,
+      "condition_number": null,
+      "rank_tolerance": 1e-12
+    }
+  ],
+  "interpretation": "At 90 degrees the conventional axes lose one independent instantaneous direction; coordinate choice does not remove physical alignment.",
+  "radix_alphabet": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/",
+  "radix_examples": [
+    {
+      "decimal": "0",
+      "radix_64": "0",
+      "decoded_decimal": "0"
+    },
+    {
+      "decimal": "10",
+      "radix_64": "A",
+      "decoded_decimal": "10"
+    },
+    {
+      "decimal": "63",
+      "radix_64": "/",
+      "decoded_decimal": "63"
+    },
+    {
+      "decimal": "64",
+      "radix_64": "10",
+      "decoded_decimal": "64"
+    },
+    {
+      "decimal": "4096",
+      "radix_64": "100",
+      "decoded_decimal": "4096"
+    },
+    {
+      "decimal": "123456789012345678901234567890123",
+      "radix_64": "OMFcPRwtocek6cGaJB",
+      "decoded_decimal": "123456789012345678901234567890123"
+    }
+  ],
+  "radix_limit": "The same integer can be represented with different positional bases; a change of base alone is not a change of dynamics or experimental precision."
+}

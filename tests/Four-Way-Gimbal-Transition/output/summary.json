@@ -1,0 +1,313 @@
+{
+  "status": "synthetic, driven, unvalidated",
+  "parameters": {
+    "masses": [
+      2.0,
+      1.0,
+      0.6,
+      0.6,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damping": [
+      0.18,
+      0.16,
+      0.18,
+      0.18,
+      0.12,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "rocker_k": 1.0,
+    "nonlinear_gain": 1.5,
+    "transition_lo": 0.1,
+    "transition_hi": 0.24,
+    "load_torque": 0.28,
+    "fulcrum_k": [
+      0.8,
+      0.8
+    ],
+    "fulcrum_lever": [
+      -0.7,
+      0.7
+    ],
+    "orb_coupling_k": [
+      0.8,
+      1.15
+    ],
+    "fulcrum_ground_k": 0.22,
+    "orb_ground_k": 0.3,
+    "scope_k": [
+      1.3,
+      1.3,
+      1.3,
+      0.5
+    ],
+    "scope_lever": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "kp": [
+      4.0,
+      4.0,
+      4.0,
+      16.0
+    ],
+    "kd": [
+      0.65,
+      0.65,
+      0.65,
+      0.8
+    ],
+    "target_bias": [
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "target_amplitude": [
+      0.35,
+      0.35,
+      0.35,
+      0.035
+    ],
+    "target_phase": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "omega": 0.75,
+    "cycles": 20,
+    "samples_per_cycle": 240,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08
+  },
+  "initial_state": [
+    0.06,
+    0.035,
+    -0.015,
+    0.025,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "perturbation_theta_and_orb": [
+    0.04,
+    0.04
+  ],
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "solver": "DOP853",
+  "comparison": {
+    "A": {
+      "option": "A",
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.17047384536444843,
+      "delta_H": 0.11101189536444842,
+      "positive_work_by_control": [
+        1.4456042262868443,
+        2.383147491275837,
+        3.50266579173674,
+        0.06235620669251253
+      ],
+      "negative_work_magnitude_by_control": [
+        3.0252056305448054,
+        1.5982657170344323,
+        1.1087205030981366,
+        0.07023493696014636
+      ],
+      "net_actuator_work": 1.591346928354413,
+      "passive_loss": 1.480335032990986,
+      "max_abs_ledger_residual": 5.599226540319718e-12,
+      "final_ledger_residual": 1.021183138050219e-12,
+      "last_cycle_theta_min": 0.0023790263879672675,
+      "last_cycle_theta_max": 0.18393151252796103,
+      "last_cycle_theta_min_deg": 0.1363081713807772,
+      "last_cycle_theta_max_deg": 10.538499387309795,
+      "last_cycle_orb_min": -0.004123343587359624,
+      "last_cycle_orb_max": 0.01144049005082396,
+      "last_cycle_fulcra_ranges": [
+        [
+          -0.057297089476579806,
+          0.0031870987005867186
+        ],
+        [
+          -0.00631743289234348,
+          0.05827532127419588
+        ]
+      ],
+      "last_cycle_scope_half_ranges": [
+        0.2763759943982468,
+        0.29359459989398584,
+        0.2677063096846224,
+        0.03153763225444023
+      ],
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.2763789398417003,
+        0.2935969980815153,
+        0.26772798274275716,
+        0.03153763949544951
+      ],
+      "target_phase_deg": [
+        0.0,
+        90.0,
+        180.0,
+        -90.0
+      ],
+      "actual_fundamental_phase_deg": [
+        -1.7645219244549253,
+        82.73158952039398,
+        168.77095687528788,
+        -91.4612331170535
+      ],
+      "actual_side_phases_relative_scope1_deg": [
+        84.4961114448489,
+        -89.69671119259857
+      ],
+      "actual_scope2_minus_scope4_phase_deg": 174.19282263744748,
+      "last_cycle_turning_times": [
+        159.42878653487838,
+        163.61757702779258
+      ],
+      "last_cycle_zero_crossing_times": [],
+      "initial_perturbation_norm": 0.05656854249492382,
+      "difference_at_end_cycle_1": 0.032361562468590954,
+      "difference_at_end_cycle_5": 0.000883000317380851,
+      "difference_at_end_cycle_20": 1.868997790502235e-09,
+      "difference_max_all_samples": 0.09256023517585438,
+      "last_cycle_perturbation_max": 4.5449435666590715e-09,
+      "baseline_last_cycle_closure_norm": 9.796767952931658e-09,
+      "tight_solver_max_physical_state_difference": 4.105875153759264e-10,
+      "tight_solver_max_ledger_state_difference": 1.4372160233033782e-06
+    },
+    "B": {
+      "option": "B",
+      "H_initial": 0.05946195000000001,
+      "H_final": 0.16948373794522759,
+      "delta_H": 0.11002178794522757,
+      "positive_work_by_control": [
+        1.6982372724071113,
+        2.382324455150889,
+        3.4002566242648,
+        0.06418846351298249
+      ],
+      "negative_work_magnitude_by_control": [
+        3.0758303893296945,
+        1.569949633130937,
+        1.2133491394192206,
+        0.07308142075803879
+      ],
+      "net_actuator_work": 1.612796232697892,
+      "passive_loss": 1.502774442917887,
+      "max_abs_ledger_residual": 1.834833840419492e-09,
+      "final_ledger_residual": -1.834777441089841e-09,
+      "last_cycle_theta_min": -0.014270123713657882,
+      "last_cycle_theta_max": 0.16863116726692337,
+      "last_cycle_theta_min_deg": -0.8176178619221495,
+      "last_cycle_theta_max_deg": 9.661854178759347,
+      "last_cycle_orb_min": -0.005361587399514448,
+      "last_cycle_orb_max": 0.009517640899063274,
+      "last_cycle_fulcra_ranges": [
+        [
+          -0.06597737114976643,
+          0.02669514594042555
+        ],
+        [
+          -0.022323065959689848,
+          0.05758148225704416
+        ]
+      ],
+      "last_cycle_scope_half_ranges": [
+        0.27793378132413815,
+        0.2915542975381977,
+        0.2662153591970679,
+        0.03188250450932782
+      ],
+      "last_cycle_scope_fundamental_amplitudes": [
+        0.276609024620766,
+        0.2910914401766353,
+        0.2671064879365469,
+        0.031845393942123545
+      ],
+      "target_phase_deg": [
+        0.0,
+        90.0,
+        180.0,
+        -90.0
+      ],
+      "actual_fundamental_phase_deg": [
+        -2.2903609073051143,
+        82.64086778764397,
+        169.30038565016275,
+        -91.37780154163057
+      ],
+      "actual_side_phases_relative_scope1_deg": [
+        84.93122869494908,
+        -89.08744063432546
+      ],
+      "actual_scope2_minus_scope4_phase_deg": 174.01866932927453,
+      "last_cycle_turning_times": [
+        163.88620319806148,
+        166.9508821826035
+      ],
+      "last_cycle_zero_crossing_times": [
+        163.31156845806228,
+        164.45211257108454
+      ],
+      "initial_perturbation_norm": 0.05656854249492382,
+      "difference_at_end_cycle_1": 0.03773606755266162,
+      "difference_at_end_cycle_5": 0.0006632234346146652,
+      "difference_at_end_cycle_20": 8.962288287381438e-10,
+      "difference_max_all_samples": 0.09261952951851306,
+      "last_cycle_perturbation_max": 2.3345002253178924e-09,
+      "baseline_last_cycle_closure_norm": 2.0731825382943583e-09,
+      "tight_solver_max_physical_state_difference": 1.7014332165388169e-09,
+      "tight_solver_max_ledger_state_difference": 5.871208896834901e-07
+    }
+  },
+  "passive_control": {
+    "A": {
+      "H_initial": 0.05946195000000001,
+      "H_final": -0.02675424370202184,
+      "max_energy_increase_per_sample": 2.0816681711721685e-17,
+      "passive_loss": 0.08621619370202421,
+      "max_abs_ledger_residual": 1.2913281555171352e-13
+    },
+    "B": {
+      "H_initial": 0.05946195000000001,
+      "H_final": -0.024779775329466607,
+      "max_energy_increase_per_sample": 1.3877787807814457e-17,
+      "passive_loss": 0.08424172443929291,
+      "max_abs_ledger_residual": 8.951338281715238e-10
+    }
+  }
+}

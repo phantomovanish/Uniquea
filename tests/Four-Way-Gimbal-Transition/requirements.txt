@@ -1,0 +1,5 @@
+# Versions used for the reported run (Python 3.12.3)
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+# Tests use the Python standard-library unittest module.

@@ -1,0 +1,1469 @@
+{
+  "status": "synthetic, actively driven, finite-time, unvalidated",
+  "description": "Four-point probe, not a continuous sweep or interpolation of archived A/B models.",
+  "gamma_values_inverse_model_time": [
+    0.0,
+    0.04,
+    0.16,
+    0.4
+  ],
+  "gamma_definition": "gamma=c_orb/m_orb, where passive orb force is -c_orb*y_dot and m_orb=1; no other parameter is varied",
+  "T_drive": 8.377580409572781,
+  "dimensionless_probe_definition": "gamma*T_drive = gamma*(2*pi/omega), not archived gamma*T",
+  "archived_comparison_caution": "Archived T is the contraction timescale in a different system; these products and the archived shift scaling are not interchangeable.",
+  "naming_caution": "Local A/B are linear/nonlinear rocker laws; archived A/B denote no damping/damping. gamma=0 removes only orb-coordinate passive damping, not other damping or controller losses.",
+  "bath_caution": "Damping is integrated into the existing passive bookkeeping bath, not a modeled physical Alt Field. Negative actuator work represents extracted mechanical energy; its destination is unspecified.",
+  "limitations": [
+    "Only four gamma values, one synthetic parameter set and one specified perturbation are tested.",
+    "Dynamically coupled driven coordinates need not behave like an isolated damped orb, and no archived tipping or fold is modeled.",
+    "20-cycle results, final-cycle closure and perturbation contraction are not proofs of asymptotic stability, a basin of attraction, or self-sustaining motion.",
+    "Extrema and threshold occupancy are sampled; threshold occupancy for the linear law is only a reference to the nonlinear law's thresholds.",
+    "The trapezoidal orb and total damping estimates use sampled states; only the total bath is integrated as a state. Their difference is a quadrature diagnostic, not a separate reservoir.",
+    "The physical-state Euclidean norm mixes normalized coordinates and velocities and is not a unique physical distance. Small late differences can approach numerical resolution.",
+    "No measured data, physical field, fitted damping, experimental validation, Floquet analysis or rigorous solver-error bounds are included."
+  ],
+  "baseline_parameters": {
+    "masses": [
+      2.0,
+      1.0,
+      0.6,
+      0.6,
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "damping": [
+      0.18,
+      0.16,
+      0.18,
+      0.18,
+      0.12,
+      0.12,
+      0.12,
+      0.12
+    ],
+    "rocker_k": 1.0,
+    "nonlinear_gain": 1.5,
+    "transition_lo": 0.1,
+    "transition_hi": 0.24,
+    "load_torque": 0.28,
+    "fulcrum_k": [
+      0.8,
+      0.8
+    ],
+    "fulcrum_lever": [
+      -0.7,
+      0.7
+    ],
+    "orb_coupling_k": [
+      0.8,
+      1.15
+    ],
+    "fulcrum_ground_k": 0.22,
+    "orb_ground_k": 0.3,
+    "scope_k": [
+      1.3,
+      1.3,
+      1.3,
+      0.5
+    ],
+    "scope_lever": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "kp": [
+      4.0,
+      4.0,
+      4.0,
+      16.0
+    ],
+    "kd": [
+      0.65,
+      0.65,
+      0.65,
+      0.8
+    ],
+    "target_bias": [
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ],
+    "target_amplitude": [
+      0.35,
+      0.35,
+      0.35,
+      0.035
+    ],
+    "target_phase": [
+      0.0,
+      1.5707963267948966,
+      3.141592653589793,
+      4.71238898038469
+    ],
+    "omega": 0.75,
+    "cycles": 20,
+    "samples_per_cycle": 240,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08
+  },
+  "initial_augmented_state": [
+    0.06,
+    0.035,
+    -0.015,
+    0.025,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "perturbed_initial_augmented_state": [
+    0.1,
+    0.07500000000000001,
+    -0.015,
+    0.025,
+    0.2,
+    0.2,
+    0.2,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "solver": {
+    "method": "DOP853",
+    "cycles": 20,
+    "samples_per_cycle": 240,
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "max_step": 0.08,
+    "tighter_baseline_comparison": {
+      "rtol": 2e-11,
+      "atol": 2e-13,
+      "max_step": 0.04
+    }
+  },
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "cases": [
+    {
+      "gamma": 0.0,
+      "orb_damping_coefficient": 0.0,
+      "gamma_times_T_drive": 0.0,
+      "local_rocker_option": "A",
+      "rocker_law": "linear",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.0,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.17047946669476322,
+        "delta_H": 0.1110175166947632,
+        "positive_actuator_work_by_controller": [
+          1.4454839238873545,
+          2.382976434528729,
+          3.5027940807222833,
+          0.062364345872806905
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.025365760273784,
+          1.5984979280228127,
+          1.1085770430792854,
+          0.07022432746481724
+        ],
+        "total_positive_actuator_work": 7.393618785011173,
+        "total_negative_actuator_work_magnitude": 5.8026650588407,
+        "net_actuator_work": 1.5909537261704747,
+        "passive_loss_to_bookkeeping_bath": 1.4799362094766824,
+        "orb_passive_loss_sampled_trapezoid": 0.0,
+        "all_passive_loss_sampled_trapezoid": 1.4799361316409998,
+        "sampled_total_minus_ode_integrated_passive_loss": -7.783568256591877e-08,
+        "final_ledger_residual": 9.71445146547012e-13,
+        "max_abs_sampled_ledger_residual": 6.4570571112199104e-12,
+        "perturbed_delta_H": 0.10784471481718533,
+        "perturbed_net_actuator_work": 1.5786698328738609,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.470825118057984,
+        "perturbed_max_abs_sampled_ledger_residual": 1.1213408673826919e-11
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": 0.0023668238452485154,
+        "theta_max": 0.1839436955525985,
+        "theta_time_weighted_rms": 0.11313448400069358,
+        "orb_min": -0.004579462243063495,
+        "orb_max": 0.011895066120284048,
+        "orb_time_weighted_rms": 0.0068787216424374634,
+        "fraction_below_or_equal_lower_threshold": 0.525,
+        "fraction_between_thresholds": 0.475,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 5.0768895447279586e-06
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.039092889619090104,
+          "5": 0.00400806222102641,
+          "10": 0.00041784834169327937,
+          "20": 5.067735471526748e-06
+        },
+        "maximum_sampled_difference_norm": 0.09386908303223733,
+        "final_cycle_maximum_sampled_difference_norm": 7.74864886871896e-06,
+        "final_sampled_difference_norm": 5.067735471526748e-06
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 4.5175039403710926e-10,
+        "max_abs_gross_ledger_state_difference": 2.193235631331447e-06,
+        "final_physical_state_difference_norm": 1.0779031836396445e-13
+      }
+    },
+    {
+      "gamma": 0.0,
+      "orb_damping_coefficient": 0.0,
+      "gamma_times_T_drive": 0.0,
+      "local_rocker_option": "B",
+      "rocker_law": "nonlinear smooth hardening",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.0,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.16949516727138056,
+        "delta_H": 0.11003321727138055,
+        "positive_actuator_work_by_controller": [
+          1.6981767938965833,
+          2.3822187622911866,
+          3.400289446522015,
+          0.0641923803618229
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.075940502653798,
+          1.5701029236919475,
+          1.2132241763756872,
+          0.07307349650209029
+        ],
+        "total_positive_actuator_work": 7.544877383071608,
+        "total_negative_actuator_work_magnitude": 5.932341099223523,
+        "net_actuator_work": 1.6125362838480848,
+        "passive_loss_to_bookkeeping_bath": 1.5025030666030492,
+        "orb_passive_loss_sampled_trapezoid": 0.0,
+        "all_passive_loss_sampled_trapezoid": 1.502503132084367,
+        "sampled_total_minus_ode_integrated_passive_loss": 6.54813177014546e-08,
+        "final_ledger_residual": 2.6345148285145115e-11,
+        "max_abs_sampled_ledger_residual": 7.266276469408695e-10,
+        "perturbed_delta_H": 0.10686041461982693,
+        "perturbed_net_actuator_work": 1.6058322521907453,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4989718378094496,
+        "perturbed_max_abs_sampled_ledger_residual": 1.3496307890714654e-09
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": -0.014254965233234954,
+        "theta_max": 0.16865047704793323,
+        "theta_time_weighted_rms": 0.10746944400301871,
+        "orb_min": -0.005107055706559878,
+        "orb_max": 0.010775761793269154,
+        "orb_time_weighted_rms": 0.0064390930876542275,
+        "fraction_below_or_equal_lower_threshold": 0.4625,
+        "fraction_between_thresholds": 0.5375,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 5.78092280484679e-06
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.04224242600329212,
+          "5": 0.0038759289624542143,
+          "10": 0.00040815529954880086,
+          "20": 4.935026423686463e-06
+        },
+        "maximum_sampled_difference_norm": 0.09394423987339358,
+        "final_cycle_maximum_sampled_difference_norm": 7.559897386400155e-06,
+        "final_sampled_difference_norm": 4.935026423686463e-06
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 3.0377523829727693e-09,
+        "max_abs_gross_ledger_state_difference": 1.0016146663183179e-06,
+        "final_physical_state_difference_norm": 1.2535781319314044e-09
+      }
+    },
+    {
+      "gamma": 0.04,
+      "orb_damping_coefficient": 0.04,
+      "gamma_times_T_drive": 0.33510321638291124,
+      "local_rocker_option": "A",
+      "rocker_law": "linear",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.04,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.1704782627242151,
+        "delta_H": 0.11101631272421508,
+        "positive_actuator_work_by_controller": [
+          1.4455101392704994,
+          2.3830257069601193,
+          3.502770417382128,
+          0.06236197605227597
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.0253347591592235,
+          1.5984318759503222,
+          1.108608787619037,
+          0.07022739182270216
+        ],
+        "total_positive_actuator_work": 7.393668239665022,
+        "total_negative_actuator_work_magnitude": 5.8026028145512845,
+        "net_actuator_work": 1.591065425113738,
+        "passive_loss_to_bookkeeping_bath": 1.4800491123904977,
+        "orb_passive_loss_sampled_trapezoid": 0.0002011446378617997,
+        "all_passive_loss_sampled_trapezoid": 1.4800490344483141,
+        "sampled_total_minus_ode_integrated_passive_loss": -7.79421835961358e-08,
+        "final_ledger_residual": 9.749978602258125e-13,
+        "max_abs_sampled_ledger_residual": 6.524794593509853e-12,
+        "perturbed_delta_H": 0.1078435116014094,
+        "perturbed_net_actuator_work": 1.5787863497983703,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4709428381982632,
+        "perturbed_max_abs_sampled_ledger_residual": 1.144054989632437e-11
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": 0.0023691990377602517,
+        "theta_max": 0.18394133828492898,
+        "theta_time_weighted_rms": 0.11313355325372884,
+        "orb_min": -0.004494319814984313,
+        "orb_max": 0.011811305483138855,
+        "orb_time_weighted_rms": 0.006828139542954755,
+        "fraction_below_or_equal_lower_threshold": 0.525,
+        "fraction_between_thresholds": 0.475,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 6.23977869282215e-07
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.0369549157113278,
+          "5": 0.0023977888413196954,
+          "10": 0.00014064689060471952,
+          "20": 5.884765442240803e-07
+        },
+        "maximum_sampled_difference_norm": 0.09351550155539444,
+        "final_cycle_maximum_sampled_difference_norm": 9.588247269569915e-07,
+        "final_sampled_difference_norm": 5.884765442240803e-07
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 4.4884660571620216e-10,
+        "max_abs_gross_ledger_state_difference": 1.7266148986117003e-06,
+        "final_physical_state_difference_norm": 1.0128936160576934e-13
+      }
+    },
+    {
+      "gamma": 0.04,
+      "orb_damping_coefficient": 0.04,
+      "gamma_times_T_drive": 0.33510321638291124,
+      "local_rocker_option": "B",
+      "rocker_law": "nonlinear smooth hardening",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.04,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.16949230314868363,
+        "delta_H": 0.11003035314868362,
+        "positive_actuator_work_by_controller": [
+          1.698189687838039,
+          2.3822557483134283,
+          3.4002895676775307,
+          0.06419124461732356
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.0759199301730193,
+          1.5700618546827314,
+          1.2132552657891362,
+          0.07307601227629136
+        ],
+        "total_positive_actuator_work": 7.5449262484463215,
+        "total_negative_actuator_work_magnitude": 5.932313062921179,
+        "net_actuator_work": 1.612613185525143,
+        "passive_loss_to_bookkeeping_bath": 1.5025828336387028,
+        "orb_passive_loss_sampled_trapezoid": 0.000234426739822515,
+        "all_passive_loss_sampled_trapezoid": 1.5025828992025185,
+        "sampled_total_minus_ode_integrated_passive_loss": 6.556381570987924e-08,
+        "final_ledger_residual": 1.2622440870302398e-09,
+        "max_abs_sampled_ledger_residual": 1.5141452536227007e-09,
+        "perturbed_delta_H": 0.10685755184411533,
+        "perturbed_net_actuator_work": 1.6059090139556043,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4990514611867118,
+        "perturbed_max_abs_sampled_ledger_residual": 9.248335430811494e-10
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": -0.014260849872647335,
+        "theta_max": 0.16864578801496932,
+        "theta_time_weighted_rms": 0.10746965421923989,
+        "orb_min": -0.0052426605527419855,
+        "orb_max": 0.01043515321927501,
+        "orb_time_weighted_rms": 0.006390914528316409,
+        "fraction_below_or_equal_lower_threshold": 0.4625,
+        "fraction_between_thresholds": 0.5375,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 7.090159617870852e-07
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.04072793257303112,
+          "5": 0.002282746103507876,
+          "10": 0.00013737802653834486,
+          "20": 5.737430549611621e-07
+        },
+        "maximum_sampled_difference_norm": 0.09357642321727633,
+        "final_cycle_maximum_sampled_difference_norm": 9.357662098295289e-07,
+        "final_sampled_difference_norm": 5.737430549611621e-07
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 3.6878321507671785e-09,
+        "max_abs_gross_ledger_state_difference": 8.159866757839751e-07,
+        "final_physical_state_difference_norm": 2.3551905101757674e-10
+      }
+    },
+    {
+      "gamma": 0.16,
+      "orb_damping_coefficient": 0.16,
+      "gamma_times_T_drive": 1.340412865531645,
+      "local_rocker_option": "A",
+      "rocker_law": "linear",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.16,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.17047384536444843,
+        "delta_H": 0.11101189536444842,
+        "positive_actuator_work_by_controller": [
+          1.4456042262868443,
+          2.383147491275837,
+          3.50266579173674,
+          0.06235620669251253
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.0252056305448054,
+          1.5982657170344323,
+          1.1087205030981366,
+          0.07023493696014636
+        ],
+        "total_positive_actuator_work": 7.393773715991934,
+        "total_negative_actuator_work_magnitude": 5.80242678763752,
+        "net_actuator_work": 1.591346928354413,
+        "passive_loss_to_bookkeeping_bath": 1.480335032990986,
+        "orb_passive_loss_sampled_trapezoid": 0.0007072661742917661,
+        "all_passive_loss_sampled_trapezoid": 1.480334954718004,
+        "sampled_total_minus_ode_integrated_passive_loss": -7.827298187379483e-08,
+        "final_ledger_residual": 1.021183138050219e-12,
+        "max_abs_sampled_ledger_residual": 5.599226540319718e-12,
+        "perturbed_delta_H": 0.1078390953184935,
+        "perturbed_net_actuator_work": 1.5790915643416592,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.471252469024587,
+        "perturbed_max_abs_sampled_ledger_residual": 1.6068636005117654e-11
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": 0.0023790263879672675,
+        "theta_max": 0.18393151252796103,
+        "theta_time_weighted_rms": 0.11312965429110892,
+        "orb_min": -0.004123343587359624,
+        "orb_max": 0.01144049005082396,
+        "orb_time_weighted_rms": 0.006608099612632299,
+        "fraction_below_or_equal_lower_threshold": 0.525,
+        "fraction_between_thresholds": 0.475,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 9.796767952931658e-09
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.032361562468590954,
+          "5": 0.000883000317380851,
+          "10": 1.0778404859754753e-05,
+          "20": 1.868997790502235e-09
+        },
+        "maximum_sampled_difference_norm": 0.09256023517585438,
+        "final_cycle_maximum_sampled_difference_norm": 4.5449435666590715e-09,
+        "final_sampled_difference_norm": 1.868997790502235e-09
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 4.105875153759264e-10,
+        "max_abs_gross_ledger_state_difference": 1.4372160233033782e-06,
+        "final_physical_state_difference_norm": 9.679749733542016e-14
+      }
+    },
+    {
+      "gamma": 0.16,
+      "orb_damping_coefficient": 0.16,
+      "gamma_times_T_drive": 1.340412865531645,
+      "local_rocker_option": "B",
+      "rocker_law": "nonlinear smooth hardening",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.16,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.16948373794522759,
+        "delta_H": 0.11002178794522757,
+        "positive_actuator_work_by_controller": [
+          1.6982372724071113,
+          2.382324455150889,
+          3.4002566242648,
+          0.06418846351298249
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.0758303893296945,
+          1.569949633130937,
+          1.2133491394192206,
+          0.07308142075803879
+        ],
+        "total_positive_actuator_work": 7.545006815335784,
+        "total_negative_actuator_work_magnitude": 5.932210582637891,
+        "net_actuator_work": 1.612796232697892,
+        "passive_loss_to_bookkeeping_bath": 1.502774442917887,
+        "orb_passive_loss_sampled_trapezoid": 0.0008056864950221431,
+        "all_passive_loss_sampled_trapezoid": 1.5027745086618691,
+        "sampled_total_minus_ode_integrated_passive_loss": 6.574398203618159e-08,
+        "final_ledger_residual": -1.834777441089841e-09,
+        "max_abs_sampled_ledger_residual": 1.834833840419492e-09,
+        "perturbed_delta_H": 0.10684898789530334,
+        "perturbed_net_actuator_work": 1.606101296009946,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4992523074267814,
+        "perturbed_max_abs_sampled_ledger_residual": 7.124849599193794e-10
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": -0.014270123713657882,
+        "theta_max": 0.16863116726692337,
+        "theta_time_weighted_rms": 0.10746928476691772,
+        "orb_min": -0.005361587399514448,
+        "orb_max": 0.009517640899063274,
+        "orb_time_weighted_rms": 0.006187711891541512,
+        "fraction_below_or_equal_lower_threshold": 0.4625,
+        "fraction_between_thresholds": 0.5375,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 2.0731825382943583e-09
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.03773606755266162,
+          "5": 0.0006632234346146652,
+          "10": 7.0324949765259266e-06,
+          "20": 8.962288287381438e-10
+        },
+        "maximum_sampled_difference_norm": 0.09261952951851306,
+        "final_cycle_maximum_sampled_difference_norm": 2.3345002253178924e-09,
+        "final_sampled_difference_norm": 8.962288287381438e-10
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 1.7014332165388169e-09,
+        "max_abs_gross_ledger_state_difference": 5.871208896834901e-07,
+        "final_physical_state_difference_norm": 2.3190838171290007e-10
+      }
+    },
+    {
+      "gamma": 0.4,
+      "orb_damping_coefficient": 0.4,
+      "gamma_times_T_drive": 3.3510321638291125,
+      "local_rocker_option": "A",
+      "rocker_law": "linear",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.4,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.17046494087737335,
+        "delta_H": 0.11100299087737334,
+        "positive_actuator_work_by_controller": [
+          1.4458206160645812,
+          2.3832576569020096,
+          3.502394660902285,
+          0.06235086911685026
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.024900089725348,
+          1.5980736767617467,
+          1.108955083573389,
+          0.07024264896957219
+        ],
+        "total_positive_actuator_work": 7.393823802985725,
+        "total_negative_actuator_work_magnitude": 5.802171499030056,
+        "net_actuator_work": 1.5916523039556703,
+        "passive_loss_to_bookkeeping_bath": 1.4806493130792722,
+        "orb_passive_loss_sampled_trapezoid": 0.0013683377851125757,
+        "all_passive_loss_sampled_trapezoid": 1.4806492344130153,
+        "sampled_total_minus_ode_integrated_passive_loss": -7.866625684194162e-08,
+        "final_ledger_residual": 9.758860386455126e-13,
+        "max_abs_sampled_ledger_residual": 1.0464955291222822e-11,
+        "perturbed_delta_H": 0.10783019083798473,
+        "perturbed_net_actuator_work": 1.5794643781084834,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4716341872718115,
+        "perturbed_max_abs_sampled_ledger_residual": 6.817603664770189e-12
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": 0.00240312794657595,
+        "theta_max": 0.18390741090272736,
+        "theta_time_weighted_rms": 0.11312003228165642,
+        "orb_min": -0.003109740786996275,
+        "orb_max": 0.010426887082761595,
+        "orb_time_weighted_rms": 0.0060241376053962745,
+        "fraction_below_or_equal_lower_threshold": 0.525,
+        "fraction_between_thresholds": 0.475,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 9.625978443846212e-09
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.02795188970257547,
+          "5": 0.0007586609459570151,
+          "10": 9.003650856911115e-06,
+          "20": 1.6302312982218575e-09
+        },
+        "maximum_sampled_difference_norm": 0.09106074233094022,
+        "final_cycle_maximum_sampled_difference_norm": 3.949916761167945e-09,
+        "final_sampled_difference_norm": 1.6302312982218575e-09
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 3.371261464435449e-10,
+        "max_abs_gross_ledger_state_difference": 1.7244835335272768e-06,
+        "final_physical_state_difference_norm": 1.1359487561408742e-13
+      }
+    },
+    {
+      "gamma": 0.4,
+      "orb_damping_coefficient": 0.4,
+      "gamma_times_T_drive": 3.3510321638291125,
+      "local_rocker_option": "B",
+      "rocker_law": "nonlinear smooth hardening",
+      "parameters": {
+        "masses": [
+          2.0,
+          1.0,
+          0.6,
+          0.6,
+          0.3,
+          0.3,
+          0.3,
+          0.3
+        ],
+        "damping": [
+          0.18,
+          0.4,
+          0.18,
+          0.18,
+          0.12,
+          0.12,
+          0.12,
+          0.12
+        ],
+        "rocker_k": 1.0,
+        "nonlinear_gain": 1.5,
+        "transition_lo": 0.1,
+        "transition_hi": 0.24,
+        "load_torque": 0.28,
+        "fulcrum_k": [
+          0.8,
+          0.8
+        ],
+        "fulcrum_lever": [
+          -0.7,
+          0.7
+        ],
+        "orb_coupling_k": [
+          0.8,
+          1.15
+        ],
+        "fulcrum_ground_k": 0.22,
+        "orb_ground_k": 0.3,
+        "scope_k": [
+          1.3,
+          1.3,
+          1.3,
+          0.5
+        ],
+        "scope_lever": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "kp": [
+          4.0,
+          4.0,
+          4.0,
+          16.0
+        ],
+        "kd": [
+          0.65,
+          0.65,
+          0.65,
+          0.8
+        ],
+        "target_bias": [
+          0.25,
+          0.25,
+          0.25,
+          0.0
+        ],
+        "target_amplitude": [
+          0.35,
+          0.35,
+          0.35,
+          0.035
+        ],
+        "target_phase": [
+          0.0,
+          1.5707963267948966,
+          3.141592653589793,
+          4.71238898038469
+        ],
+        "omega": 0.75,
+        "cycles": 20,
+        "samples_per_cycle": 240,
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.08
+      },
+      "energy_ledger": {
+        "H_initial": 0.05946195000000001,
+        "H_final": 0.16946860867726618,
+        "delta_H": 0.11000665867726617,
+        "positive_actuator_work_by_controller": [
+          1.6983373482110045,
+          2.3822913397415113,
+          3.4001369937069095,
+          0.0641865537112802
+        ],
+        "negative_actuator_work_magnitude_by_controller": [
+          3.075601642797718,
+          1.5697879455191992,
+          1.213530226002355,
+          0.07308417553639522
+        ],
+        "total_positive_actuator_work": 7.544952235370705,
+        "total_negative_actuator_work_magnitude": 5.932003989855667,
+        "net_actuator_work": 1.612948245515038,
+        "passive_loss_to_bookkeeping_bath": 1.5029415862866193,
+        "orb_passive_loss_sampled_trapezoid": 0.001539538056580861,
+        "all_passive_loss_sampled_trapezoid": 1.502941652340858,
+        "sampled_total_minus_ode_integrated_passive_loss": 6.60542387453944e-08,
+        "final_ledger_residual": -5.511526790513699e-10,
+        "max_abs_sampled_ledger_residual": 6.488045656283248e-10,
+        "perturbed_delta_H": 0.10683385870345613,
+        "perturbed_net_actuator_work": 1.60629481851573,
+        "perturbed_passive_loss_to_bookkeeping_bath": 1.4994609586689558,
+        "perturbed_max_abs_sampled_ledger_residual": 1.191497345232051e-09
+      },
+      "final_cycle_sampled_response": {
+        "theta_min": -0.01426472904711451,
+        "theta_max": 0.16860089666388864,
+        "theta_time_weighted_rms": 0.10746600452403596,
+        "orb_min": -0.004728373327023822,
+        "orb_max": 0.00856993648050198,
+        "orb_time_weighted_rms": 0.00566166447945379,
+        "fraction_below_or_equal_lower_threshold": 0.4625,
+        "fraction_between_thresholds": 0.5375,
+        "fraction_above_or_equal_upper_threshold": 0.0,
+        "physical_state_closure_norm": 3.227615801804901e-09
+      },
+      "perturbation": {
+        "initial_physical_state_difference_norm": 0.05656854249492382,
+        "difference_norm_at_cycle_ends": {
+          "1": 0.03540053966380755,
+          "5": 0.00042361852107965876,
+          "10": 3.1484736396367344e-06,
+          "20": 1.1848685229987254e-09
+        },
+        "maximum_sampled_difference_norm": 0.09112101310359474,
+        "final_cycle_maximum_sampled_difference_norm": 2.7715768188980978e-09,
+        "final_sampled_difference_norm": 1.1848685229987254e-09
+      },
+      "numerical_comparison": {
+        "tight_solver": {
+          "rtol": 2e-11,
+          "atol": 2e-13,
+          "max_step": 0.04
+        },
+        "max_abs_physical_state_difference": 2.1868553495840715e-09,
+        "max_abs_gross_ledger_state_difference": 2.7091227527975548e-06,
+        "final_physical_state_difference_norm": 1.1806715268667461e-09
+      }
+    }
+  ]
+}

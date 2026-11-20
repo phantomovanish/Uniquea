@@ -1,0 +1,31 @@
+test_all_conservative_forces_are_energy_gradient (test_model.ToyModelTests.test_all_conservative_forces_are_energy_gradient) ... ok
+test_bilateral_reciprocity_and_no_one_way_forcing (test_model.ToyModelTests.test_bilateral_reciprocity_and_no_one_way_forcing) ... ok
+test_driven_ledger_and_tighter_solver_agree (test_model.ToyModelTests.test_driven_ledger_and_tighter_solver_agree) ... ok
+test_instantaneous_energy_ledger_independent_gradient (test_model.ToyModelTests.test_instantaneous_energy_ledger_independent_gradient) ... ok
+test_lossless_unforced_and_damped_unforced (test_model.ToyModelTests.test_lossless_unforced_and_damped_unforced) ... ok
+test_options_identical_below_transition_and_odd (test_model.ToyModelTests.test_options_identical_below_transition_and_odd) ... ok
+test_restoring_potential_is_integral_of_force (test_model.ToyModelTests.test_restoring_potential_is_integral_of_force) ... ok
+test_target_quadrature_and_smaller_lower_trim (test_model.ToyModelTests.test_target_quadrature_and_smaller_lower_trim) ... ok
+test_transition_continuity_of_force_and_first_two_derivatives (test_model.ToyModelTests.test_transition_continuity_of_force_and_first_two_derivatives) ... ok
+test_explicit_grid_and_only_orb_damping_changes (test_damping_probe.DampingParameterTests.test_explicit_grid_and_only_orb_damping_changes) ... ok
+test_gamma_is_rate_even_if_orb_mass_differs (test_damping_probe.DampingParameterTests.test_gamma_is_rate_even_if_orb_mass_differs) ... ok
+test_gamma_zero_keeps_other_losses_and_enabled_drive (test_damping_probe.DampingParameterTests.test_gamma_zero_keeps_other_losses_and_enabled_drive) ... ok
+test_rejects_invalid_gamma_and_mass (test_damping_probe.DampingParameterTests.test_rejects_invalid_gamma_and_mass) ... ok
+test_rhs_damping_delta_is_orb_force_and_bath_only (test_damping_probe.DampingParameterTests.test_rhs_damping_delta_is_orb_force_and_bath_only) ... ok
+test_both_rockers_get_identical_paired_setup_and_solver (test_damping_probe.DampingShortRunTests.test_both_rockers_get_identical_paired_setup_and_solver) ... ok
+test_gamma_drive_product_energy_and_perturbation (test_damping_probe.DampingShortRunTests.test_gamma_drive_product_energy_and_perturbation) ... ok
+test_invalid_law_is_rejected (test_damping_probe.DampingShortRunTests.test_invalid_law_is_rejected) ... ok
+test_tighter_solver_rerun_is_diagnostic_only (test_damping_probe.DampingShortRunTests.test_tighter_solver_rerun_is_diagnostic_only) ... ok
+test_all_off_rhs_equals_original_and_no_work (test_ablation.AblationTests.test_all_off_rhs_equals_original_and_no_work) ... ok
+test_all_off_trajectory_has_no_work (test_ablation.AblationTests.test_all_off_trajectory_has_no_work) ... ok
+test_energy_identity_for_every_mask (test_ablation.AblationTests.test_energy_identity_for_every_mask) ... ok
+test_full_on_rhs_equals_original (test_ablation.AblationTests.test_full_on_rhs_equals_original) ... ok
+test_full_on_trajectory_equals_original (test_ablation.AblationTests.test_full_on_trajectory_equals_original) ... ok
+test_individual_masked_forces_and_power_at_several_times (test_ablation.AblationTests.test_individual_masked_forces_and_power_at_several_times) ... ok
+test_initial_conditions_and_target_signals_unchanged (test_ablation.AblationTests.test_initial_conditions_and_target_signals_unchanged) ... ok
+test_reject_malformed_mask (test_ablation.AblationTests.test_reject_malformed_mask) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 12.626s
+
+OK

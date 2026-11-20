@@ -1,0 +1,14 @@
+test_all_conservative_forces_are_energy_gradient (test_model.ToyModelTests.test_all_conservative_forces_are_energy_gradient) ... ok
+test_bilateral_reciprocity_and_no_one_way_forcing (test_model.ToyModelTests.test_bilateral_reciprocity_and_no_one_way_forcing) ... ok
+test_driven_ledger_and_tighter_solver_agree (test_model.ToyModelTests.test_driven_ledger_and_tighter_solver_agree) ... ok
+test_instantaneous_energy_ledger_independent_gradient (test_model.ToyModelTests.test_instantaneous_energy_ledger_independent_gradient) ... ok
+test_lossless_unforced_and_damped_unforced (test_model.ToyModelTests.test_lossless_unforced_and_damped_unforced) ... ok
+test_options_identical_below_transition_and_odd (test_model.ToyModelTests.test_options_identical_below_transition_and_odd) ... ok
+test_restoring_potential_is_integral_of_force (test_model.ToyModelTests.test_restoring_potential_is_integral_of_force) ... ok
+test_target_quadrature_and_smaller_lower_trim (test_model.ToyModelTests.test_target_quadrature_and_smaller_lower_trim) ... ok
+test_transition_continuity_of_force_and_first_two_derivatives (test_model.ToyModelTests.test_transition_continuity_of_force_and_first_two_derivatives) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 2.340s
+
+OK

@@ -1,0 +1,54 @@
+[
+  {
+    "frequency_multiplier": 0.9,
+    "omega": 0.675,
+    "option": "A",
+    "final_cycle_theta_min": 0.008121339059560658,
+    "final_cycle_theta_max": 0.17818919982000653,
+    "final_cycle_rms_theta": 0.11123228716895553,
+    "final_cycle_fraction_in_transition": 0.47717842323651455,
+    "final_cycle_closure_norm": 1.928857508989229e-09,
+    "cumulative_net_controller_work": 1.415532666197724,
+    "cumulative_passive_bath": 1.3089199967618976,
+    "max_abs_ledger_residual": 2.4961352429464512e-11
+  },
+  {
+    "frequency_multiplier": 0.9,
+    "omega": 0.675,
+    "option": "B",
+    "final_cycle_theta_min": -0.002902947114948202,
+    "final_cycle_theta_max": 0.15561782296763077,
+    "final_cycle_rms_theta": 0.10574109186885178,
+    "final_cycle_fraction_in_transition": 0.5186721991701245,
+    "final_cycle_closure_norm": 4.132445128707621e-10,
+    "cumulative_net_controller_work": 1.4003564530059756,
+    "cumulative_passive_bath": 1.2962913245616294,
+    "max_abs_ledger_residual": 4.367481376554849e-10
+  },
+  {
+    "frequency_multiplier": 1.1,
+    "omega": 0.8250000000000001,
+    "option": "A",
+    "final_cycle_theta_min": -0.004876818450318789,
+    "final_cycle_theta_max": 0.19118739496885814,
+    "final_cycle_rms_theta": 0.11651399335027798,
+    "final_cycle_fraction_in_transition": 0.47717842323651455,
+    "final_cycle_closure_norm": 5.6321840132019556e-08,
+    "cumulative_net_controller_work": 1.7835792831095014,
+    "cumulative_passive_bath": 1.6672305351735763,
+    "max_abs_ledger_residual": 1.1462567006681468e-11
+  },
+  {
+    "frequency_multiplier": 1.1,
+    "omega": 0.8250000000000001,
+    "option": "B",
+    "final_cycle_theta_min": -0.0020866757838514847,
+    "final_cycle_theta_max": 0.1833874828945498,
+    "final_cycle_rms_theta": 0.10607493762856002,
+    "final_cycle_fraction_in_transition": 0.43983402489626555,
+    "final_cycle_closure_norm": 1.036803206243769e-08,
+    "cumulative_net_controller_work": 1.809657656947882,
+    "cumulative_passive_bath": 1.688210274863883,
+    "max_abs_ledger_residual": 2.1352914991723537e-09
+  }
+]
