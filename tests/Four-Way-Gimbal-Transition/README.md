@@ -12,6 +12,8 @@ An earlier, separately prepared four-compass proposal was also consulted. It des
 
 Start with [`RESULTS.md`](RESULTS.md) for the three checks and publication safeguard. The separately parameterized [`geometry/technical_note.md`](geometry/technical_note.md) calculates a center of mass, candidate pivot, gravitational torque and conventional gimbal axes. It uses illustrative SI masses and distances, **not** the dimensionless parameters in the driven model; the two are independent examples, not one jointly validated mechanism. [`FORK_LEDGER.md`](FORK_LEDGER.md) records the new alternatives without changing the older archive's ledger. [`EXTENDED_TESTS.md`](EXTENDED_TESTS.md) records the orthogonal orb-damping sweep and scope-controller ablations.
 
+The [publication note](PUBLICATION_NOTE.md) records the owner's one-time authorization for this branch push without the private scan; House Rule 16 remains in place for future pushes.
+
 ## Subsequent model extensions, 2026-11-20
 
 The [hybrid rocker experiment](hybrid/README.md) compares five fixed blends of the newer linear and nonlinear rocker laws, with their matching potentials and externally supplied energy. Its [results](hybrid/RESULTS.md) retain a failed gross-work monotonicity check despite a small net energy residual; the figures are numerical model outputs, not empirical evidence or a probability of success. This rocker fork must not be confused with the older damping/Alt Field fork described above.

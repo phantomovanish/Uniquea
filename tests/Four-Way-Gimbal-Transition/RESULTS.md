@@ -32,4 +32,6 @@ The design still needs the actual locations, masses and inertias; the relationsh
 
 **Publication safeguard:** The project’s House Rule 16 requires a private withheld-terms scan of all tracked text, PDFs and workbooks before every push. This report was prepared without access to that private scan or term list. Do not push until the actual required scan has completed successfully; do not publish the private list. Retain the personal HAT draft separately until its owner selects material for release.
 
+**Owner's one-time exception, 2026-11-20:** The owner subsequently authorized one public branch push without that scan. See [PUBLICATION_NOTE.md](PUBLICATION_NOTE.md) for its scope and the unchanged requirement for future pushes. The original safeguard wording above is retained as history.
+
 **Not claimed:** a working 3D gimbal design, physical 90° tip/flip, verified field or graviton, a self-powering device, or empirical confirmation of a cosmological hypothesis.

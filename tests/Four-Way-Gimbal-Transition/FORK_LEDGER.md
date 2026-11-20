@@ -32,3 +32,5 @@ The archive's earlier [`Orb-Adiabatic-Check`](../Orb-Adiabatic-Check/README.md) 
 - “Fractal” and “Factal” are not defined or tested by this experiment. Demonstrating self-similarity or a scale-dependent geometric law would require specified observables, a scale range, an estimator and suitable data.
 
 **Not claimed:** a validated 3D gimbal, observed quantum–cosmic field, literal full 90° tilt, graviton, independent energy source, mathematical proof of a cosmic phase transition, or an observational SPARC fit. Preserve older archive versions and complete the project's private pre-push scan before any publication.
+
+**Owner's one-time exception, 2026-11-20:** The owner subsequently authorized one specified public branch push without the private scan. The exception and continuing future safeguard are recorded in [PUBLICATION_NOTE.md](PUBLICATION_NOTE.md); the previous wording is retained above.
